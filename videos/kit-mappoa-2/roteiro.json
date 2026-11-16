@@ -1,0 +1,217 @@
+{
+ "titulo": "Kit do canal: cenários e modelos (mostruário)",
+ "capa": "Kit do *canal*",
+ "cor": "#1067f8",
+ "arroba": "@mappoa_leads",
+ "estilo": "redondo",
+ "fps": 30,
+ "efeitos": {
+  "abaixa": true
+ },
+ "personagem": {
+  "tipo": "menino",
+  "roupa": "camiseta",
+  "cores": {
+   "camiseta": "#2f6fd6",
+   "bermuda": "#2f6f5e",
+   "tenis": "#f4f1ea",
+   "cabelo": "#7a4a22",
+   "pele": "#e6b48a"
+  }
+ },
+ "voz": {
+  "motor": "teste"
+ },
+ "alvoPpm": 190,
+ "frases": [
+  {
+   "texto": "A agência de marketing.",
+   "plano": "c_agencia",
+   "mostra": [
+    "personagem"
+   ]
+  },
+  {
+   "texto": "O home office do freelancer.",
+   "plano": "c_home_office",
+   "mostra": [
+    "personagem"
+   ]
+  },
+  {
+   "texto": "A sala de reunião.",
+   "plano": "c_sala_reuniao",
+   "mostra": [
+    "personagem"
+   ]
+  },
+  {
+   "texto": "A clínica odontológica.",
+   "plano": "c_clinica_odonto",
+   "mostra": [
+    "personagem"
+   ]
+  },
+  {
+   "texto": "A academia.",
+   "plano": "c_academia",
+   "mostra": [
+    "personagem"
+   ]
+  },
+  {
+   "texto": "O salão de beleza.",
+   "plano": "c_salao_beleza",
+   "mostra": [
+    "personagem"
+   ]
+  },
+  {
+   "texto": "A pizzaria.",
+   "plano": "c_pizzaria",
+   "mostra": [
+    "personagem"
+   ]
+  },
+  {
+   "texto": "A loja de roupas.",
+   "plano": "c_loja_roupas",
+   "mostra": [
+    "personagem"
+   ]
+  },
+  {
+   "texto": "A central do Mappoa.",
+   "plano": "c_central_mappoa",
+   "mostra": [
+    "personagem"
+   ]
+  },
+  {
+   "texto": "O mundo do Mappoa.",
+   "plano": "c_mundo_mappoa",
+   "mostra": [
+    "personagem"
+   ]
+  },
+  {
+   "texto": "A cidade em maquete.",
+   "plano": "c_cidade_maquete",
+   "mostra": [
+    "personagem"
+   ]
+  },
+  {
+   "texto": "E a troca volta pra cidade de sempre.",
+   "plano": "c_cidade",
+   "mostra": [
+    "personagem"
+   ]
+  },
+  {
+   "texto": "Modelos, página 1.",
+   "plano": "p_0",
+   "mostra": [
+    "pagina0"
+   ]
+  },
+  {
+   "texto": "Modelos, página 2.",
+   "plano": "p_1",
+   "mostra": [
+    "pagina1"
+   ]
+  },
+  {
+   "texto": "Modelos, página 3.",
+   "plano": "p_2",
+   "mostra": [
+    "pagina2"
+   ]
+  },
+  {
+   "texto": "Modelos, página 4.",
+   "plano": "p_3",
+   "mostra": [
+    "pagina3"
+   ]
+  },
+  {
+   "texto": "Modelos, página 5.",
+   "plano": "p_4",
+   "mostra": [
+    "pagina4"
+   ]
+  },
+  {
+   "texto": "Modelos, página 6.",
+   "plano": "p_5",
+   "mostra": [
+    "pagina5"
+   ]
+  },
+  {
+   "texto": "Modelos, página 7.",
+   "plano": "p_6",
+   "mostra": [
+    "pagina6"
+   ]
+  },
+  {
+   "texto": "Modelos, página 8.",
+   "plano": "p_7",
+   "mostra": [
+    "pagina7"
+   ]
+  },
+  {
+   "texto": "Modelos, página 9.",
+   "plano": "p_8",
+   "mostra": [
+    "pagina8"
+   ]
+  },
+  {
+   "texto": "Modelos, página 10.",
+   "plano": "p_9",
+   "mostra": [
+    "pagina9"
+   ]
+  },
+  {
+   "texto": "Modelos, página 11.",
+   "plano": "p_10",
+   "mostra": [
+    "pagina10"
+   ]
+  },
+  {
+   "texto": "Modelos, página 12.",
+   "plano": "p_11",
+   "mostra": [
+    "pagina11"
+   ]
+  },
+  {
+   "texto": "Modelos, página 13.",
+   "plano": "p_12",
+   "mostra": [
+    "pagina12"
+   ]
+  },
+  {
+   "texto": "Modelos, página 14.",
+   "plano": "p_13",
+   "mostra": [
+    "pagina13"
+   ]
+  },
+  {
+   "texto": "E os modelos prontos dentro de um cenário.",
+   "plano": "prontos",
+   "mostra": [
+    "personagem"
+   ]
+  }
+ ]
+}

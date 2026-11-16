@@ -1,0 +1,26 @@
+{
+  "titulo": "Tem uma empresa gritando por você a duas quadras (a academia)",
+  "capa": "Você não *ouve*?",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {"abaixa": true},
+  "personagem": {"tipo": "menino", "roupa": "camiseta", "cores": {"camiseta": "#2f6fd6", "bermuda": "#2f6f5e", "tenis": "#f4f1ea", "cabelo": "#7a4a22", "pele": "#e6b48a"}},
+  "voz": {"motor": "elevenlabs", "id": "TX3LPaxmHKxFdv7VOQHJ", "velocidade": 1.1, "acelerar": "auto"},
+  "alvoPpm": 190,
+  "frases": [
+    {"texto": "Tem uma empresa gritando por você a duas quadras. E você nem ouve.", "plano": "gancho", "mostra": ["personal", "megafone", "personagem"], "gancho": true},
+    {"texto": "O Murilo é web designer e passa o dia de fone, mandando proposta pra outro estado.", "plano": "longe", "mostra": ["personagem", "monitor", "propostas"]},
+    {"texto": "Só que a academia da esquina não tem site. Quem procura não acha nem o horário.", "plano": "academia", "mostra": ["personal", "aluno", "celular"], "jogo": "falha"},
+    {"texto": "Quem ouviu foi outro web designer. Chegou primeiro e fechou o site.", "plano": "rival", "mostra": ["rival", "personal", "contrato"], "jogo": "corrige"},
+    {"texto": "A empresa não vai te achar. Quem tem que ouvir é você.", "plano": "ouvir", "mostra": ["megafones", "personagem", "fone"]},
+    {"texto": "Então o Murilo tira o fone e decide investir uma tapioca numa ferramenta que mostra quem tá gritando por site.", "plano": "investe", "mostra": ["personagem", "tapioca", "monitor"]},
+    {"texto": "No computador, digita mappoa.com, e vem a lista das academias de Maceió sem site.", "plano": "lista", "mostra": ["navegador", "tela", "personagem"]},
+    {"texto": "Esse é o *Mappoa*, um sistema que acha quem precisa do seu serviço.", "plano": "mappoa", "mostra": ["tela", "robo", "personagem"]},
+    {"texto": "Antes, o Murilo só ouvia música. Agora, ele ouve quem tá chamando.", "plano": "antes_agora", "mostra": ["personagem", "lojista", "tela"], "jogo": "avanca"},
+    {"texto": "Comenta a sua cidade e segue. No computador, digita mappoa.com e testa você também.", "plano": "segue", "mostra": ["personagem", "navegador", "monitor"]}
+  ],
+  "cauda": {"segundos": 1.6, "plano": "cartao"},
+  "trilha": {"arquivo": "trilha", "ganho": 0.22}
+}

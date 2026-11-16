@@ -1,0 +1,26 @@
+{
+  "titulo": "Site de graça pra ganhar experiência",
+  "capa": "Site de *graça*?",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {"abaixa": true},
+  "personagem": {"tipo": "menino", "roupa": "camiseta", "cores": {"camiseta": "#2f6fd6", "bermuda": "#2f6f5e", "tenis": "#f4f1ea", "cabelo": "#7a4a22", "pele": "#e6b48a"}},
+  "voz": {"motor": "elevenlabs", "id": "TX3LPaxmHKxFdv7VOQHJ", "velocidade": 1.1, "acelerar": "auto"},
+  "alvoPpm": 190,
+  "frases": [
+    {"texto": "Você fez o site de graça pra ganhar experiência. Se ninguém paga, vira hobby.", "plano": "gancho", "mostra": ["personagem", "fila", "presentes"], "gancho": true},
+    {"texto": "O Lucas é web designer em Manaus e já fez seis sites assim: pra tia, pro vizinho, pro amigo.", "plano": "lucas", "mostra": ["personagem", "amigo", "tv_academia"]},
+    {"texto": "Experiência ele ganhou. Mas tapinha nas costas não paga a conta de luz.", "plano": "conta", "mostra": ["personagem", "boleto", "mesa_graca"], "jogo": "falha"},
+    {"texto": "Então o Lucas decidiu investir o preço de um tacacá num sistema que acha quem precisa de site.", "plano": "investe", "mostra": ["personagem", "tacaca", "monitor"], "jogo": "corrige"},
+    {"texto": "Digitou mappoa.com no computador, e veio a lista das clínicas de estética de Manaus, com e sem site.", "plano": "lista", "mostra": ["navegador", "tela", "personagem"]},
+    {"texto": "Esse é o *Mappoa*: mostra quem tem mais chance de comprar e já deixa a mensagem pronta.", "plano": "mappoa", "mostra": ["tela", "personagem"]},
+    {"texto": "O Lucas mandou a mensagem pra Bella Pele, que só tinha Instagram, e a doutora Yara respondeu.", "plano": "mensagem", "mostra": ["dona", "celular"]},
+    {"texto": "Mandou o orçamento, ela topou, e saiu o primeiro site pago, com agenda online.", "plano": "fechou", "mostra": ["tv_site", "dona", "personagem"]},
+    {"texto": "Antes, ele dava site de presente. Agora, site é trabalho, e trabalho se cobra.", "plano": "antes_agora", "mostra": ["mesa_graca", "personagem"], "jogo": "avanca"},
+    {"texto": "E você, já fez site de graça? Comenta EU ou NUNCA e segue. No computador, digita mappoa.com e testa você também.", "plano": "segue", "mostra": ["personagem", "navegador", "monitor"]}
+  ],
+  "cauda": {"segundos": 1.6, "plano": "cartao"},
+  "trilha": {"arquivo": "trilha", "ganho": 0.22}
+}

@@ -1,0 +1,28 @@
+{
+  "titulo": "O cliente clicou no site da clínica. Se a página não abre, ele liga pra outra",
+  "capa": "Site *fora do ar*?",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {"abaixa": true},
+  "personagem": {"tipo": "menino", "roupa": "camiseta", "cores": {"camiseta": "#2f6fd6", "bermuda": "#2f6f5e", "tenis": "#f4f1ea", "cabelo": "#7a4a22", "pele": "#e6b48a"}},
+  "voz": {"motor": "elevenlabs", "id": "TX3LPaxmHKxFdv7VOQHJ", "velocidade": 1.1, "acelerar": "auto"},
+  "alvoPpm": 190,
+  "frases": [
+    {"texto": "O cliente clicou no site da clínica. Se a página não abre, ele liga pra outra.", "plano": "gancho", "mostra": ["celular", "paciente"], "gancho": true},
+    {"texto": "O Vini é web designer, oferece site pras clínicas e sempre ouve: \"já temos site\".", "plano": "vini", "mostra": ["personagem", "monitor"]},
+    {"texto": "Ele risca a clínica da lista e vai pra próxima.", "plano": "risca", "mostra": ["lista", "personagem"], "jogo": "falha"},
+    {"texto": "Só que tem clínica com site que nem abre.", "plano": "virada", "mostra": ["tela_erro", "personagem"], "jogo": "corrige"},
+    {"texto": "O dono nem sabe. Quem clica vê o erro e liga pro concorrente.", "plano": "dono", "mostra": ["dono", "paciente", "tela_erro"]},
+    {"texto": "Isso é um motivo concreto pra pagar: ninguém quer perder paciente por uma página quebrada.", "plano": "motivo", "mostra": ["personagem", "tela_erro", "dono"]},
+    {"texto": "E é a sua prova pronta pra abordagem: \"testei o site de vocês e ele não abriu\".", "plano": "prova", "mostra": ["mensagem", "personagem"]},
+    {"texto": "Mas testar clínica por clínica, na mão, leva o dia inteiro.", "plano": "dia", "mostra": ["relogio", "personagem", "monitor"], "jogo": "falha"},
+    {"texto": "Aí o Vini abre a lista das clínicas de Londrina, com cada site já testado e as empresas que não têm site.", "plano": "lista", "mostra": ["tela", "robo"], "jogo": "corrige"},
+    {"texto": "Esse é o *Mappoa*: ele acha o seu próximo cliente, quem precisa do seu serviço, já com os contatos.", "plano": "mappoa", "mostra": ["tela", "robo", "personagem"]},
+    {"texto": "Antes, o Vini ouvia \"já temos site\". Agora, chega mostrando o erro pra quem precisa dele.", "plano": "antes_agora", "mostra": ["personagem", "celular"], "jogo": "avanca"},
+    {"texto": "Site fora do ar é culpa da clínica ou de quem fez o site? Comenta aí e segue pro próximo sinal de cliente. No computador, digita mappoa.com e testa você também.", "plano": "segue", "mostra": ["personagem", "navegador", "monitor"]}
+  ],
+  "cauda": {"segundos": 1.6, "plano": "cartao"},
+  "trilha": {"arquivo": "trilha", "ganho": 0.22}
+}

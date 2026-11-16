@@ -1,0 +1,140 @@
+{
+  "titulo": "Se você esperar o primeiro cliente aparecer, vai ficar assim (o status)",
+  "capa": "Só a *mãe* viu?",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {
+    "abaixa": true
+  },
+  "personagem": {
+    "tipo": "menino",
+    "roupa": "camiseta",
+    "cores": {
+      "camiseta": "#2f6fd6",
+      "bermuda": "#2f6f5e",
+      "tenis": "#f4f1ea",
+      "cabelo": "#7a4a22",
+      "pele": "#e6b48a"
+    }
+  },
+  "voz": {
+    "motor": "elevenlabs",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "velocidade": 1.1,
+    "acelerar": "auto"
+  },
+  "alvoPpm": 190,
+  "frases": [
+    {
+      "texto": "Se você esperar o primeiro cliente aparecer, vai ficar assim.",
+      "plano": "gancho",
+      "mostra": [
+        "personagem",
+        "barba",
+        "teia"
+      ],
+      "gancho": true
+    },
+    {
+      "texto": "O Nando é web designer. Postou \"faço sites\" no status e sentou pra esperar.",
+      "plano": "disponivel",
+      "mostra": [
+        "personagem",
+        "celular"
+      ]
+    },
+    {
+      "texto": "Passou um dia, uma semana, um mês. Só a mãe dele viu o status.",
+      "plano": "esperando",
+      "mostra": [
+        "personagem",
+        "celular",
+        "barba"
+      ],
+      "jogo": "falha"
+    },
+    {
+      "texto": "Só que o mercadinho do bairro não tem site, e o cliente nem sabe se ele entrega.",
+      "plano": "negocio",
+      "mostra": [
+        "mercado",
+        "dono",
+        "pensamento"
+      ],
+      "jogo": "corrige"
+    },
+    {
+      "texto": "Aí entra outro web designer, que foi lá oferecer. E fecha.",
+      "plano": "outro",
+      "mostra": [
+        "rival",
+        "dono",
+        "mercado"
+      ]
+    },
+    {
+      "texto": "Aí o Nando corta a barba. Status não traz cliente. Mas ir atrás de quem?",
+      "plano": "decide",
+      "mostra": [
+        "personagem",
+        "tesoura"
+      ]
+    },
+    {
+      "texto": "Então ele decidiu investir o preço de um almoço num sistema que traz mercado sem site todo dia.",
+      "plano": "investe",
+      "mostra": [
+        "personagem",
+        "dinheiro",
+        "monitor"
+      ]
+    },
+    {
+      "texto": "Digitou mappoa.com no computador, e veio a lista dos mercados de Belém sem site.",
+      "plano": "lista",
+      "mostra": [
+        "navegador",
+        "tela",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Esse é o *Mappoa*, que mostra quem tem mais chance de comprar o seu site.",
+      "plano": "mappoa",
+      "mostra": [
+        "tela",
+        "robo",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Antes, o Nando esperava no status. Agora, ele chega primeiro.",
+      "plano": "antes_agora",
+      "mostra": [
+        "personagem",
+        "mercado",
+        "dono"
+      ],
+      "jogo": "avanca"
+    },
+    {
+      "texto": "E você, postava no status ou ia atrás? Comenta STATUS ou ATRÁS e segue. No computador, digita mappoa.com e testa você também.",
+      "plano": "segue",
+      "mostra": [
+        "personagem",
+        "navegador",
+        "monitor"
+      ]
+    }
+  ],
+  "cauda": {
+    "segundos": 1.6,
+    "plano": "cartao"
+  },
+  "trilha": {
+    "arquivo": "trilha",
+    "ganho": 0.22
+  }
+}

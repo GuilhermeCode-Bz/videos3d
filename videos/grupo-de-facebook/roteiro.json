@@ -1,0 +1,156 @@
+{
+  "titulo": "Procurar cliente em grupo de Facebook? Não faça isso",
+  "capa": "*127* comentários?",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {
+    "abaixa": true
+  },
+  "personagem": {
+    "tipo": "menino",
+    "roupa": "camiseta",
+    "cores": {
+      "camiseta": "#2f6fd6",
+      "bermuda": "#2f6f5e",
+      "tenis": "#f4f1ea",
+      "cabelo": "#7a4a22",
+      "pele": "#e6b48a"
+    }
+  },
+  "voz": {
+    "motor": "elevenlabs",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "velocidade": 1.1,
+    "acelerar": "auto"
+  },
+  "alvoPpm": 190,
+  "frases": [
+    {
+      "texto": "Web designer, vai procurar cliente em grupo de Facebook? Então não faça isso.",
+      "plano": "gancho",
+      "mostra": [
+        "personagem",
+        "post",
+        "multidao"
+      ],
+      "gancho": true
+    },
+    {
+      "texto": "A dona de uma loja postou: \"Alguém faz site?\" E o Henrique correu pra comentar.",
+      "plano": "post",
+      "mostra": [
+        "personagem",
+        "post_q",
+        "monitor"
+      ]
+    },
+    {
+      "texto": "Chegou em quinto. Depois vieram cento e vinte e sete comentários. \"Faço por cem reais.\"",
+      "plano": "comentarios",
+      "mostra": [
+        "personagem",
+        "post_q",
+        "comentarios"
+      ]
+    },
+    {
+      "texto": "Ela fechou com o sobrinho de alguém. E amanhã, o mesmo leilão no próximo post.",
+      "plano": "leilao",
+      "mostra": [
+        "dona",
+        "sobrinho",
+        "personagem"
+      ],
+      "jogo": "falha"
+    },
+    {
+      "texto": "No grupo, você disputa um cliente com trezentos. Fora dele, tem empresa que ninguém procurou.",
+      "plano": "virada",
+      "mostra": [
+        "personagem",
+        "multidao"
+      ]
+    },
+    {
+      "texto": "Aí ele decidiu investir o preço de uma coxinha numa ferramenta que acha essas empresas.",
+      "plano": "investe",
+      "mostra": [
+        "personagem",
+        "comida",
+        "monitor"
+      ],
+      "jogo": "corrige"
+    },
+    {
+      "texto": "No computador, digita mappoa.com e escreve: óticas em Sorocaba.",
+      "plano": "busca",
+      "mostra": [
+        "navegador",
+        "busca",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "E vem a lista: sessenta e oito óticas, vinte e cinco sem site, já com os contatos.",
+      "plano": "lista",
+      "mostra": [
+        "lista",
+        "robo",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Esse é o *Mappoa*, um sistema que acha quem precisa do seu serviço.",
+      "plano": "mappoa",
+      "mostra": [
+        "tela",
+        "robo",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Ele abre uma ótica e já vê a nota pra oferta dele e a mensagem pronta.",
+      "plano": "analise",
+      "mostra": [
+        "tela",
+        "personagem",
+        "monitor"
+      ]
+    },
+    {
+      "texto": "Mandou pra vinte. Muitas nem responderam. Mas uma topou, sem disputar com ninguém.",
+      "plano": "venda",
+      "mostra": [
+        "personagem",
+        "dono"
+      ]
+    },
+    {
+      "texto": "Antes, um post e trezentos web designers. Agora, a lista na mão, e ele chega primeiro.",
+      "plano": "antes_agora",
+      "mostra": [
+        "personagem"
+      ],
+      "jogo": "avanca"
+    },
+    {
+      "texto": "Quantos comentários tinha o último post que você disputou? Comenta o número. No computador, digita mappoa.com e acha as óticas sem site da sua cidade.",
+      "plano": "segue",
+      "mostra": [
+        "personagem",
+        "navegador",
+        "monitor"
+      ]
+    }
+  ],
+  "cauda": {
+    "segundos": 1.6,
+    "plano": "cartao"
+  },
+  "trilha": {
+    "arquivo": "trilha",
+    "ganho": 0.22
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "titulo": "Por que a empresa apaga a sua proposta?",
+  "capa": "Ela *apagou*\nsua proposta?",
+  "cor": "#2e9d5b",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {"abaixa": true},
+  "voz": {"motor": "elevenlabs", "id": "TX3LPaxmHKxFdv7VOQHJ", "velocidade": 1.1, "acelerar": "auto"},
+  "alvoPpm": 190,
+  "frases": [
+    {"texto": "A dona da academia abriu sua proposta. Se a primeira linha é \"faço tráfego\", ela apaga.", "plano": "gancho", "mostra": ["dona", "celular"], "gancho": true, "jogo": "falha"},
+    {"texto": "Esse é o Caio. Ele é gestor de tráfego e vende serviço pra empresa.", "plano": "caio", "mostra": ["personagem", "computador"], "jogo": "corrige"},
+    {"texto": "Ele é bom no que faz. Mas a agenda dele tá vazia faz dois meses.", "plano": "agenda", "mostra": ["agenda", "personagem"], "jogo": "falha"},
+    {"texto": "Se você é o Caio, manda a mesma proposta pra cinquenta empresas: \"Faço tráfego pago, preço bom.\"", "plano": "cinquenta", "mostra": ["proposta", "computador", "personagem"], "jogo": "falha"},
+    {"texto": "Mas empresa não compra tráfego. Ela compra cliente entrando pela porta.", "plano": "porta", "mostra": ["academia", "clientes_porta"], "jogo": "corrige"},
+    {"texto": "Então você troca o assunto: em vez do seu serviço, você fala do problema dela.", "plano": "assunto", "mostra": ["balao_servico", "personagem"]},
+    {"texto": "Mas qual problema? Cada empresa tem um, e ninguém te conta.", "plano": "qual", "mostra": ["lojas", "interrogacoes"], "jogo": "falha"},
+    {"texto": "Então você olha o que ela deixa à mostra: o Instagram parado desde março, o site que não abre no celular, nenhum anúncio no ar.", "plano": "lupa", "mostra": ["sinais", "academia", "personagem"], "jogo": "corrige"},
+    {"texto": "Esses são os *sinais de compra*.", "plano": "sinais_rotulo", "mostra": ["sinais"]},
+    {"texto": "É por isso que a academia de fachada linda e Instagram parado é o melhor cliente do bairro: o problema tá na cara.", "plano": "fachada", "mostra": ["academia", "dona", "sinais"]},
+    {"texto": "Mas fuçar empresa por empresa leva a tarde inteira, e você acha cinco.", "plano": "tarde", "mostra": ["relogio", "personagem"], "jogo": "falha"},
+    {"texto": "Então você começa pela lista: no Mappoa, busca \"academias em Londrina\", e vêm centenas, com o site e o Instagram que estiverem públicos.", "plano": "lista", "mostra": ["lista", "computador"], "jogo": "corrige"},
+    {"texto": "E a análise de cada uma mostra as dores, as oportunidades e por onde começar a conversa.", "plano": "analise", "mostra": ["analise", "personagem"]},
+    {"texto": "Aí você chama primeiro quem tem o problema que você resolve. Quem fecha ainda é você.", "plano": "chama", "mostra": ["personagem", "dona"]},
+    {"texto": "Antes, o Caio falava do serviço dele pra qualquer um. Agora, ele chega na empresa certa, falando da dor dela.", "plano": "antes_agora", "mostra": ["personagem", "dona"]},
+    {"texto": "E você, vende qual serviço, e pra que tipo de empresa? Comenta aí. No computador, digita mappoa.com e testa você também.", "plano": "segue", "mostra": ["navegador", "computador", "personagem"]}
+  ],
+  "cauda": {"segundos": 1.6, "plano": "cartao"},
+  "trilha": {"arquivo": "trilha", "ganho": 0.22}
+}

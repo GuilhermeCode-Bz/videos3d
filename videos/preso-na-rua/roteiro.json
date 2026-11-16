@@ -1,0 +1,125 @@
+{
+ "titulo": "Web designer, você tá preso nessa rua. E a chave é sua",
+ "capa": "Preso na *sua rua*?",
+ "cor": "#2fb5a6",
+ "arroba": "@mappoa_leads",
+ "estilo": "redondo",
+ "fps": 60,
+ "efeitos": {
+  "abaixa": true
+ },
+ "personagem": {
+  "tipo": "menino",
+  "roupa": "camiseta",
+  "cores": {
+   "camiseta": "#2f6fd6",
+   "bermuda": "#2f6f5e",
+   "tenis": "#f4f1ea",
+   "cabelo": "#7a4a22",
+   "pele": "#e6b48a"
+  }
+ },
+ "voz": {
+  "motor": "elevenlabs",
+  "id": "TX3LPaxmHKxFdv7VOQHJ",
+  "velocidade": 1.1,
+  "acelerar": "auto"
+ },
+ "alvoPpm": 190,
+ "frases": [
+  {
+   "texto": "Web designer, você tá preso nessa rua. E a chave é sua.",
+   "plano": "gancho",
+   "mostra": [
+    "personagem",
+    "corrente"
+   ],
+   "gancho": true
+  },
+  {
+   "texto": "O Caio só oferece site pras lojas onde ele chega a pé.",
+   "plano": "ape",
+   "mostra": [
+    "personagem",
+    "corrente",
+    "poste"
+   ]
+  },
+  {
+   "texto": "A padaria já tem. A farmácia disse não. O mercado nem atendeu.",
+   "plano": "lojas",
+   "mostra": [
+    "personagem",
+    "corrente"
+   ],
+   "jogo": "falha"
+  },
+  {
+   "texto": "Aí o Caio quebra a corrente. Site se entrega pela internet, e o cliente pode estar em qualquer cidade.",
+   "plano": "virada",
+   "mostra": [
+    "personagem"
+   ]
+  },
+  {
+   "texto": "E decide investir um lanche numa ferramenta que acha cliente em qualquer lugar.",
+   "plano": "investe",
+   "mostra": [
+    "personagem",
+    "monitor"
+   ],
+   "jogo": "corrige"
+  },
+  {
+   "texto": "No computador, digita mappoa.com, e vem a lista dos pet shops de Belo Horizonte sem site.",
+   "plano": "lista",
+   "mostra": [
+    "navegador",
+    "personagem"
+   ]
+  },
+  {
+   "texto": "Esse é o *Mappoa*, um sistema que acha quem precisa do seu serviço.",
+   "plano": "mappoa",
+   "mostra": [
+    "tela",
+    "robo",
+    "personagem"
+   ]
+  },
+  {
+   "texto": "Ele abre um, e já vem a nota, o WhatsApp e a mensagem pronta.",
+   "plano": "analise",
+   "mostra": [
+    "tela",
+    "personagem",
+    "monitor"
+   ]
+  },
+  {
+   "texto": "Antes, o Caio vendia até onde a perna alcançava. Agora, até onde o mapa vai.",
+   "plano": "antes_agora",
+   "mostra": [
+    "personagem"
+   ],
+   "jogo": "avanca"
+  },
+  {
+   "texto": "Comenta a sua cidade que eu mostro quantas empresas aí não têm site. No computador, digita mappoa.com e testa você também.",
+   "plano": "segue",
+   "mostra": [
+    "personagem",
+    "navegador",
+    "monitor"
+   ]
+  }
+ ],
+ "cauda": {
+  "segundos": 1.6,
+  "plano": "cartao"
+ },
+ "trilha": {
+  "arquivo": "trilha",
+  "ganho": 0.22
+ }
+}

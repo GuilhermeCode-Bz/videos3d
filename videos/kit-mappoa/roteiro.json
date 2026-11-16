@@ -1,0 +1,30 @@
+{
+  "titulo": "Kit visual do Mappoa (mostruário)",
+  "capa": "Kit do *Mappoa*",
+  "cor": "#1067f8",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 30,
+  "efeitos": {"abaixa": true},
+  "personagem": {"tipo": "menino", "roupa": "camiseta", "cores": {"camiseta": "#2f6fd6", "bermuda": "#2f6f5e", "tenis": "#f4f1ea", "cabelo": "#7a4a22", "pele": "#e6b48a"}},
+  "voz": {"motor": "teste"},
+  "alvoPpm": 190,
+  "frases": [
+    {"texto": "Este é o robô do Mappoa.", "plano": "robo", "mostra": ["robo"]},
+    {"texto": "Este é o logo em três dimensões.", "plano": "logo", "mostra": ["logo"]},
+    {"texto": "O mapa da cidade com os pinos.", "plano": "mapa", "mostra": ["mapa"]},
+    {"texto": "A lupa, as moedas de contato e o cartão de empresa.", "plano": "objetos", "mostra": ["lupa", "cartao"]},
+    {"texto": "O funil e a peneira.", "plano": "funil", "mostra": ["funil", "peneira"]},
+    {"texto": "O site antigo parado no tempo.", "plano": "site", "mostra": ["site"]},
+    {"texto": "A tela de busca.", "plano": "t_busca", "mostra": ["painel"]},
+    {"texto": "A janela do robô capturando as empresas.", "plano": "t_captura", "mostra": ["painel"]},
+    {"texto": "O resultado da captura.", "plano": "t_resultado", "mostra": ["painel"]},
+    {"texto": "A lista de empresas.", "plano": "t_lista", "mostra": ["painel"]},
+    {"texto": "A escolha do enriquecimento.", "plano": "t_enriquecer", "mostra": ["painel"]},
+    {"texto": "A análise da empresa.", "plano": "t_analise", "mostra": ["painel"]},
+    {"texto": "A mensagem pronta.", "plano": "t_mensagem", "mostra": ["painel"]},
+    {"texto": "O funil de campanha.", "plano": "t_funil", "mostra": ["largo"]},
+    {"texto": "A planilha exportada.", "plano": "t_planilha", "mostra": ["largo"]},
+    {"texto": "A busca no mapa.", "plano": "t_mapa", "mostra": ["painel"]}
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "titulo": "Tem cliente implorando por um site. E você passa reto",
+  "capa": "Você passa *reto*?",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {"abaixa": true},
+  "personagem": {"tipo": "menino", "roupa": "camiseta", "cores": {"camiseta": "#2f6fd6", "bermuda": "#2f6f5e", "tenis": "#f4f1ea", "cabelo": "#7a4a22", "pele": "#e6b48a"}},
+  "voz": {"motor": "elevenlabs", "id": "TX3LPaxmHKxFdv7VOQHJ", "velocidade": 1.1, "acelerar": "auto"},
+  "alvoPpm": 190,
+  "frases": [
+    {"texto": "Tem cliente implorando por um site. E você passa reto.", "plano": "gancho", "mostra": ["personagem", "dona", "lagrimas"], "gancho": true},
+    {"texto": "O Nico é web designer e reclama o dia inteiro que ninguém quer site.", "plano": "reclama", "mostra": ["personagem", "dona"]},
+    {"texto": "Só que a confeitaria do lado não tem site. O cliente quer encomendar um bolo e não acha nada.", "plano": "confeitaria", "mostra": ["placa_confeitaria", "dona", "cliente"], "jogo": "falha"},
+    {"texto": "Quem viu foi outro web designer. Ela larga a perna do Nico e fecha com ele.", "plano": "rival", "mostra": ["rival", "dona", "personagem"], "jogo": "corrige"},
+    {"texto": "Cliente que implora não fica esperando. Quem olha primeiro, leva.", "plano": "olha", "mostra": ["personagem", "poca"]},
+    {"texto": "Então o Nico investe o preço de um bolo numa ferramenta que mostra quem precisa de site.", "plano": "investe", "mostra": ["personagem", "nota", "monitor"]},
+    {"texto": "No computador, digita mappoa.com, e vem a lista das confeitarias de São Luís sem site.", "plano": "lista", "mostra": ["navegador", "tela", "personagem"]},
+    {"texto": "Esse é o *Mappoa*, um sistema que acha quem precisa do seu serviço.", "plano": "mappoa", "mostra": ["tela", "robo", "personagem"]},
+    {"texto": "Antes, o Nico passava reto. Agora, ele olha pro lado e chega primeiro.", "plano": "antes_agora", "mostra": ["personagem", "dona2"], "jogo": "avanca"},
+    {"texto": "E você, já passou reto por um cliente? Comenta EU. No computador, digita mappoa.com e testa você também.", "plano": "segue", "mostra": ["personagem", "navegador"]}
+  ],
+  "cauda": {"segundos": 1.6, "plano": "cartao"},
+  "trilha": {"arquivo": "trilha", "ganho": 0.22}
+}

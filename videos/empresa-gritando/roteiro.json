@@ -1,0 +1,24 @@
+{
+  "titulo": "Tem uma empresa gritando por você a duas quadras",
+  "capa": "Você não *ouve*?",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {"abaixa": true},
+  "personagem": {"tipo": "menino", "roupa": "camiseta", "cores": {"camiseta": "#2f6fd6", "bermuda": "#2f6f5e", "tenis": "#f4f1ea", "cabelo": "#7a4a22", "pele": "#e6b48a"}},
+  "voz": {"motor": "elevenlabs", "id": "TX3LPaxmHKxFdv7VOQHJ", "velocidade": 1.1, "acelerar": "auto"},
+  "alvoPpm": 190,
+  "frases": [
+    {"texto": "Tem uma empresa gritando por você a duas quadras. E você nem ouve.", "plano": "gancho", "mostra": ["dona", "megafone", "personagem"], "gancho": true},
+    {"texto": "O Davi é web designer e passa o dia de fone, mandando \"faço sites\" pra empresa de outro estado.", "plano": "longe", "mostra": ["personagem", "monitor", "avioes"]},
+    {"texto": "Só que a cafeteria da esquina não tem site. O cliente procura e não acha nem o cardápio.", "plano": "cafeteria", "mostra": ["dona", "cliente", "celular"], "jogo": "falha"},
+    {"texto": "Ela não vai te achar. Quem tem que ouvir é você.", "plano": "ouvir", "mostra": ["personagem", "fone", "dona"], "jogo": "corrige"},
+    {"texto": "Aí o Davi tira o fone, abre o computador e digita mappoa.com. Vem a lista das cafeterias de Florianópolis sem site.", "plano": "lista", "mostra": ["navegador", "tela", "personagem"]},
+    {"texto": "Esse é o *Mappoa*, um sistema que acha quem precisa do seu serviço.", "plano": "mappoa", "mostra": ["tela", "robo", "personagem"]},
+    {"texto": "Antes, o Davi procurava longe. Agora, ele chega em quem tá chamando do lado.", "plano": "antes_agora", "mostra": ["personagem", "dona", "megafone"], "jogo": "avanca"},
+    {"texto": "Comenta a sua cidade que eu mostro quantas empresas aí não têm site. E segue pra ver. No computador, digita mappoa.com e testa você também.", "plano": "segue", "mostra": ["personagem", "navegador", "monitor"]}
+  ],
+  "cauda": {"segundos": 1.6, "plano": "cartao"},
+  "trilha": {"arquivo": "trilha", "ganho": 0.22}
+}

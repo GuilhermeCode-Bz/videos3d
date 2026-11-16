@@ -1,0 +1,123 @@
+{
+ "titulo": "Web designer, sua cidade cabe no quintal. E você só procura cliente nela",
+ "capa": "Sua cidade é *pequena*?",
+ "cor": "#2fb5a6",
+ "arroba": "@mappoa_leads",
+ "estilo": "redondo",
+ "fps": 60,
+ "efeitos": {
+  "abaixa": true
+ },
+ "personagem": {
+  "tipo": "menino",
+  "roupa": "camiseta",
+  "cores": {
+   "camiseta": "#2f6fd6",
+   "bermuda": "#2f6f5e",
+   "tenis": "#f4f1ea",
+   "cabelo": "#7a4a22",
+   "pele": "#e6b48a"
+  }
+ },
+ "voz": {
+  "motor": "elevenlabs",
+  "id": "TX3LPaxmHKxFdv7VOQHJ",
+  "velocidade": 1.1,
+  "acelerar": "auto"
+ },
+ "alvoPpm": 190,
+ "frases": [
+  {
+   "texto": "Web designer, sua cidade cabe no quintal. E você só procura cliente nela.",
+   "plano": "gancho",
+   "mostra": [
+    "personagem"
+   ],
+   "gancho": true
+  },
+  {
+   "texto": "O Lucas mora numa cidade de oito mil pessoas, com uma rua de comércio só.",
+   "plano": "oito",
+   "mostra": [
+    "personagem"
+   ]
+  },
+  {
+   "texto": "Ofereceu site pra padaria, farmácia e mercado. Todo mundo disse não, e ele arrumou a mala pra capital.",
+   "plano": "nao",
+   "mostra": [
+    "personagem"
+   ],
+   "jogo": "falha"
+  },
+  {
+   "texto": "Aí o Lucas desfaz a mala. Pra vender site, ninguém precisa se mudar: o cliente compra pela internet.",
+   "plano": "virada",
+   "mostra": [
+    "personagem",
+    "mala",
+    "mapa"
+   ]
+  },
+  {
+   "texto": "E decide investir um açaí numa ferramenta que acha cliente em qualquer cidade.",
+   "plano": "investe",
+   "mostra": [
+    "personagem",
+    "monitor"
+   ],
+   "jogo": "corrige"
+  },
+  {
+   "texto": "No computador, digita mappoa.com, e vem a lista das clínicas de Curitiba sem site.",
+   "plano": "lista",
+   "mostra": [
+    "navegador",
+    "personagem"
+   ]
+  },
+  {
+   "texto": "Esse é o *Mappoa*, um sistema que acha quem precisa do seu serviço.",
+   "plano": "mappoa",
+   "mostra": [
+    "tela",
+    "robo",
+    "personagem"
+   ]
+  },
+  {
+   "texto": "Ele abre uma, e já vem a nota, o WhatsApp e a mensagem pronta.",
+   "plano": "analise",
+   "mostra": [
+    "tela",
+    "personagem",
+    "monitor"
+   ]
+  },
+  {
+   "texto": "Antes, o Lucas tinha uma rua de clientes. Agora, tem o Brasil inteiro.",
+   "plano": "antes_agora",
+   "mostra": [
+    "personagem"
+   ],
+   "jogo": "avanca"
+  },
+  {
+   "texto": "Comenta a sua cidade que eu mostro quantas empresas aí não têm site. No computador, digita mappoa.com e testa você também.",
+   "plano": "segue",
+   "mostra": [
+    "personagem",
+    "navegador",
+    "monitor"
+   ]
+  }
+ ],
+ "cauda": {
+  "segundos": 1.6,
+  "plano": "cartao"
+ },
+ "trilha": {
+  "arquivo": "trilha",
+  "ganho": 0.22
+ }
+}

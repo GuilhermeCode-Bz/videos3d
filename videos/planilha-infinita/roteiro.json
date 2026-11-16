@@ -1,0 +1,157 @@
+{
+  "titulo": "Procurar cliente empresa por empresa no Maps? Não faça isso",
+  "capa": "*3 dias* de planilha?",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {
+    "abaixa": true
+  },
+  "personagem": {
+    "tipo": "menino",
+    "roupa": "camiseta",
+    "cores": {
+      "camiseta": "#2f6fd6",
+      "bermuda": "#2f6f5e",
+      "tenis": "#f4f1ea",
+      "cabelo": "#7a4a22",
+      "pele": "#e6b48a"
+    }
+  },
+  "voz": {
+    "motor": "elevenlabs",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "velocidade": 1.1,
+    "acelerar": "auto"
+  },
+  "alvoPpm": 190,
+  "frases": [
+    {
+      "texto": "Web designer, acabou de aprender a fazer site? Então não faça isso.",
+      "plano": "gancho",
+      "mostra": [
+        "personagem",
+        "planilha",
+        "mesinha"
+      ],
+      "gancho": true
+    },
+    {
+      "texto": "O Mateus abriu o Google Maps e começou a anotar empresa por empresa.",
+      "plano": "maps",
+      "mostra": [
+        "personagem",
+        "celular",
+        "planilha_q"
+      ]
+    },
+    {
+      "texto": "Nome, telefone, se tem site... Três dias, e a planilha já dá a volta no quarteirão.",
+      "plano": "planilha",
+      "mostra": [
+        "personagem",
+        "planilha",
+        "calendario"
+      ]
+    },
+    {
+      "texto": "Mas metade já tem site. E a outra metade nem atende o telefone.",
+      "plano": "falha",
+      "mostra": [
+        "personagem",
+        "telefone",
+        "secretaria"
+      ],
+      "jogo": "falha"
+    },
+    {
+      "texto": "O problema não é procurar. É procurar na mão, uma por uma.",
+      "plano": "virada",
+      "mostra": [
+        "personagem",
+        "tesoura",
+        "planilha"
+      ]
+    },
+    {
+      "texto": "Aí ele decidiu investir o preço de um hambúrguer numa ferramenta que procura por ele.",
+      "plano": "investe",
+      "mostra": [
+        "personagem",
+        "comida",
+        "monitor"
+      ],
+      "jogo": "corrige"
+    },
+    {
+      "texto": "No computador, digita mappoa.com e escreve: clínicas de estética em Maringá.",
+      "plano": "busca",
+      "mostra": [
+        "navegador",
+        "busca",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Em segundos vem a lista: setenta e duas clínicas, vinte e oito sem site, já com os contatos.",
+      "plano": "lista",
+      "mostra": [
+        "lista",
+        "robo",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Esse é o *Mappoa*, um sistema que acha quem precisa do seu serviço.",
+      "plano": "mappoa",
+      "mostra": [
+        "tela",
+        "robo",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Ele abre uma clínica e já vê a nota pra oferta dele e a mensagem pronta.",
+      "plano": "analise",
+      "mostra": [
+        "tela",
+        "personagem",
+        "monitor"
+      ]
+    },
+    {
+      "texto": "Mandou pra vinte. Quase todas disseram não. Mas uma topou: o primeiro site vendido.",
+      "plano": "venda",
+      "mostra": [
+        "personagem",
+        "dono"
+      ]
+    },
+    {
+      "texto": "Antes, três dias de planilha. Agora, uma busca e ele já tá abordando.",
+      "plano": "antes_agora",
+      "mostra": [
+        "personagem"
+      ],
+      "jogo": "avanca"
+    },
+    {
+      "texto": "Quantos dias você já perdeu montando planilha? Comenta o número. No computador, digita mappoa.com e acha as clínicas sem site da sua cidade.",
+      "plano": "segue",
+      "mostra": [
+        "personagem",
+        "navegador",
+        "monitor"
+      ]
+    }
+  ],
+  "cauda": {
+    "segundos": 1.6,
+    "plano": "cartao"
+  },
+  "trilha": {
+    "arquivo": "trilha",
+    "ganho": 0.22
+  }
+}

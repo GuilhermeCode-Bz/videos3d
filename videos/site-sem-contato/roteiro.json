@@ -1,0 +1,27 @@
+{
+  "titulo": "O site da vidraçaria não tinha como chamar",
+  "capa": "Cadê o *botão*?",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {"abaixa": true},
+  "personagem": {"tipo": "menino", "roupa": "camiseta", "cores": {"camiseta": "#2f6fd6", "bermuda": "#2f6f5e", "tenis": "#f4f1ea", "cabelo": "#7a4a22", "pele": "#e6b48a"}},
+  "voz": {"motor": "elevenlabs", "id": "TX3LPaxmHKxFdv7VOQHJ", "velocidade": 1.1, "acelerar": "auto"},
+  "alvoPpm": 190,
+  "frases": [
+    {"texto": "O cliente quer pedir orçamento. Se o site não tem como chamar, ele desiste.", "plano": "gancho", "mostra": ["muro", "cliente"], "gancho": true},
+    {"texto": "O Thiago é web designer, tá sem cliente, e essa vidraçaria perde orçamento assim.", "plano": "thiago", "mostra": ["personagem", "monitor"]},
+    {"texto": "O site da dona Neide tem foto, tem endereço, e nenhum botão de WhatsApp.", "plano": "site", "mostra": ["muro", "dona", "cliente"], "jogo": "falha"},
+    {"texto": "O cliente rodou a página inteira e chamou a vidraçaria do lado.", "plano": "rodou", "mostra": ["cliente", "vizinha"]},
+    {"texto": "E o Thiago procurava cliente um por um, na mesa da cozinha.", "plano": "procura", "mostra": ["personagem", "papeis", "monitor"]},
+    {"texto": "Então ele decidiu investir o preço de um sobá num sistema que acha quem precisa de site.", "plano": "investe", "mostra": ["personagem", "soba", "monitor"], "jogo": "corrige"},
+    {"texto": "Digitou mappoa.com no computador, e veio a lista das vidraçarias de Campo Grande, com e sem site.", "plano": "lista", "mostra": ["navegador", "tela", "personagem"]},
+    {"texto": "Esse é o *Mappoa*: acha quem precisa de site e mostra as dores de cada empresa.", "plano": "mappoa", "mostra": ["tela", "robo", "personagem"]},
+    {"texto": "O Thiago confere o site, manda a mensagem pronta, e a dona Neide pede um site novo.", "plano": "mensagem", "mostra": ["dona", "celular"]},
+    {"texto": "Antes, o Thiago caçava cliente. Agora, o cliente da dona Neide chama com um toque.", "plano": "antes_agora", "mostra": ["personagem", "dona", "porta"], "jogo": "avanca"},
+    {"texto": "E você, achava o botão ou desistia? Comenta ACHAVA ou DESISTIA e segue. No computador, digita mappoa.com e testa você também.", "plano": "segue", "mostra": ["personagem", "navegador", "monitor"]}
+  ],
+  "cauda": {"segundos": 1.6, "plano": "cartao"},
+  "trilha": {"arquivo": "trilha", "ganho": 0.22}
+}

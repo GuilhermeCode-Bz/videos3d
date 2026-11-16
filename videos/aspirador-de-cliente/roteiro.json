@@ -1,0 +1,26 @@
+{
+  "titulo": "Você ligou o aspirador de cliente no máximo",
+  "capa": "Aspirador de *cliente*?",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {"abaixa": true},
+  "personagem": {"tipo": "menino", "roupa": "camiseta", "cores": {"camiseta": "#2f6fd6", "bermuda": "#2f6f5e", "tenis": "#f4f1ea", "cabelo": "#7a4a22", "pele": "#e6b48a"}},
+  "voz": {"motor": "elevenlabs", "id": "TX3LPaxmHKxFdv7VOQHJ", "velocidade": 1.1, "acelerar": "auto"},
+  "alvoPpm": 190,
+  "frases": [
+    {"texto": "Você ligou o aspirador de cliente no máximo. Olha o que veio.", "plano": "gancho", "mostra": ["aspirador", "personagem", "primo"], "gancho": true},
+    {"texto": "O Davi é web designer e mandou “faço sites” pra quinhentos números de uma vez.", "plano": "dispara", "mostra": ["personagem", "monitor"]},
+    {"texto": "Veio o primo pedindo de graça, gente que já tem site e um “quanto é?” que sumiu.", "plano": "tralha", "mostra": ["aspirador", "primo", "personagem"], "jogo": "falha"},
+    {"texto": "Enquanto isso, outro web designer foi direto no lava-jato sem site e fechou.", "plano": "rival", "mostra": ["rival", "dono", "contrato"], "jogo": "corrige"},
+    {"texto": "Não é puxar todo mundo. É ir em quem precisa de você.", "plano": "virada", "mostra": ["personagem"]},
+    {"texto": "Então o Davi investe o preço de uma lavagem numa ferramenta que mostra quem precisa de site.", "plano": "investe", "mostra": ["personagem", "nota", "monitor"]},
+    {"texto": "No computador, digita mappoa.com, e vem a lista dos lava-jatos de Cuiabá sem site.", "plano": "lista", "mostra": ["navegador", "tela", "personagem"]},
+    {"texto": "Esse é o *Mappoa*, um sistema que acha quem precisa do seu serviço.", "plano": "mappoa", "mostra": ["tela", "robo", "personagem"]},
+    {"texto": "Antes, o Davi puxava qualquer um. Agora, ele vai direto no cliente.", "plano": "antes_agora", "mostra": ["personagem", "dono2"], "jogo": "avanca"},
+    {"texto": "Qual foi a proposta mais absurda que já te enviaram? No computador, digita mappoa.com e testa você também.", "plano": "segue", "mostra": ["personagem", "navegador", "monitor"]}
+  ],
+  "cauda": {"segundos": 1.6, "plano": "cartao"},
+  "trilha": {"arquivo": "trilha", "ganho": 0.22}
+}

@@ -1,0 +1,28 @@
+{
+  "titulo": "Você mandou o orçamento do site. Se o cliente pediu desconto, ele não era o seu cliente",
+  "capa": "Pediu *desconto*?",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {"abaixa": true},
+  "personagem": {"tipo": "menino", "roupa": "camiseta", "cores": {"camiseta": "#2f6fd6", "bermuda": "#2f6f5e", "tenis": "#f4f1ea", "cabelo": "#7a4a22", "pele": "#e6b48a"}},
+  "voz": {"motor": "elevenlabs", "id": "TX3LPaxmHKxFdv7VOQHJ", "velocidade": 1.1, "acelerar": "auto"},
+  "alvoPpm": 190,
+  "frases": [
+    {"texto": "Você mandou o orçamento do site. Se o cliente pediu desconto, ele não era o seu cliente.", "plano": "gancho", "mostra": ["celular", "orcamento", "personagem"], "gancho": true},
+    {"texto": "O Igor é web designer, e toda proposta volta igual: \"faz mais barato?\"", "plano": "igor", "mostra": ["personagem", "monitor"]},
+    {"texto": "Ele baixa o preço, entrega, e ainda vem mudança de graça.", "plano": "de_graca", "mostra": ["monitor", "mudancas", "personagem"], "jogo": "falha"},
+    {"texto": "Mas o problema não é o preço. Pra quem pede desconto, site é gasto.", "plano": "virada", "mostra": ["cliente", "preco", "personagem"], "jogo": "corrige"},
+    {"texto": "Pensa no pet shop sem site: o cliente procura e acha o concorrente.", "plano": "sem_site", "mostra": ["pet_sem", "rua1", "personagem"]},
+    {"texto": "Ou no que tem site em construção: o cliente entra e sai.", "plano": "em_construcao", "mostra": ["cel_rua", "rua2"]},
+    {"texto": "Esses já têm motivo pra pagar. Você não vende site: resolve o problema deles.", "plano": "motivo", "mostra": ["pet_sem", "pet_ruim", "personagem"]},
+    {"texto": "Mas achar um por um leva a tarde inteira.", "plano": "tarde", "mostra": ["relogio", "personagem", "monitor"], "jogo": "falha"},
+    {"texto": "Então você usa o *Mappoa*, um site que acha empresas: pet shops em Uberlândia, separados com site e sem site.", "plano": "lista", "mostra": ["tela", "robo"], "jogo": "corrige"},
+    {"texto": "E analisa cada um: score de aderência, dores, oportunidades, objeções e a mensagem pronta.", "plano": "analise", "mostra": ["tela", "mensagem", "robo"]},
+    {"texto": "Você só revisa e envia. Antes, o Igor brigava por desconto. Agora, chega em quem precisa dele.", "plano": "antes_agora", "mostra": ["funil", "personagem"], "jogo": "avanca"},
+    {"texto": "Desconto é culpa do cliente ou de quem escolheu ele? Comenta aí e segue pro próximo nicho. No computador, digita mappoa.com e testa você também.", "plano": "segue", "mostra": ["personagem", "navegador", "monitor"]}
+  ],
+  "cauda": {"segundos": 1.6, "plano": "cartao"},
+  "trilha": {"arquivo": "trilha", "ganho": 0.22}
+}

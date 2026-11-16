@@ -1,0 +1,26 @@
+{
+  "titulo": "Tem empresa precisando de você. Pra ela, você é invisível",
+  "capa": "Você é *invisível*?",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {"abaixa": true},
+  "personagem": {"tipo": "menino", "roupa": "camiseta", "cores": {"camiseta": "#2f6fd6", "bermuda": "#2f6f5e", "tenis": "#f4f1ea", "cabelo": "#7a4a22", "pele": "#e6b48a"}},
+  "voz": {"motor": "elevenlabs", "id": "TX3LPaxmHKxFdv7VOQHJ", "velocidade": 1.1, "acelerar": "auto"},
+  "alvoPpm": 190,
+  "frases": [
+    {"texto": "Tem empresa precisando de você. Pra ela, você é invisível.", "plano": "gancho", "mostra": ["dona", "personagem", "rival"], "gancho": true},
+    {"texto": "O Vitor é web designer, tem portfólio e Instagram bonito. E só posta esperando alguém ver.", "plano": "posta", "mostra": ["personagem", "monitor"]},
+    {"texto": "Só que a dona do salão da esquina nunca ouviu falar dele.", "plano": "salao", "mostra": ["dona"], "jogo": "falha"},
+    {"texto": "Quem ela viu foi outro web designer, que bateu na porta e fechou o site.", "plano": "rival", "mostra": ["rival", "dona", "contrato"], "jogo": "corrige"},
+    {"texto": "Se ela não te vê, você vai até ela.", "plano": "vai", "mostra": ["personagem"]},
+    {"texto": "Então o Vitor decide investir uma cajuína numa ferramenta que mostra quem precisa de site.", "plano": "investe", "mostra": ["personagem", "cajuina", "monitor"]},
+    {"texto": "No computador, digita mappoa.com, e vem a lista dos salões de Teresina sem site.", "plano": "lista", "mostra": ["navegador", "tela", "personagem"]},
+    {"texto": "Esse é o *Mappoa*, um sistema que acha quem precisa do seu serviço.", "plano": "mappoa", "mostra": ["tela", "robo", "personagem"]},
+    {"texto": "Antes, o Vitor era invisível. Agora, ele chega primeiro.", "plano": "antes_agora", "mostra": ["personagem", "dona2", "rival"], "jogo": "avanca"},
+    {"texto": "Comenta a sua cidade e segue. No computador, digita mappoa.com e testa você também.", "plano": "segue", "mostra": ["personagem", "navegador", "monitor"]}
+  ],
+  "cauda": {"segundos": 1.6, "plano": "cartao"},
+  "trilha": {"arquivo": "trilha", "ganho": 0.22}
+}

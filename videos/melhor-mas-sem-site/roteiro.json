@@ -1,0 +1,26 @@
+{
+  "titulo": "Você é melhor que o concorrente, mas o cliente não sabe",
+  "capa": "Melhor e *sumido*?",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {"abaixa": true},
+  "personagem": {"tipo": "menino", "roupa": "camiseta", "cores": {"camiseta": "#2f6fd6", "bermuda": "#2f6f5e", "tenis": "#f4f1ea", "cabelo": "#7a4a22", "pele": "#e6b48a"}},
+  "voz": {"motor": "elevenlabs", "id": "TX3LPaxmHKxFdv7VOQHJ", "velocidade": 1.1, "acelerar": "auto"},
+  "alvoPpm": 190,
+  "frases": [
+    {"texto": "Você é melhor que o concorrente. Se ele tem site e você não, o cliente nunca vai saber.", "plano": "gancho", "mostra": ["jorge", "rival", "foguete"], "gancho": true},
+    {"texto": "O seu Jorge tem a melhor oficina do bairro. Conserta tudo, com preço justo.", "plano": "jorge", "mostra": ["jorge", "trofeu"]},
+    {"texto": "Mas quem pesquisa oficina no celular só acha a do outro lado da rua, que tem site.", "plano": "busca", "mostra": ["cliente", "celular"], "jogo": "falha"},
+    {"texto": "E a oficina dele fica parada, com a ferramenta pegando poeira.", "plano": "parada", "mostra": ["jorge", "despertador"]},
+    {"texto": "O Gui é web designer e sabe que o seu Jorge precisa de site. O problema é achar todos os seus Jorges da cidade.", "plano": "gui", "mostra": ["personagem", "monitor"]},
+    {"texto": "Aí ele digita mappoa.com no computador, e vem a lista das oficinas de Piracicaba sem site.", "plano": "lista", "mostra": ["navegador", "tela", "personagem"], "jogo": "corrige"},
+    {"texto": "Esse é o *Mappoa*: um sistema que acha quem precisa do seu serviço, com o contato e a análise de cada um.", "plano": "mappoa", "mostra": ["tela", "robo", "personagem"]},
+    {"texto": "O Gui chega na oficina com a prova: quem procura no Google tá indo pro vizinho.", "plano": "prova", "mostra": ["personagem", "jorge", "tela"]},
+    {"texto": "Antes, o melhor perdia pro que aparece. Agora, o seu Jorge aparece também.", "plano": "antes_agora", "mostra": ["jorge", "foguete2"], "jogo": "avanca"},
+    {"texto": "Você já perdeu cliente pra alguém pior que você? Comenta aí. No computador, digita mappoa.com e testa você também.", "plano": "segue", "mostra": ["personagem", "navegador", "monitor"]}
+  ],
+  "cauda": {"segundos": 1.6, "plano": "cartao"},
+  "trilha": {"arquivo": "trilha", "ganho": 0.22}
+}

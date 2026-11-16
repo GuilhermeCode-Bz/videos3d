@@ -1,0 +1,26 @@
+{
+  "titulo": "Seu primeiro cliente tá a duas quadras. Se você não for lá, outro vai",
+  "capa": "Primeiro *cliente*?",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {"abaixa": true},
+  "personagem": {"tipo": "menino", "roupa": "camiseta", "cores": {"camiseta": "#2f6fd6", "bermuda": "#2f6f5e", "tenis": "#f4f1ea", "cabelo": "#7a4a22", "pele": "#e6b48a"}},
+  "voz": {"motor": "elevenlabs", "id": "TX3LPaxmHKxFdv7VOQHJ", "velocidade": 1.1, "acelerar": "auto"},
+  "alvoPpm": 190,
+  "frases": [
+    {"texto": "Seu primeiro cliente tá a duas quadras. Se você não for lá, outro vai.", "plano": "gancho", "mostra": ["pinogigante", "floricultura", "personagem"], "gancho": true},
+    {"texto": "O Mateus acabou o curso de web design e tá doido pra fechar o primeiro site.", "plano": "formado", "mostra": ["personagem", "certificado", "monitor"]},
+    {"texto": "Só que ele procura longe: empresa grande, grupo de freela, cliente de fora. E nada.", "plano": "longe", "mostra": ["personagem", "binoculos", "longe"], "jogo": "falha"},
+    {"texto": "O que ele não vê é que o primeiro cliente tá perto. No Maps.", "plano": "perto", "mostra": ["celular", "trilha", "personagem"], "jogo": "corrige"},
+    {"texto": "A duas quadras da casa dele, a floricultura do bairro não tem site nenhum.", "plano": "floricultura", "mostra": ["floricultura", "fichamaps", "personagem"]},
+    {"texto": "E não é só ela. A sua rua, o seu bairro, a sua cidade: toda empresa sem site já é a sua lista.", "plano": "sualista", "mostra": ["pinos", "personagem"]},
+    {"texto": "Aí o Mateus digita mappoa.com no computador, e vem a lista das floriculturas de Sorocaba sem site.", "plano": "lista", "mostra": ["navegador", "tela", "personagem"]},
+    {"texto": "Esse é o *Mappoa*, um sistema que acha, na sua cidade, quem precisa do seu serviço.", "plano": "mappoa", "mostra": ["tela", "robo", "personagem"]},
+    {"texto": "Antes, o Mateus procurava cliente no mundo inteiro. Agora, ele começa pela própria rua.", "plano": "antes_agora", "mostra": ["personagem", "floricultura", "florista"], "jogo": "avanca"},
+    {"texto": "Onde você procurou o seu primeiro cliente? Comenta aí e segue pra achar o seu. No computador, digita mappoa.com e testa você também.", "plano": "segue", "mostra": ["personagem", "navegador", "monitor"]}
+  ],
+  "cauda": {"segundos": 1.6, "plano": "cartao"},
+  "trilha": {"arquivo": "trilha", "ganho": 0.22}
+}

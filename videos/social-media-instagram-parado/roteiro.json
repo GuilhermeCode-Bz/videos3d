@@ -1,0 +1,31 @@
+{
+  "titulo": "A loja tem Instagram parado?",
+  "capa": "Perfil *parado*\né cliente!",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {"abaixa": true},
+  "voz": {"motor": "elevenlabs", "id": "TX3LPaxmHKxFdv7VOQHJ", "velocidade": 1.1, "acelerar": "auto"},
+  "alvoPpm": 190,
+  "frases": [
+    {"texto": "A loja tem Instagram. Se o último post é de 2023, ela precisa de você.", "plano": "gancho", "mostra": ["perfil", "boutique"], "gancho": true},
+    {"texto": "Esse é o Léo. Ele é social media, mas a agenda tá vazia.", "plano": "leo", "mostra": ["personagem", "agenda"]},
+    {"texto": "Se você é o Léo, posta no seu perfil e espera o cliente aparecer.", "plano": "posta", "mostra": ["personagem", "celular"]},
+    {"texto": "Mas passa um mês, e quem curtiu foi a sua mãe.", "plano": "mae", "mostra": ["calendario", "coracao", "personagem"], "jogo": "falha"},
+    {"texto": "Então você vai atrás de quem precisa: loja com o Instagram parado.", "plano": "vai_atras", "mostra": ["personagem", "lupa", "lojas"], "jogo": "corrige"},
+    {"texto": "Essa é a *prospecção ativa*.", "plano": "prospeccao_rotulo", "mostra": ["lupa"]},
+    {"texto": "Mas achar essas lojas na mão é abrir perfil por perfil, o dia inteiro.", "plano": "na_mao", "mostra": ["personagem", "perfis", "relogio"], "jogo": "falha"},
+    {"texto": "Então você usa um site que procura as empresas pra você.", "plano": "site", "mostra": ["computador", "personagem"], "jogo": "corrige"},
+    {"texto": "Você escreve \"lojas de roupa em Goiânia\", e vem a lista, com o Instagram de cada uma quando é público.", "plano": "busca", "mostra": ["lista", "computador"]},
+    {"texto": "Esse é o *Mappoa*.", "plano": "mappoa_rotulo", "mostra": ["lista"]},
+    {"texto": "Aí você abre os perfis da lista e separa os parados: último post de meses atrás.", "plano": "parados", "mostra": ["lista", "perfil", "personagem"]},
+    {"texto": "Mas se a sua mensagem diz \"faço social media\", a dona ignora.", "plano": "ignora", "mostra": ["envelope", "dona", "boutique"], "jogo": "falha"},
+    {"texto": "Então você fala do perfil dela: \"O último post de vocês foi em março. Bora voltar a aparecer?\"", "plano": "perfil_dela", "mostra": ["balao", "dona", "boutique"], "jogo": "corrige"},
+    {"texto": "É por isso que perfil parado é ouro: a loja já sabe que precisa, só não tem tempo.", "plano": "ouro", "mostra": ["dona", "caixas", "perfil"]},
+    {"texto": "Antes, o Léo esperava curtida no post. Agora, ele acha as lojas paradas da cidade inteira.", "plano": "antes_agora", "mostra": ["personagem", "pins", "lojas"], "jogo": "avanca"},
+    {"texto": "Qual tipo de loja você atenderia primeiro? Comenta aí. No computador, digita mappoa.com e testa você também.", "plano": "segue", "mostra": ["personagem", "navegador", "computador"]}
+  ],
+  "cauda": {"segundos": 1.6, "plano": "cartao"},
+  "trilha": {"arquivo": "trilha", "ganho": 0.22}
+}

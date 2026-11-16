@@ -1,0 +1,32 @@
+{
+  "titulo": "Por que ninguém compra o seu sistema?",
+  "capa": "Ela *apagou*\nsua mensagem?",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {"abaixa": true},
+  "voz": {"motor": "elevenlabs", "id": "TX3LPaxmHKxFdv7VOQHJ", "velocidade": 1.1, "acelerar": "auto"},
+  "alvoPpm": 190,
+  "frases": [
+    {"texto": "A dona do salão abriu sua mensagem. Se diz \"conheça nosso sistema\", ela apaga.", "plano": "gancho", "mostra": ["bia", "celular_bia"], "gancho": true},
+    {"texto": "Esse é o Rafa. Ele vende um sistema de agendamento, mas ninguém compra.", "plano": "rafa", "mostra": ["personagem", "computador"]},
+    {"texto": "Se você é o Rafa, manda a mesma mensagem pra todo contato do celular.", "plano": "manda", "mostra": ["personagem", "celular", "contatos"]},
+    {"texto": "Mas a padaria não marca horário, e a loja de roupa nem lê.", "plano": "ninguem", "mostra": ["contatos"], "jogo": "falha"},
+    {"texto": "Então você manda só pra quem vive de horário marcado: salão, barbearia, clínica.", "plano": "ideais", "mostra": ["ideais", "personagem"], "jogo": "corrige"},
+    {"texto": "Esse é o *cliente ideal*.", "plano": "ideal_rotulo", "mostra": ["ideais"]},
+    {"texto": "Mas achar todos eles na mão leva o dia inteiro: Google, site, Instagram, planilha.", "plano": "na_mao", "mostra": ["personagem", "abas", "relogio"], "jogo": "falha"},
+    {"texto": "Então você usa um site que procura as empresas pra você.", "plano": "site", "mostra": ["computador", "personagem"], "jogo": "corrige"},
+    {"texto": "Você escreve \"salões de beleza em Curitiba\", e vem a lista, com WhatsApp e Instagram quando estão públicos.", "plano": "busca", "mostra": ["lista", "computador"]},
+    {"texto": "Esse é o *Mappoa*.", "plano": "mappoa_rotulo", "mostra": ["lista"]},
+    {"texto": "Mas a lista não vende sozinha: se a mensagem só fala do sistema, vai pro lixo.", "plano": "lixo", "mostra": ["envelope", "lixeira", "bia"], "jogo": "falha"},
+    {"texto": "Então você fala da dor dela: \"Vi que vocês marcam pelo WhatsApp. Quantas clientes faltam sem avisar?\"", "plano": "dor", "mostra": ["balao", "bia", "celular_bia"], "jogo": "corrige"},
+    {"texto": "No Mappoa, cada empresa vem com as dores dela, e a mensagem já sai pronta pra você mandar.", "plano": "ficha", "mostra": ["ficha", "personagem"]},
+    {"texto": "É por isso que ninguém compra um sistema: compra o problema resolvido.", "plano": "caixa", "mostra": ["caixa", "personagem"]},
+    {"texto": "Igual academia: ninguém paga pela esteira, paga pela calça que volta a servir.", "plano": "esteira", "mostra": ["esteira", "calca", "personagem"]},
+    {"texto": "Antes, o Rafa mandava \"conheça nosso sistema\" pra qualquer um. Agora, ele acha os salões certos e fala da dor de cada um.", "plano": "antes_agora", "mostra": ["personagem", "lista", "bia"], "jogo": "avanca"},
+    {"texto": "Pra que tipo de empresa você vende o seu sistema? Comenta aí. No computador, digita mappoa.com e testa você também.", "plano": "segue", "mostra": ["personagem", "navegador", "computador"]}
+  ],
+  "cauda": {"segundos": 1.6, "plano": "cartao"},
+  "trilha": {"arquivo": "trilha", "ganho": 0.22}
+}

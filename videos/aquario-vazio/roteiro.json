@@ -1,0 +1,26 @@
+{
+  "titulo": "Você tá pescando cliente onde não tem peixe",
+  "capa": "Cadê o *peixe*?",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {"abaixa": true},
+  "personagem": {"tipo": "menino", "roupa": "camiseta", "cores": {"camiseta": "#2f6fd6", "bermuda": "#2f6f5e", "tenis": "#f4f1ea", "cabelo": "#7a4a22", "pele": "#e6b48a"}},
+  "voz": {"motor": "elevenlabs", "id": "TX3LPaxmHKxFdv7VOQHJ", "velocidade": 1.1, "acelerar": "auto"},
+  "alvoPpm": 190,
+  "frases": [
+    {"texto": "Você tá pescando cliente onde não tem peixe.", "plano": "gancho", "mostra": ["personagem", "aquario", "rio"], "gancho": true},
+    {"texto": "O Léo é web designer e manda \"faço sites\" pra quem já tem site e pra grupo cheio de web designer.", "plano": "longe", "mostra": ["personagem", "monitor", "avioes"]},
+    {"texto": "Joga a isca o dia inteiro, e nada morde.", "plano": "nada", "mostra": ["personagem", "aquario", "vara"], "jogo": "falha"},
+    {"texto": "Enquanto isso, outro web designer joga a rede no rio e puxa uma barbearia.", "plano": "rival", "mostra": ["rival", "rede", "rio"]},
+    {"texto": "O problema não é a isca. É o lugar.", "plano": "lugar", "mostra": ["aquario", "rio", "personagem"], "jogo": "corrige"},
+    {"texto": "Então o Léo decide investir o preço de um corte de cabelo numa ferramenta que mostra onde estão os peixes.", "plano": "investe", "mostra": ["personagem", "tesoura", "tela"]},
+    {"texto": "Digita mappoa.com no computador, e vem a lista das barbearias de João Pessoa sem site.", "plano": "lista", "mostra": ["navegador", "tela", "personagem"]},
+    {"texto": "Esse é o *Mappoa*, um sistema que acha quem precisa do seu serviço.", "plano": "mappoa", "mostra": ["tela", "robo", "personagem"]},
+    {"texto": "Antes, o Léo pescava no aquário. Agora, ele joga a isca onde tem peixe.", "plano": "antes_agora", "mostra": ["personagem", "rio", "vara"], "jogo": "avanca"},
+    {"texto": "Comenta a sua cidade e segue. No computador, digita mappoa.com e testa você também.", "plano": "segue", "mostra": ["personagem", "navegador", "monitor"]}
+  ],
+  "cauda": {"segundos": 1.6, "plano": "cartao"},
+  "trilha": {"arquivo": "trilha", "ganho": 0.22}
+}

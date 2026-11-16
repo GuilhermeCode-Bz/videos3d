@@ -1,0 +1,1636 @@
+{
+  "comoLer": "Tudo que a Máquina sabe desenhar, com a foto (referencias/modelos/<foto>), como pedir pra IA e o código do cena.js. Gerado por npm run modelos: não editar à mão.",
+  "feito": "2026-11-10T02:24:56.259Z",
+  "itens": [
+    {
+      "id": "cenarios/construcao",
+      "categoria": "cenarios",
+      "chave": "construcao",
+      "nome": "Canteiro de obras",
+      "uso": "K.cenario('construcao')",
+      "cenario": "construcao",
+      "pedir": "faz no cenário canteiro de obras",
+      "foto": "cenarios-construcao.jpg"
+    },
+    {
+      "id": "cenarios/natureza",
+      "categoria": "cenarios",
+      "chave": "natureza",
+      "nome": "Natureza",
+      "uso": "K.cenario('natureza')",
+      "cenario": "natureza",
+      "pedir": "faz no cenário natureza",
+      "foto": "cenarios-natureza.jpg"
+    },
+    {
+      "id": "cenarios/cidade",
+      "categoria": "cenarios",
+      "chave": "cidade",
+      "nome": "Cidade",
+      "uso": "K.cenario('cidade')",
+      "cenario": "cidade",
+      "pedir": "faz no cenário cidade",
+      "foto": "cenarios-cidade.jpg"
+    },
+    {
+      "id": "cenarios/casa",
+      "categoria": "cenarios",
+      "chave": "casa",
+      "nome": "Casa",
+      "uso": "K.cenario('casa')",
+      "cenario": "casa",
+      "pedir": "faz no cenário casa",
+      "foto": "cenarios-casa.jpg"
+    },
+    {
+      "id": "cenarios/cozinha",
+      "categoria": "cenarios",
+      "chave": "cozinha",
+      "nome": "Cozinha",
+      "uso": "K.cenario('cozinha')",
+      "cenario": "cozinha",
+      "pedir": "faz no cenário cozinha",
+      "foto": "cenarios-cozinha.jpg"
+    },
+    {
+      "id": "cenarios/sala",
+      "categoria": "cenarios",
+      "chave": "sala",
+      "nome": "Sala",
+      "uso": "K.cenario('sala')",
+      "cenario": "sala",
+      "pedir": "faz no cenário sala",
+      "foto": "cenarios-sala.jpg"
+    },
+    {
+      "id": "cenarios/praia",
+      "categoria": "cenarios",
+      "chave": "praia",
+      "nome": "Praia",
+      "uso": "K.cenario('praia')",
+      "cenario": "praia",
+      "pedir": "faz no cenário praia",
+      "foto": "cenarios-praia.jpg"
+    },
+    {
+      "id": "cenarios/fundo_do_mar",
+      "categoria": "cenarios",
+      "chave": "fundo_do_mar",
+      "nome": "Fundo do mar",
+      "uso": "K.cenario('fundo_do_mar')",
+      "cenario": "fundo_do_mar",
+      "pedir": "faz no cenário fundo do mar",
+      "foto": "cenarios-fundo_do_mar.jpg"
+    },
+    {
+      "id": "cenarios/espaco",
+      "categoria": "cenarios",
+      "chave": "espaco",
+      "nome": "Espaço",
+      "uso": "K.cenario('espaco')",
+      "cenario": "espaco",
+      "pedir": "faz no cenário espaço",
+      "foto": "cenarios-espaco.jpg"
+    },
+    {
+      "id": "cenarios/lua",
+      "categoria": "cenarios",
+      "chave": "lua",
+      "nome": "Lua",
+      "uso": "K.cenario('lua')",
+      "cenario": "lua",
+      "pedir": "faz no cenário lua",
+      "foto": "cenarios-lua.jpg"
+    },
+    {
+      "id": "cenarios/fazenda",
+      "categoria": "cenarios",
+      "chave": "fazenda",
+      "nome": "Fazenda",
+      "uso": "K.cenario('fazenda')",
+      "cenario": "fazenda",
+      "pedir": "faz no cenário fazenda",
+      "foto": "cenarios-fazenda.jpg"
+    },
+    {
+      "id": "cenarios/floresta",
+      "categoria": "cenarios",
+      "chave": "floresta",
+      "nome": "Floresta",
+      "uso": "K.cenario('floresta')",
+      "cenario": "floresta",
+      "pedir": "faz no cenário floresta",
+      "foto": "cenarios-floresta.jpg"
+    },
+    {
+      "id": "cenarios/deserto",
+      "categoria": "cenarios",
+      "chave": "deserto",
+      "nome": "Deserto",
+      "uso": "K.cenario('deserto')",
+      "cenario": "deserto",
+      "pedir": "faz no cenário deserto",
+      "foto": "cenarios-deserto.jpg"
+    },
+    {
+      "id": "cenarios/consultorio",
+      "categoria": "cenarios",
+      "chave": "consultorio",
+      "nome": "Consultório",
+      "uso": "K.cenario('consultorio')",
+      "cenario": "consultorio",
+      "pedir": "faz no cenário consultório",
+      "foto": "cenarios-consultorio.jpg"
+    },
+    {
+      "id": "cenarios/oficina",
+      "categoria": "cenarios",
+      "chave": "oficina",
+      "nome": "Oficina",
+      "uso": "K.cenario('oficina')",
+      "cenario": "oficina",
+      "pedir": "faz no cenário oficina",
+      "foto": "cenarios-oficina.jpg"
+    },
+    {
+      "id": "cenarios/escritorio",
+      "categoria": "cenarios",
+      "chave": "escritorio",
+      "nome": "Escritório",
+      "uso": "K.cenario('escritorio')",
+      "cenario": "escritorio",
+      "pedir": "faz no cenário escritório",
+      "foto": "cenarios-escritorio.jpg"
+    },
+    {
+      "id": "cenarios/estudio",
+      "categoria": "cenarios",
+      "chave": "estudio",
+      "nome": "Estúdio",
+      "uso": "K.cenario('estudio')",
+      "cenario": "estudio",
+      "pedir": "faz no cenário estúdio",
+      "foto": "cenarios-estudio.jpg"
+    },
+    {
+      "id": "personagens/menino",
+      "categoria": "personagens",
+      "chave": "menino",
+      "nome": "Menino",
+      "uso": "K.boneco({})",
+      "tipo": "menino",
+      "roupa": "camiseta",
+      "cores": {
+        "camiseta": "#f2c94c",
+        "bermuda": "#2a4a92",
+        "tenis": "#3a7be0",
+        "cabelo": "#3a2418",
+        "pele": "#e6b48a"
+      },
+      "pedir": "o personagem é menino",
+      "foto": "personagens-menino.jpg"
+    },
+    {
+      "id": "personagens/menino-moletom",
+      "categoria": "personagens",
+      "chave": "menino-moletom",
+      "nome": "Menino de moletom",
+      "uso": "K.boneco({\"roupa\":\"moletom\"})",
+      "tipo": "menino",
+      "roupa": "moletom",
+      "cores": {
+        "moletom": "#f5c518",
+        "punho": "#d9a514",
+        "calca": "#1e2b4f",
+        "mochila": "#3a3f4a",
+        "cabelo": "#3a2418",
+        "pele": "#e6b48a"
+      },
+      "pedir": "o personagem é menino de moletom",
+      "foto": "personagens-menino-moletom.jpg"
+    },
+    {
+      "id": "personagens/menina",
+      "categoria": "personagens",
+      "chave": "menina",
+      "nome": "Menina",
+      "uso": "K.boneco({\"tipo\":\"menina\"})",
+      "tipo": "menina",
+      "roupa": null,
+      "cores": {
+        "vestido": "#d8343a",
+        "cabeloMenina": "#4a2616",
+        "pele": "#e6b48a"
+      },
+      "pedir": "o personagem é menina",
+      "foto": "personagens-menina.jpg"
+    },
+    {
+      "id": "personagens/doutor",
+      "categoria": "personagens",
+      "chave": "doutor",
+      "nome": "Doutor",
+      "uso": "K.boneco({\"tipo\":\"doutor\"})",
+      "tipo": "doutor",
+      "roupa": null,
+      "cores": {
+        "jaleco": "#f4f7f6",
+        "camisa": "#12355b",
+        "gravata": "#2ec4b6",
+        "calca": "#6b7280",
+        "sapato": "#6b3f22",
+        "cabelo": "#ececec",
+        "pele": "#e6b48a"
+      },
+      "pedir": "o personagem é doutor",
+      "foto": "personagens-doutor.jpg"
+    },
+    {
+      "id": "personagens/operario",
+      "categoria": "personagens",
+      "chave": "operario",
+      "nome": "Operário",
+      "uso": "K.boneco({\"tipo\":\"operario\"})",
+      "tipo": "operario",
+      "roupa": null,
+      "cores": {
+        "camiseta": "#f27c22",
+        "colete": "#f5d20a",
+        "calca": "#31577e",
+        "bota": "#2a221c",
+        "capacete": "#f5c518",
+        "cabelo": "#2b1b16",
+        "barba": "#2b1b16",
+        "pele": "#c98f62"
+      },
+      "pedir": "o personagem é operário",
+      "foto": "personagens-operario.jpg"
+    },
+    {
+      "id": "bichos/gato",
+      "categoria": "bichos",
+      "chave": "gato",
+      "nome": "Gato",
+      "uso": "K.gato()",
+      "pedir": "põe o gato no vídeo",
+      "foto": "bichos-gato.jpg"
+    },
+    {
+      "id": "bichos/cachorro",
+      "categoria": "bichos",
+      "chave": "cachorro",
+      "nome": "Cachorro",
+      "uso": "K.cachorro()",
+      "pedir": "põe o cachorro no vídeo",
+      "foto": "bichos-cachorro.jpg"
+    },
+    {
+      "id": "bichos/ornitorrinco",
+      "categoria": "bichos",
+      "chave": "ornitorrinco",
+      "nome": "Ornitorrinco",
+      "uso": "K.ornitorrinco()",
+      "pedir": "põe o ornitorrinco no vídeo",
+      "foto": "bichos-ornitorrinco.jpg"
+    },
+    {
+      "id": "bichos/camaleao",
+      "categoria": "bichos",
+      "chave": "camaleao",
+      "nome": "Camaleão",
+      "uso": "K.camaleao()",
+      "pedir": "põe o camaleão no vídeo",
+      "foto": "bichos-camaleao.jpg"
+    },
+    {
+      "id": "bichos/mosquita",
+      "categoria": "bichos",
+      "chave": "mosquita",
+      "nome": "Mosquito",
+      "uso": "K.mosquita()",
+      "pedir": "põe o mosquito no vídeo",
+      "foto": "bichos-mosquita.jpg"
+    },
+    {
+      "id": "bichos/mosca",
+      "categoria": "bichos",
+      "chave": "mosca",
+      "nome": "Mosca",
+      "uso": "K.mosca()",
+      "pedir": "põe a mosca no vídeo",
+      "foto": "bichos-mosca.jpg"
+    },
+    {
+      "id": "objetos/computador",
+      "categoria": "objetos",
+      "chave": "computador",
+      "nome": "Computador",
+      "uso": "K.computador()",
+      "pedir": "põe o computador no vídeo",
+      "foto": "objetos-computador.jpg"
+    },
+    {
+      "id": "objetos/celular",
+      "categoria": "objetos",
+      "chave": "celular",
+      "nome": "Celular",
+      "uso": "K.celular()",
+      "pedir": "põe o celular no vídeo",
+      "foto": "objetos-celular.jpg"
+    },
+    {
+      "id": "objetos/carro",
+      "categoria": "objetos",
+      "chave": "carro",
+      "nome": "Carro",
+      "uso": "K.carro()",
+      "pedir": "põe o carro no vídeo",
+      "foto": "objetos-carro.jpg"
+    },
+    {
+      "id": "objetos/casa",
+      "categoria": "objetos",
+      "chave": "casa",
+      "nome": "Casa",
+      "uso": "K.casa()",
+      "pedir": "põe a casa no vídeo",
+      "artigo": "a",
+      "foto": "objetos-casa.jpg"
+    },
+    {
+      "id": "objetos/predio",
+      "categoria": "objetos",
+      "chave": "predio",
+      "nome": "Prédio",
+      "uso": "K.predio(10)",
+      "pedir": "põe o prédio no vídeo",
+      "foto": "objetos-predio.jpg"
+    },
+    {
+      "id": "objetos/arvore",
+      "categoria": "objetos",
+      "chave": "arvore",
+      "nome": "Árvore",
+      "uso": "K.arvore(x, z, tamanho)",
+      "pedir": "põe a árvore no vídeo",
+      "artigo": "a",
+      "foto": "objetos-arvore.jpg"
+    },
+    {
+      "id": "objetos/coqueiro",
+      "categoria": "objetos",
+      "chave": "coqueiro",
+      "nome": "Coqueiro",
+      "uso": "K.coqueiro(pos)",
+      "pedir": "põe o coqueiro no vídeo",
+      "foto": "objetos-coqueiro.jpg"
+    },
+    {
+      "id": "objetos/bicicleta",
+      "categoria": "objetos",
+      "chave": "bicicleta",
+      "nome": "Bicicleta",
+      "uso": "K.bicicleta()",
+      "pedir": "põe a bicicleta no vídeo",
+      "artigo": "a",
+      "foto": "objetos-bicicleta.jpg"
+    },
+    {
+      "id": "objetos/navio",
+      "categoria": "objetos",
+      "chave": "navio",
+      "nome": "Navio",
+      "uso": "K.navio()",
+      "pedir": "põe o navio no vídeo",
+      "foto": "objetos-navio.jpg"
+    },
+    {
+      "id": "objetos/peixe",
+      "categoria": "objetos",
+      "chave": "peixe",
+      "nome": "Peixe",
+      "uso": "K.peixe()",
+      "pedir": "põe o peixe no vídeo",
+      "foto": "objetos-peixe.jpg"
+    },
+    {
+      "id": "objetos/tubarao",
+      "categoria": "objetos",
+      "chave": "tubarao",
+      "nome": "Tubarão",
+      "uso": "K.tubarao()",
+      "pedir": "põe o tubarão no vídeo",
+      "foto": "objetos-tubarao.jpg"
+    },
+    {
+      "id": "objetos/foguete",
+      "categoria": "objetos",
+      "chave": "foguete",
+      "nome": "Foguete",
+      "uso": "K.foguete()",
+      "pedir": "põe o foguete no vídeo",
+      "foto": "objetos-foguete.jpg"
+    },
+    {
+      "id": "objetos/modulo-lunar",
+      "categoria": "objetos",
+      "chave": "modulo-lunar",
+      "nome": "Módulo lunar",
+      "uso": "K.moduloLunar()",
+      "pedir": "põe o módulo lunar no vídeo",
+      "foto": "objetos-modulo-lunar.jpg"
+    },
+    {
+      "id": "objetos/capsula",
+      "categoria": "objetos",
+      "chave": "capsula",
+      "nome": "Cápsula espacial",
+      "uso": "K.capsula()",
+      "pedir": "põe a cápsula espacial no vídeo",
+      "artigo": "a",
+      "foto": "objetos-capsula.jpg"
+    },
+    {
+      "id": "objetos/satelite",
+      "categoria": "objetos",
+      "chave": "satelite",
+      "nome": "Satélite",
+      "uso": "K.satelite()",
+      "pedir": "põe o satélite no vídeo",
+      "foto": "objetos-satelite.jpg"
+    },
+    {
+      "id": "objetos/terra",
+      "categoria": "objetos",
+      "chave": "terra",
+      "nome": "Planeta Terra",
+      "uso": "K.planeta('terra')",
+      "pedir": "põe o planeta terra no vídeo",
+      "foto": "objetos-terra.jpg"
+    },
+    {
+      "id": "objetos/lua",
+      "categoria": "objetos",
+      "chave": "lua",
+      "nome": "Lua",
+      "uso": "K.planeta('lua')",
+      "pedir": "põe a lua no vídeo",
+      "artigo": "a",
+      "foto": "objetos-lua.jpg"
+    },
+    {
+      "id": "objetos/paraquedas",
+      "categoria": "objetos",
+      "chave": "paraquedas",
+      "nome": "Paraquedas",
+      "uso": "K.paraquedas()",
+      "pedir": "põe o paraquedas no vídeo",
+      "foto": "objetos-paraquedas.jpg"
+    },
+    {
+      "id": "objetos/balao",
+      "categoria": "objetos",
+      "chave": "balao",
+      "nome": "Balão",
+      "uso": "K.balao()",
+      "pedir": "põe o balão no vídeo",
+      "foto": "objetos-balao.jpg"
+    },
+    {
+      "id": "objetos/torneira",
+      "categoria": "objetos",
+      "chave": "torneira",
+      "nome": "Torneira",
+      "uso": "K.torneira(pos)",
+      "pedir": "põe a torneira no vídeo",
+      "artigo": "a",
+      "foto": "objetos-torneira.jpg"
+    },
+    {
+      "id": "objetos/balde",
+      "categoria": "objetos",
+      "chave": "balde",
+      "nome": "Balde",
+      "uso": "K.balde()",
+      "pedir": "põe o balde no vídeo",
+      "foto": "objetos-balde.jpg"
+    },
+    {
+      "id": "objetos/regador",
+      "categoria": "objetos",
+      "chave": "regador",
+      "nome": "Regador",
+      "uso": "K.regador()",
+      "pedir": "põe o regador no vídeo",
+      "foto": "objetos-regador.jpg"
+    },
+    {
+      "id": "objetos/flor",
+      "categoria": "objetos",
+      "chave": "flor",
+      "nome": "Flor no vaso",
+      "uso": "K.flor()",
+      "pedir": "põe a flor no vaso no vídeo",
+      "artigo": "a",
+      "foto": "objetos-flor.jpg"
+    },
+    {
+      "id": "objetos/tambor",
+      "categoria": "objetos",
+      "chave": "tambor",
+      "nome": "Tambor",
+      "uso": "K.tambor()",
+      "pedir": "põe o tambor no vídeo",
+      "foto": "objetos-tambor.jpg"
+    },
+    {
+      "id": "objetos/fogo",
+      "categoria": "objetos",
+      "chave": "fogo",
+      "nome": "Fogo",
+      "uso": "K.fogo()",
+      "pedir": "põe o fogo no vídeo",
+      "foto": "objetos-fogo.jpg"
+    },
+    {
+      "id": "modelos/kenney-cidade/building-garage",
+      "categoria": "modelos",
+      "chave": "kenney-cidade/building-garage",
+      "nome": "Garagem",
+      "uso": "K.modelo('kenney-cidade/building-garage', { escala: 5 })",
+      "pacote": "kenney-cidade",
+      "pedir": "usa o modelo kenney-cidade/building-garage",
+      "foto": "modelos-kenney-cidade--building-garage.jpg"
+    },
+    {
+      "id": "modelos/kenney-cidade/building-small-a",
+      "categoria": "modelos",
+      "chave": "kenney-cidade/building-small-a",
+      "nome": "Casinha 1",
+      "uso": "K.modelo('kenney-cidade/building-small-a', { escala: 5 })",
+      "pacote": "kenney-cidade",
+      "pedir": "usa o modelo kenney-cidade/building-small-a",
+      "foto": "modelos-kenney-cidade--building-small-a.jpg"
+    },
+    {
+      "id": "modelos/kenney-cidade/building-small-b",
+      "categoria": "modelos",
+      "chave": "kenney-cidade/building-small-b",
+      "nome": "Casinha 2",
+      "uso": "K.modelo('kenney-cidade/building-small-b', { escala: 5 })",
+      "pacote": "kenney-cidade",
+      "pedir": "usa o modelo kenney-cidade/building-small-b",
+      "foto": "modelos-kenney-cidade--building-small-b.jpg"
+    },
+    {
+      "id": "modelos/kenney-cidade/building-small-c",
+      "categoria": "modelos",
+      "chave": "kenney-cidade/building-small-c",
+      "nome": "Casinha 3",
+      "uso": "K.modelo('kenney-cidade/building-small-c', { escala: 5 })",
+      "pacote": "kenney-cidade",
+      "pedir": "usa o modelo kenney-cidade/building-small-c",
+      "foto": "modelos-kenney-cidade--building-small-c.jpg"
+    },
+    {
+      "id": "modelos/kenney-cidade/building-small-d",
+      "categoria": "modelos",
+      "chave": "kenney-cidade/building-small-d",
+      "nome": "Casinha 4",
+      "uso": "K.modelo('kenney-cidade/building-small-d', { escala: 5 })",
+      "pacote": "kenney-cidade",
+      "pedir": "usa o modelo kenney-cidade/building-small-d",
+      "foto": "modelos-kenney-cidade--building-small-d.jpg"
+    },
+    {
+      "id": "modelos/kenney-cidade/grass",
+      "categoria": "modelos",
+      "chave": "kenney-cidade/grass",
+      "nome": "Lote de grama",
+      "uso": "K.modelo('kenney-cidade/grass', { escala: 5 })",
+      "pacote": "kenney-cidade",
+      "pedir": "usa o modelo kenney-cidade/grass",
+      "foto": "modelos-kenney-cidade--grass.jpg"
+    },
+    {
+      "id": "modelos/kenney-cidade/grass-trees",
+      "categoria": "modelos",
+      "chave": "kenney-cidade/grass-trees",
+      "nome": "Grama com árvores",
+      "uso": "K.modelo('kenney-cidade/grass-trees', { escala: 5 })",
+      "pacote": "kenney-cidade",
+      "pedir": "usa o modelo kenney-cidade/grass-trees",
+      "foto": "modelos-kenney-cidade--grass-trees.jpg"
+    },
+    {
+      "id": "modelos/kenney-cidade/grass-trees-tall",
+      "categoria": "modelos",
+      "chave": "kenney-cidade/grass-trees-tall",
+      "nome": "Grama com árvores altas",
+      "uso": "K.modelo('kenney-cidade/grass-trees-tall', { escala: 5 })",
+      "pacote": "kenney-cidade",
+      "pedir": "usa o modelo kenney-cidade/grass-trees-tall",
+      "foto": "modelos-kenney-cidade--grass-trees-tall.jpg"
+    },
+    {
+      "id": "modelos/kenney-cidade/pavement",
+      "categoria": "modelos",
+      "chave": "kenney-cidade/pavement",
+      "nome": "Calçada",
+      "uso": "K.modelo('kenney-cidade/pavement', { escala: 5 })",
+      "pacote": "kenney-cidade",
+      "pedir": "usa o modelo kenney-cidade/pavement",
+      "foto": "modelos-kenney-cidade--pavement.jpg"
+    },
+    {
+      "id": "modelos/kenney-cidade/pavement-fountain",
+      "categoria": "modelos",
+      "chave": "kenney-cidade/pavement-fountain",
+      "nome": "Praça com chafariz",
+      "uso": "K.modelo('kenney-cidade/pavement-fountain', { escala: 5 })",
+      "pacote": "kenney-cidade",
+      "pedir": "usa o modelo kenney-cidade/pavement-fountain",
+      "foto": "modelos-kenney-cidade--pavement-fountain.jpg"
+    },
+    {
+      "id": "modelos/kenney-cidade/road-corner",
+      "categoria": "modelos",
+      "chave": "kenney-cidade/road-corner",
+      "nome": "Esquina",
+      "uso": "K.modelo('kenney-cidade/road-corner', { escala: 5 })",
+      "pacote": "kenney-cidade",
+      "pedir": "usa o modelo kenney-cidade/road-corner",
+      "foto": "modelos-kenney-cidade--road-corner.jpg"
+    },
+    {
+      "id": "modelos/kenney-cidade/road-intersection",
+      "categoria": "modelos",
+      "chave": "kenney-cidade/road-intersection",
+      "nome": "Cruzamento",
+      "uso": "K.modelo('kenney-cidade/road-intersection', { escala: 5 })",
+      "pacote": "kenney-cidade",
+      "pedir": "usa o modelo kenney-cidade/road-intersection",
+      "foto": "modelos-kenney-cidade--road-intersection.jpg"
+    },
+    {
+      "id": "modelos/kenney-cidade/road-split",
+      "categoria": "modelos",
+      "chave": "kenney-cidade/road-split",
+      "nome": "Rua em T",
+      "uso": "K.modelo('kenney-cidade/road-split', { escala: 5 })",
+      "pacote": "kenney-cidade",
+      "pedir": "usa o modelo kenney-cidade/road-split",
+      "foto": "modelos-kenney-cidade--road-split.jpg"
+    },
+    {
+      "id": "modelos/kenney-cidade/road-straight",
+      "categoria": "modelos",
+      "chave": "kenney-cidade/road-straight",
+      "nome": "Rua reta",
+      "uso": "K.modelo('kenney-cidade/road-straight', { escala: 5 })",
+      "pacote": "kenney-cidade",
+      "pedir": "usa o modelo kenney-cidade/road-straight",
+      "foto": "modelos-kenney-cidade--road-straight.jpg"
+    },
+    {
+      "id": "modelos/kenney-cidade/road-straight-lightposts",
+      "categoria": "modelos",
+      "chave": "kenney-cidade/road-straight-lightposts",
+      "nome": "Rua com postes",
+      "uso": "K.modelo('kenney-cidade/road-straight-lightposts', { escala: 5 })",
+      "pacote": "kenney-cidade",
+      "pedir": "usa o modelo kenney-cidade/road-straight-lightposts",
+      "foto": "modelos-kenney-cidade--road-straight-lightposts.jpg"
+    },
+    {
+      "id": "modelos/mappoa-moveis/mesa-de-trabalho",
+      "categoria": "modelos",
+      "chave": "mappoa-moveis/mesa-de-trabalho",
+      "nome": "Mesa de trabalho",
+      "uso": "K.modelo('mappoa-moveis/mesa-de-trabalho', { escala: 5 })",
+      "pacote": "mappoa-moveis",
+      "pedir": "usa o modelo mappoa-moveis/mesa-de-trabalho",
+      "foto": "modelos-mappoa-moveis--mesa-de-trabalho.jpg"
+    },
+    {
+      "id": "modelos/mappoa-moveis/mesa-redonda",
+      "categoria": "modelos",
+      "chave": "mappoa-moveis/mesa-redonda",
+      "nome": "Mesa redonda",
+      "uso": "K.modelo('mappoa-moveis/mesa-redonda', { escala: 5 })",
+      "pacote": "mappoa-moveis",
+      "pedir": "usa o modelo mappoa-moveis/mesa-redonda",
+      "foto": "modelos-mappoa-moveis--mesa-redonda.jpg"
+    },
+    {
+      "id": "modelos/mappoa-moveis/cadeira",
+      "categoria": "modelos",
+      "chave": "mappoa-moveis/cadeira",
+      "nome": "Cadeira",
+      "uso": "K.modelo('mappoa-moveis/cadeira', { escala: 5 })",
+      "pacote": "mappoa-moveis",
+      "pedir": "usa o modelo mappoa-moveis/cadeira",
+      "foto": "modelos-mappoa-moveis--cadeira.jpg"
+    },
+    {
+      "id": "modelos/mappoa-moveis/cadeira-giratória",
+      "categoria": "modelos",
+      "chave": "mappoa-moveis/cadeira-giratória",
+      "nome": "Cadeira giratória",
+      "uso": "K.modelo('mappoa-moveis/cadeira-giratória', { escala: 5 })",
+      "pacote": "mappoa-moveis",
+      "pedir": "usa o modelo mappoa-moveis/cadeira-giratória",
+      "foto": "modelos-mappoa-moveis--cadeira-giratória.jpg"
+    },
+    {
+      "id": "modelos/mappoa-moveis/sofá",
+      "categoria": "modelos",
+      "chave": "mappoa-moveis/sofá",
+      "nome": "Sofá",
+      "uso": "K.modelo('mappoa-moveis/sofá', { escala: 5 })",
+      "pacote": "mappoa-moveis",
+      "pedir": "usa o modelo mappoa-moveis/sofá",
+      "foto": "modelos-mappoa-moveis--sofá.jpg"
+    },
+    {
+      "id": "modelos/mappoa-moveis/poltrona",
+      "categoria": "modelos",
+      "chave": "mappoa-moveis/poltrona",
+      "nome": "Poltrona",
+      "uso": "K.modelo('mappoa-moveis/poltrona', { escala: 5 })",
+      "pacote": "mappoa-moveis",
+      "pedir": "usa o modelo mappoa-moveis/poltrona",
+      "foto": "modelos-mappoa-moveis--poltrona.jpg"
+    },
+    {
+      "id": "modelos/mappoa-moveis/estante-com-livros",
+      "categoria": "modelos",
+      "chave": "mappoa-moveis/estante-com-livros",
+      "nome": "Estante com livros",
+      "uso": "K.modelo('mappoa-moveis/estante-com-livros', { escala: 5 })",
+      "pacote": "mappoa-moveis",
+      "pedir": "usa o modelo mappoa-moveis/estante-com-livros",
+      "foto": "modelos-mappoa-moveis--estante-com-livros.jpg"
+    },
+    {
+      "id": "modelos/mappoa-moveis/arquivo-de-gavetas",
+      "categoria": "modelos",
+      "chave": "mappoa-moveis/arquivo-de-gavetas",
+      "nome": "Arquivo de gavetas",
+      "uso": "K.modelo('mappoa-moveis/arquivo-de-gavetas', { escala: 5 })",
+      "pacote": "mappoa-moveis",
+      "pedir": "usa o modelo mappoa-moveis/arquivo-de-gavetas",
+      "foto": "modelos-mappoa-moveis--arquivo-de-gavetas.jpg"
+    },
+    {
+      "id": "modelos/mappoa-moveis/planta-no-vaso",
+      "categoria": "modelos",
+      "chave": "mappoa-moveis/planta-no-vaso",
+      "nome": "Planta no vaso",
+      "uso": "K.modelo('mappoa-moveis/planta-no-vaso', { escala: 5 })",
+      "pacote": "mappoa-moveis",
+      "pedir": "usa o modelo mappoa-moveis/planta-no-vaso",
+      "foto": "modelos-mappoa-moveis--planta-no-vaso.jpg"
+    },
+    {
+      "id": "modelos/mappoa-moveis/planta-alta",
+      "categoria": "modelos",
+      "chave": "mappoa-moveis/planta-alta",
+      "nome": "Planta alta",
+      "uso": "K.modelo('mappoa-moveis/planta-alta', { escala: 5 })",
+      "pacote": "mappoa-moveis",
+      "pedir": "usa o modelo mappoa-moveis/planta-alta",
+      "foto": "modelos-mappoa-moveis--planta-alta.jpg"
+    },
+    {
+      "id": "modelos/mappoa-moveis/luminária-de-pé",
+      "categoria": "modelos",
+      "chave": "mappoa-moveis/luminária-de-pé",
+      "nome": "Luminária de pé",
+      "uso": "K.modelo('mappoa-moveis/luminária-de-pé', { escala: 5 })",
+      "pacote": "mappoa-moveis",
+      "pedir": "usa o modelo mappoa-moveis/luminária-de-pé",
+      "foto": "modelos-mappoa-moveis--luminária-de-pé.jpg"
+    },
+    {
+      "id": "modelos/mappoa-moveis/ring-light",
+      "categoria": "modelos",
+      "chave": "mappoa-moveis/ring-light",
+      "nome": "Ring light",
+      "uso": "K.modelo('mappoa-moveis/ring-light', { escala: 5 })",
+      "pacote": "mappoa-moveis",
+      "pedir": "usa o modelo mappoa-moveis/ring-light",
+      "foto": "modelos-mappoa-moveis--ring-light.jpg"
+    },
+    {
+      "id": "modelos/mappoa-moveis/luz-pendente",
+      "categoria": "modelos",
+      "chave": "mappoa-moveis/luz-pendente",
+      "nome": "Luz pendente",
+      "uso": "K.modelo('mappoa-moveis/luz-pendente', { escala: 5 })",
+      "pacote": "mappoa-moveis",
+      "pedir": "usa o modelo mappoa-moveis/luz-pendente",
+      "foto": "modelos-mappoa-moveis--luz-pendente.jpg"
+    },
+    {
+      "id": "modelos/mappoa-moveis/tapete",
+      "categoria": "modelos",
+      "chave": "mappoa-moveis/tapete",
+      "nome": "Tapete",
+      "uso": "K.modelo('mappoa-moveis/tapete', { escala: 5 })",
+      "pacote": "mappoa-moveis",
+      "pedir": "usa o modelo mappoa-moveis/tapete",
+      "foto": "modelos-mappoa-moveis--tapete.jpg"
+    },
+    {
+      "id": "modelos/mappoa-moveis/quadro-de-parede",
+      "categoria": "modelos",
+      "chave": "mappoa-moveis/quadro-de-parede",
+      "nome": "Quadro de parede",
+      "uso": "K.modelo('mappoa-moveis/quadro-de-parede', { escala: 5 })",
+      "pacote": "mappoa-moveis",
+      "pedir": "usa o modelo mappoa-moveis/quadro-de-parede",
+      "foto": "modelos-mappoa-moveis--quadro-de-parede.jpg"
+    },
+    {
+      "id": "modelos/mappoa-moveis/mural-de-post-its",
+      "categoria": "modelos",
+      "chave": "mappoa-moveis/mural-de-post-its",
+      "nome": "Mural de post its",
+      "uso": "K.modelo('mappoa-moveis/mural-de-post-its', { escala: 5 })",
+      "pacote": "mappoa-moveis",
+      "pedir": "usa o modelo mappoa-moveis/mural-de-post-its",
+      "foto": "modelos-mappoa-moveis--mural-de-post-its.jpg"
+    },
+    {
+      "id": "modelos/mappoa-moveis/quadro-branco-com-gráfico",
+      "categoria": "modelos",
+      "chave": "mappoa-moveis/quadro-branco-com-gráfico",
+      "nome": "Quadro branco com gráfico",
+      "uso": "K.modelo('mappoa-moveis/quadro-branco-com-gráfico', { escala: 5 })",
+      "pacote": "mappoa-moveis",
+      "pedir": "usa o modelo mappoa-moveis/quadro-branco-com-gráfico",
+      "foto": "modelos-mappoa-moveis--quadro-branco-com-gráfico.jpg"
+    },
+    {
+      "id": "modelos/mappoa-moveis/relógio-de-parede",
+      "categoria": "modelos",
+      "chave": "mappoa-moveis/relógio-de-parede",
+      "nome": "Relógio de parede",
+      "uso": "K.modelo('mappoa-moveis/relógio-de-parede', { escala: 5 })",
+      "pacote": "mappoa-moveis",
+      "pedir": "usa o modelo mappoa-moveis/relógio-de-parede",
+      "foto": "modelos-mappoa-moveis--relógio-de-parede.jpg"
+    },
+    {
+      "id": "modelos/mappoa-moveis/bebedouro",
+      "categoria": "modelos",
+      "chave": "mappoa-moveis/bebedouro",
+      "nome": "Bebedouro",
+      "uso": "K.modelo('mappoa-moveis/bebedouro', { escala: 5 })",
+      "pacote": "mappoa-moveis",
+      "pedir": "usa o modelo mappoa-moveis/bebedouro",
+      "foto": "modelos-mappoa-moveis--bebedouro.jpg"
+    },
+    {
+      "id": "modelos/mappoa-moveis/lixeira",
+      "categoria": "modelos",
+      "chave": "mappoa-moveis/lixeira",
+      "nome": "Lixeira",
+      "uso": "K.modelo('mappoa-moveis/lixeira', { escala: 5 })",
+      "pacote": "mappoa-moveis",
+      "pedir": "usa o modelo mappoa-moveis/lixeira",
+      "foto": "modelos-mappoa-moveis--lixeira.jpg"
+    },
+    {
+      "id": "modelos/mappoa-moveis/balcão",
+      "categoria": "modelos",
+      "chave": "mappoa-moveis/balcão",
+      "nome": "Balcão",
+      "uso": "K.modelo('mappoa-moveis/balcão', { escala: 5 })",
+      "pacote": "mappoa-moveis",
+      "pedir": "usa o modelo mappoa-moveis/balcão",
+      "foto": "modelos-mappoa-moveis--balcão.jpg"
+    },
+    {
+      "id": "modelos/mappoa-moveis/banqueta",
+      "categoria": "modelos",
+      "chave": "mappoa-moveis/banqueta",
+      "nome": "Banqueta",
+      "uso": "K.modelo('mappoa-moveis/banqueta', { escala: 5 })",
+      "pacote": "mappoa-moveis",
+      "pedir": "usa o modelo mappoa-moveis/banqueta",
+      "foto": "modelos-mappoa-moveis--banqueta.jpg"
+    },
+    {
+      "id": "modelos/mappoa-moveis/cabideiro",
+      "categoria": "modelos",
+      "chave": "mappoa-moveis/cabideiro",
+      "nome": "Cabideiro",
+      "uso": "K.modelo('mappoa-moveis/cabideiro', { escala: 5 })",
+      "pacote": "mappoa-moveis",
+      "pedir": "usa o modelo mappoa-moveis/cabideiro",
+      "foto": "modelos-mappoa-moveis--cabideiro.jpg"
+    },
+    {
+      "id": "modelos/mappoa-moveis/ar-condicionado",
+      "categoria": "modelos",
+      "chave": "mappoa-moveis/ar-condicionado",
+      "nome": "Ar condicionado",
+      "uso": "K.modelo('mappoa-moveis/ar-condicionado', { escala: 5 })",
+      "pacote": "mappoa-moveis",
+      "pedir": "usa o modelo mappoa-moveis/ar-condicionado",
+      "foto": "modelos-mappoa-moveis--ar-condicionado.jpg"
+    },
+    {
+      "id": "modelos/mappoa-moveis/tv-de-parede",
+      "categoria": "modelos",
+      "chave": "mappoa-moveis/tv-de-parede",
+      "nome": "Tv de parede",
+      "uso": "K.modelo('mappoa-moveis/tv-de-parede', { escala: 5 })",
+      "pacote": "mappoa-moveis",
+      "pedir": "usa o modelo mappoa-moveis/tv-de-parede",
+      "foto": "modelos-mappoa-moveis--tv-de-parede.jpg"
+    },
+    {
+      "id": "modelos/mappoa-moveis/cafeteira",
+      "categoria": "modelos",
+      "chave": "mappoa-moveis/cafeteira",
+      "nome": "Cafeteira",
+      "uso": "K.modelo('mappoa-moveis/cafeteira', { escala: 5 })",
+      "pacote": "mappoa-moveis",
+      "pedir": "usa o modelo mappoa-moveis/cafeteira",
+      "foto": "modelos-mappoa-moveis--cafeteira.jpg"
+    },
+    {
+      "id": "modelos/mappoa-moveis/letreiro-neon",
+      "categoria": "modelos",
+      "chave": "mappoa-moveis/letreiro-neon",
+      "nome": "Letreiro neon",
+      "uso": "K.modelo('mappoa-moveis/letreiro-neon', { escala: 5 })",
+      "pacote": "mappoa-moveis",
+      "pedir": "usa o modelo mappoa-moveis/letreiro-neon",
+      "foto": "modelos-mappoa-moveis--letreiro-neon.jpg"
+    },
+    {
+      "id": "modelos/mappoa-nichos/dente",
+      "categoria": "modelos",
+      "chave": "mappoa-nichos/dente",
+      "nome": "Dente",
+      "uso": "K.modelo('mappoa-nichos/dente', { escala: 5 })",
+      "pacote": "mappoa-nichos",
+      "pedir": "usa o modelo mappoa-nichos/dente",
+      "foto": "modelos-mappoa-nichos--dente.jpg"
+    },
+    {
+      "id": "modelos/mappoa-nichos/cadeira-de-dentista",
+      "categoria": "modelos",
+      "chave": "mappoa-nichos/cadeira-de-dentista",
+      "nome": "Cadeira de dentista",
+      "uso": "K.modelo('mappoa-nichos/cadeira-de-dentista', { escala: 5 })",
+      "pacote": "mappoa-nichos",
+      "pedir": "usa o modelo mappoa-nichos/cadeira-de-dentista",
+      "foto": "modelos-mappoa-nichos--cadeira-de-dentista.jpg"
+    },
+    {
+      "id": "modelos/mappoa-nichos/haltere",
+      "categoria": "modelos",
+      "chave": "mappoa-nichos/haltere",
+      "nome": "Haltere",
+      "uso": "K.modelo('mappoa-nichos/haltere', { escala: 5 })",
+      "pacote": "mappoa-nichos",
+      "pedir": "usa o modelo mappoa-nichos/haltere",
+      "foto": "modelos-mappoa-nichos--haltere.jpg"
+    },
+    {
+      "id": "modelos/mappoa-nichos/esteira",
+      "categoria": "modelos",
+      "chave": "mappoa-nichos/esteira",
+      "nome": "Esteira",
+      "uso": "K.modelo('mappoa-nichos/esteira', { escala: 5 })",
+      "pacote": "mappoa-nichos",
+      "pedir": "usa o modelo mappoa-nichos/esteira",
+      "foto": "modelos-mappoa-nichos--esteira.jpg"
+    },
+    {
+      "id": "modelos/mappoa-nichos/banco-com-barra",
+      "categoria": "modelos",
+      "chave": "mappoa-nichos/banco-com-barra",
+      "nome": "Banco com barra",
+      "uso": "K.modelo('mappoa-nichos/banco-com-barra', { escala: 5 })",
+      "pacote": "mappoa-nichos",
+      "pedir": "usa o modelo mappoa-nichos/banco-com-barra",
+      "foto": "modelos-mappoa-nichos--banco-com-barra.jpg"
+    },
+    {
+      "id": "modelos/mappoa-nichos/secador",
+      "categoria": "modelos",
+      "chave": "mappoa-nichos/secador",
+      "nome": "Secador",
+      "uso": "K.modelo('mappoa-nichos/secador', { escala: 5 })",
+      "pacote": "mappoa-nichos",
+      "pedir": "usa o modelo mappoa-nichos/secador",
+      "foto": "modelos-mappoa-nichos--secador.jpg"
+    },
+    {
+      "id": "modelos/mappoa-nichos/tesoura",
+      "categoria": "modelos",
+      "chave": "mappoa-nichos/tesoura",
+      "nome": "Tesoura",
+      "uso": "K.modelo('mappoa-nichos/tesoura', { escala: 5 })",
+      "pacote": "mappoa-nichos",
+      "pedir": "usa o modelo mappoa-nichos/tesoura",
+      "foto": "modelos-mappoa-nichos--tesoura.jpg"
+    },
+    {
+      "id": "modelos/mappoa-nichos/espelho-com-luzes",
+      "categoria": "modelos",
+      "chave": "mappoa-nichos/espelho-com-luzes",
+      "nome": "Espelho com luzes",
+      "uso": "K.modelo('mappoa-nichos/espelho-com-luzes', { escala: 5 })",
+      "pacote": "mappoa-nichos",
+      "pedir": "usa o modelo mappoa-nichos/espelho-com-luzes",
+      "foto": "modelos-mappoa-nichos--espelho-com-luzes.jpg"
+    },
+    {
+      "id": "modelos/mappoa-nichos/cadeira-de-salão",
+      "categoria": "modelos",
+      "chave": "mappoa-nichos/cadeira-de-salão",
+      "nome": "Cadeira de salão",
+      "uso": "K.modelo('mappoa-nichos/cadeira-de-salão', { escala: 5 })",
+      "pacote": "mappoa-nichos",
+      "pedir": "usa o modelo mappoa-nichos/cadeira-de-salão",
+      "foto": "modelos-mappoa-nichos--cadeira-de-salão.jpg"
+    },
+    {
+      "id": "modelos/mappoa-nichos/pizza",
+      "categoria": "modelos",
+      "chave": "mappoa-nichos/pizza",
+      "nome": "Pizza",
+      "uso": "K.modelo('mappoa-nichos/pizza', { escala: 5 })",
+      "pacote": "mappoa-nichos",
+      "pedir": "usa o modelo mappoa-nichos/pizza",
+      "foto": "modelos-mappoa-nichos--pizza.jpg"
+    },
+    {
+      "id": "modelos/mappoa-nichos/caixa-de-pizza",
+      "categoria": "modelos",
+      "chave": "mappoa-nichos/caixa-de-pizza",
+      "nome": "Caixa de pizza",
+      "uso": "K.modelo('mappoa-nichos/caixa-de-pizza', { escala: 5 })",
+      "pacote": "mappoa-nichos",
+      "pedir": "usa o modelo mappoa-nichos/caixa-de-pizza",
+      "foto": "modelos-mappoa-nichos--caixa-de-pizza.jpg"
+    },
+    {
+      "id": "modelos/mappoa-nichos/forno-a-lenha",
+      "categoria": "modelos",
+      "chave": "mappoa-nichos/forno-a-lenha",
+      "nome": "Forno a lenha",
+      "uso": "K.modelo('mappoa-nichos/forno-a-lenha', { escala: 5 })",
+      "pacote": "mappoa-nichos",
+      "pedir": "usa o modelo mappoa-nichos/forno-a-lenha",
+      "foto": "modelos-mappoa-nichos--forno-a-lenha.jpg"
+    },
+    {
+      "id": "modelos/mappoa-nichos/arara-de-roupas",
+      "categoria": "modelos",
+      "chave": "mappoa-nichos/arara-de-roupas",
+      "nome": "Arara de roupas",
+      "uso": "K.modelo('mappoa-nichos/arara-de-roupas', { escala: 5 })",
+      "pacote": "mappoa-nichos",
+      "pedir": "usa o modelo mappoa-nichos/arara-de-roupas",
+      "foto": "modelos-mappoa-nichos--arara-de-roupas.jpg"
+    },
+    {
+      "id": "modelos/mappoa-nichos/manequim",
+      "categoria": "modelos",
+      "chave": "mappoa-nichos/manequim",
+      "nome": "Manequim",
+      "uso": "K.modelo('mappoa-nichos/manequim', { escala: 5 })",
+      "pacote": "mappoa-nichos",
+      "pedir": "usa o modelo mappoa-nichos/manequim",
+      "foto": "modelos-mappoa-nichos--manequim.jpg"
+    },
+    {
+      "id": "modelos/mappoa-nichos/caixa-do-comércio",
+      "categoria": "modelos",
+      "chave": "mappoa-nichos/caixa-do-comércio",
+      "nome": "Caixa do comércio",
+      "uso": "K.modelo('mappoa-nichos/caixa-do-comércio', { escala: 5 })",
+      "pacote": "mappoa-nichos",
+      "pedir": "usa o modelo mappoa-nichos/caixa-do-comércio",
+      "foto": "modelos-mappoa-nichos--caixa-do-comércio.jpg"
+    },
+    {
+      "id": "modelos/mappoa-nichos/sacola-de-compras",
+      "categoria": "modelos",
+      "chave": "mappoa-nichos/sacola-de-compras",
+      "nome": "Sacola de compras",
+      "uso": "K.modelo('mappoa-nichos/sacola-de-compras', { escala: 5 })",
+      "pacote": "mappoa-nichos",
+      "pedir": "usa o modelo mappoa-nichos/sacola-de-compras",
+      "foto": "modelos-mappoa-nichos--sacola-de-compras.jpg"
+    },
+    {
+      "id": "modelos/mappoa-tecnologia/notebook",
+      "categoria": "modelos",
+      "chave": "mappoa-tecnologia/notebook",
+      "nome": "Notebook",
+      "uso": "K.modelo('mappoa-tecnologia/notebook', { escala: 5 })",
+      "pacote": "mappoa-tecnologia",
+      "pedir": "usa o modelo mappoa-tecnologia/notebook",
+      "foto": "modelos-mappoa-tecnologia--notebook.jpg"
+    },
+    {
+      "id": "modelos/mappoa-tecnologia/monitor",
+      "categoria": "modelos",
+      "chave": "mappoa-tecnologia/monitor",
+      "nome": "Monitor",
+      "uso": "K.modelo('mappoa-tecnologia/monitor', { escala: 5 })",
+      "pacote": "mappoa-tecnologia",
+      "pedir": "usa o modelo mappoa-tecnologia/monitor",
+      "foto": "modelos-mappoa-tecnologia--monitor.jpg"
+    },
+    {
+      "id": "modelos/mappoa-tecnologia/tablet",
+      "categoria": "modelos",
+      "chave": "mappoa-tecnologia/tablet",
+      "nome": "Tablet",
+      "uso": "K.modelo('mappoa-tecnologia/tablet', { escala: 5 })",
+      "pacote": "mappoa-tecnologia",
+      "pedir": "usa o modelo mappoa-tecnologia/tablet",
+      "foto": "modelos-mappoa-tecnologia--tablet.jpg"
+    },
+    {
+      "id": "modelos/mappoa-tecnologia/headset",
+      "categoria": "modelos",
+      "chave": "mappoa-tecnologia/headset",
+      "nome": "Headset",
+      "uso": "K.modelo('mappoa-tecnologia/headset', { escala: 5 })",
+      "pacote": "mappoa-tecnologia",
+      "pedir": "usa o modelo mappoa-tecnologia/headset",
+      "foto": "modelos-mappoa-tecnologia--headset.jpg"
+    },
+    {
+      "id": "modelos/mappoa-tecnologia/telefone-de-mesa",
+      "categoria": "modelos",
+      "chave": "mappoa-tecnologia/telefone-de-mesa",
+      "nome": "Telefone de mesa",
+      "uso": "K.modelo('mappoa-tecnologia/telefone-de-mesa', { escala: 5 })",
+      "pacote": "mappoa-tecnologia",
+      "pedir": "usa o modelo mappoa-tecnologia/telefone-de-mesa",
+      "foto": "modelos-mappoa-tecnologia--telefone-de-mesa.jpg"
+    },
+    {
+      "id": "modelos/mappoa-tecnologia/impressora",
+      "categoria": "modelos",
+      "chave": "mappoa-tecnologia/impressora",
+      "nome": "Impressora",
+      "uso": "K.modelo('mappoa-tecnologia/impressora', { escala: 5 })",
+      "pacote": "mappoa-tecnologia",
+      "pedir": "usa o modelo mappoa-tecnologia/impressora",
+      "foto": "modelos-mappoa-tecnologia--impressora.jpg"
+    },
+    {
+      "id": "modelos/mappoa-tecnologia/pilha-de-papéis",
+      "categoria": "modelos",
+      "chave": "mappoa-tecnologia/pilha-de-papéis",
+      "nome": "Pilha de papéis",
+      "uso": "K.modelo('mappoa-tecnologia/pilha-de-papéis', { escala: 5 })",
+      "pacote": "mappoa-tecnologia",
+      "pedir": "usa o modelo mappoa-tecnologia/pilha-de-papéis",
+      "foto": "modelos-mappoa-tecnologia--pilha-de-papéis.jpg"
+    },
+    {
+      "id": "modelos/mappoa-tecnologia/pasta-de-documentos",
+      "categoria": "modelos",
+      "chave": "mappoa-tecnologia/pasta-de-documentos",
+      "nome": "Pasta de documentos",
+      "uso": "K.modelo('mappoa-tecnologia/pasta-de-documentos', { escala: 5 })",
+      "pacote": "mappoa-tecnologia",
+      "pedir": "usa o modelo mappoa-tecnologia/pasta-de-documentos",
+      "foto": "modelos-mappoa-tecnologia--pasta-de-documentos.jpg"
+    },
+    {
+      "id": "modelos/mappoa-tecnologia/caneca",
+      "categoria": "modelos",
+      "chave": "mappoa-tecnologia/caneca",
+      "nome": "Caneca",
+      "uso": "K.modelo('mappoa-tecnologia/caneca', { escala: 5 })",
+      "pacote": "mappoa-tecnologia",
+      "pedir": "usa o modelo mappoa-tecnologia/caneca",
+      "foto": "modelos-mappoa-tecnologia--caneca.jpg"
+    },
+    {
+      "id": "modelos/mappoa-tecnologia/calendário",
+      "categoria": "modelos",
+      "chave": "mappoa-tecnologia/calendário",
+      "nome": "Calendário",
+      "uso": "K.modelo('mappoa-tecnologia/calendário', { escala: 5 })",
+      "pacote": "mappoa-tecnologia",
+      "pedir": "usa o modelo mappoa-tecnologia/calendário",
+      "foto": "modelos-mappoa-tecnologia--calendário.jpg"
+    },
+    {
+      "id": "modelos/mappoa-tecnologia/post-it",
+      "categoria": "modelos",
+      "chave": "mappoa-tecnologia/post-it",
+      "nome": "Post it",
+      "uso": "K.modelo('mappoa-tecnologia/post-it', { escala: 5 })",
+      "pacote": "mappoa-tecnologia",
+      "pedir": "usa o modelo mappoa-tecnologia/post-it",
+      "foto": "modelos-mappoa-tecnologia--post-it.jpg"
+    },
+    {
+      "id": "modelos/mappoa-tecnologia/prancheta-com-checklist",
+      "categoria": "modelos",
+      "chave": "mappoa-tecnologia/prancheta-com-checklist",
+      "nome": "Prancheta com checklist",
+      "uso": "K.modelo('mappoa-tecnologia/prancheta-com-checklist', { escala: 5 })",
+      "pacote": "mappoa-tecnologia",
+      "pedir": "usa o modelo mappoa-tecnologia/prancheta-com-checklist",
+      "foto": "modelos-mappoa-tecnologia--prancheta-com-checklist.jpg"
+    },
+    {
+      "id": "modelos/mappoa-telas/tela-de-busca",
+      "categoria": "modelos",
+      "chave": "mappoa-telas/tela-de-busca",
+      "nome": "Tela de busca",
+      "uso": "K.modelo('mappoa-telas/tela-de-busca', { escala: 5 })",
+      "pacote": "mappoa-telas",
+      "pedir": "usa o modelo mappoa-telas/tela-de-busca",
+      "foto": "modelos-mappoa-telas--tela-de-busca.jpg"
+    },
+    {
+      "id": "modelos/mappoa-telas/tela-do-robô-capturando",
+      "categoria": "modelos",
+      "chave": "mappoa-telas/tela-do-robô-capturando",
+      "nome": "Tela do robô capturando",
+      "uso": "K.modelo('mappoa-telas/tela-do-robô-capturando', { escala: 5 })",
+      "pacote": "mappoa-telas",
+      "pedir": "usa o modelo mappoa-telas/tela-do-robô-capturando",
+      "foto": "modelos-mappoa-telas--tela-do-robô-capturando.jpg"
+    },
+    {
+      "id": "modelos/mappoa-telas/tela-de-resultado",
+      "categoria": "modelos",
+      "chave": "mappoa-telas/tela-de-resultado",
+      "nome": "Tela de resultado",
+      "uso": "K.modelo('mappoa-telas/tela-de-resultado', { escala: 5 })",
+      "pacote": "mappoa-telas",
+      "pedir": "usa o modelo mappoa-telas/tela-de-resultado",
+      "foto": "modelos-mappoa-telas--tela-de-resultado.jpg"
+    },
+    {
+      "id": "modelos/mappoa-telas/tela-da-lista-de-empresas",
+      "categoria": "modelos",
+      "chave": "mappoa-telas/tela-da-lista-de-empresas",
+      "nome": "Tela da lista de empresas",
+      "uso": "K.modelo('mappoa-telas/tela-da-lista-de-empresas', { escala: 5 })",
+      "pacote": "mappoa-telas",
+      "pedir": "usa o modelo mappoa-telas/tela-da-lista-de-empresas",
+      "foto": "modelos-mappoa-telas--tela-da-lista-de-empresas.jpg"
+    },
+    {
+      "id": "modelos/mappoa-telas/tela-de-enriquecimento",
+      "categoria": "modelos",
+      "chave": "mappoa-telas/tela-de-enriquecimento",
+      "nome": "Tela de enriquecimento",
+      "uso": "K.modelo('mappoa-telas/tela-de-enriquecimento', { escala: 5 })",
+      "pacote": "mappoa-telas",
+      "pedir": "usa o modelo mappoa-telas/tela-de-enriquecimento",
+      "foto": "modelos-mappoa-telas--tela-de-enriquecimento.jpg"
+    },
+    {
+      "id": "modelos/mappoa-telas/tela-de-análise-da-empresa",
+      "categoria": "modelos",
+      "chave": "mappoa-telas/tela-de-análise-da-empresa",
+      "nome": "Tela de análise da empresa",
+      "uso": "K.modelo('mappoa-telas/tela-de-análise-da-empresa', { escala: 5 })",
+      "pacote": "mappoa-telas",
+      "pedir": "usa o modelo mappoa-telas/tela-de-análise-da-empresa",
+      "foto": "modelos-mappoa-telas--tela-de-análise-da-empresa.jpg"
+    },
+    {
+      "id": "modelos/mappoa-telas/tela-da-mensagem-pronta",
+      "categoria": "modelos",
+      "chave": "mappoa-telas/tela-da-mensagem-pronta",
+      "nome": "Tela da mensagem pronta",
+      "uso": "K.modelo('mappoa-telas/tela-da-mensagem-pronta', { escala: 5 })",
+      "pacote": "mappoa-telas",
+      "pedir": "usa o modelo mappoa-telas/tela-da-mensagem-pronta",
+      "foto": "modelos-mappoa-telas--tela-da-mensagem-pronta.jpg"
+    },
+    {
+      "id": "modelos/mappoa-telas/tela-de-busca-no-mapa",
+      "categoria": "modelos",
+      "chave": "mappoa-telas/tela-de-busca-no-mapa",
+      "nome": "Tela de busca no mapa",
+      "uso": "K.modelo('mappoa-telas/tela-de-busca-no-mapa', { escala: 5 })",
+      "pacote": "mappoa-telas",
+      "pedir": "usa o modelo mappoa-telas/tela-de-busca-no-mapa",
+      "foto": "modelos-mappoa-telas--tela-de-busca-no-mapa.jpg"
+    },
+    {
+      "id": "modelos/mappoa-telas/tela-do-funil-da-campanha",
+      "categoria": "modelos",
+      "chave": "mappoa-telas/tela-do-funil-da-campanha",
+      "nome": "Tela do funil da campanha",
+      "uso": "K.modelo('mappoa-telas/tela-do-funil-da-campanha', { escala: 5 })",
+      "pacote": "mappoa-telas",
+      "pedir": "usa o modelo mappoa-telas/tela-do-funil-da-campanha",
+      "foto": "modelos-mappoa-telas--tela-do-funil-da-campanha.jpg"
+    },
+    {
+      "id": "modelos/mappoa-telas/planilha-exportada",
+      "categoria": "modelos",
+      "chave": "mappoa-telas/planilha-exportada",
+      "nome": "Planilha exportada",
+      "uso": "K.modelo('mappoa-telas/planilha-exportada', { escala: 5 })",
+      "pacote": "mappoa-telas",
+      "pedir": "usa o modelo mappoa-telas/planilha-exportada",
+      "foto": "modelos-mappoa-telas--planilha-exportada.jpg"
+    },
+    {
+      "id": "modelos/mappoa-vendas/megafone",
+      "categoria": "modelos",
+      "chave": "mappoa-vendas/megafone",
+      "nome": "Megafone",
+      "uso": "K.modelo('mappoa-vendas/megafone', { escala: 5 })",
+      "pacote": "mappoa-vendas",
+      "pedir": "usa o modelo mappoa-vendas/megafone",
+      "foto": "modelos-mappoa-vendas--megafone.jpg"
+    },
+    {
+      "id": "modelos/mappoa-vendas/alvo-com-flecha",
+      "categoria": "modelos",
+      "chave": "mappoa-vendas/alvo-com-flecha",
+      "nome": "Alvo com flecha",
+      "uso": "K.modelo('mappoa-vendas/alvo-com-flecha', { escala: 5 })",
+      "pacote": "mappoa-vendas",
+      "pedir": "usa o modelo mappoa-vendas/alvo-com-flecha",
+      "foto": "modelos-mappoa-vendas--alvo-com-flecha.jpg"
+    },
+    {
+      "id": "modelos/mappoa-vendas/ímã-que-atrai-clientes",
+      "categoria": "modelos",
+      "chave": "mappoa-vendas/ímã-que-atrai-clientes",
+      "nome": "Ímã que atrai clientes",
+      "uso": "K.modelo('mappoa-vendas/ímã-que-atrai-clientes', { escala: 5 })",
+      "pacote": "mappoa-vendas",
+      "pedir": "usa o modelo mappoa-vendas/ímã-que-atrai-clientes",
+      "foto": "modelos-mappoa-vendas--ímã-que-atrai-clientes.jpg"
+    },
+    {
+      "id": "modelos/mappoa-vendas/balão-de-conversa",
+      "categoria": "modelos",
+      "chave": "mappoa-vendas/balão-de-conversa",
+      "nome": "Balão de conversa",
+      "uso": "K.modelo('mappoa-vendas/balão-de-conversa', { escala: 5 })",
+      "pacote": "mappoa-vendas",
+      "pedir": "usa o modelo mappoa-vendas/balão-de-conversa",
+      "foto": "modelos-mappoa-vendas--balão-de-conversa.jpg"
+    },
+    {
+      "id": "modelos/mappoa-vendas/envelope",
+      "categoria": "modelos",
+      "chave": "mappoa-vendas/envelope",
+      "nome": "Envelope",
+      "uso": "K.modelo('mappoa-vendas/envelope', { escala: 5 })",
+      "pacote": "mappoa-vendas",
+      "pedir": "usa o modelo mappoa-vendas/envelope",
+      "foto": "modelos-mappoa-vendas--envelope.jpg"
+    },
+    {
+      "id": "modelos/mappoa-vendas/lâmpada-de-ideia",
+      "categoria": "modelos",
+      "chave": "mappoa-vendas/lâmpada-de-ideia",
+      "nome": "Lâmpada de ideia",
+      "uso": "K.modelo('mappoa-vendas/lâmpada-de-ideia', { escala: 5 })",
+      "pacote": "mappoa-vendas",
+      "pedir": "usa o modelo mappoa-vendas/lâmpada-de-ideia",
+      "foto": "modelos-mappoa-vendas--lâmpada-de-ideia.jpg"
+    },
+    {
+      "id": "modelos/mappoa-vendas/ampulheta",
+      "categoria": "modelos",
+      "chave": "mappoa-vendas/ampulheta",
+      "nome": "Ampulheta",
+      "uso": "K.modelo('mappoa-vendas/ampulheta', { escala: 5 })",
+      "pacote": "mappoa-vendas",
+      "pedir": "usa o modelo mappoa-vendas/ampulheta",
+      "foto": "modelos-mappoa-vendas--ampulheta.jpg"
+    },
+    {
+      "id": "modelos/mappoa-vendas/troféu",
+      "categoria": "modelos",
+      "chave": "mappoa-vendas/troféu",
+      "nome": "Troféu",
+      "uso": "K.modelo('mappoa-vendas/troféu', { escala: 5 })",
+      "pacote": "mappoa-vendas",
+      "pedir": "usa o modelo mappoa-vendas/troféu",
+      "foto": "modelos-mappoa-vendas--troféu.jpg"
+    },
+    {
+      "id": "modelos/mappoa-vendas/cartão-de-visita",
+      "categoria": "modelos",
+      "chave": "mappoa-vendas/cartão-de-visita",
+      "nome": "Cartão de visita",
+      "uso": "K.modelo('mappoa-vendas/cartão-de-visita', { escala: 5 })",
+      "pacote": "mappoa-vendas",
+      "pedir": "usa o modelo mappoa-vendas/cartão-de-visita",
+      "foto": "modelos-mappoa-vendas--cartão-de-visita.jpg"
+    },
+    {
+      "id": "modelos/mappoa-vendas/empresa-em-miniatura",
+      "categoria": "modelos",
+      "chave": "mappoa-vendas/empresa-em-miniatura",
+      "nome": "Empresa em miniatura",
+      "uso": "K.modelo('mappoa-vendas/empresa-em-miniatura', { escala: 5 })",
+      "pacote": "mappoa-vendas",
+      "pedir": "usa o modelo mappoa-vendas/empresa-em-miniatura",
+      "foto": "modelos-mappoa-vendas--empresa-em-miniatura.jpg"
+    },
+    {
+      "id": "modelos/mappoa-vendas/placa-aberto",
+      "categoria": "modelos",
+      "chave": "mappoa-vendas/placa-aberto",
+      "nome": "Placa aberto",
+      "uso": "K.modelo('mappoa-vendas/placa-aberto', { escala: 5 })",
+      "pacote": "mappoa-vendas",
+      "pedir": "usa o modelo mappoa-vendas/placa-aberto",
+      "foto": "modelos-mappoa-vendas--placa-aberto.jpg"
+    },
+    {
+      "id": "modelos/mappoa-vendas/gráfico-de-barras-em-3d",
+      "categoria": "modelos",
+      "chave": "mappoa-vendas/gráfico-de-barras-em-3d",
+      "nome": "Gráfico de barras em 3d",
+      "uso": "K.modelo('mappoa-vendas/gráfico-de-barras-em-3d', { escala: 5 })",
+      "pacote": "mappoa-vendas",
+      "pedir": "usa o modelo mappoa-vendas/gráfico-de-barras-em-3d",
+      "foto": "modelos-mappoa-vendas--gráfico-de-barras-em-3d.jpg"
+    },
+    {
+      "id": "modelos/mappoa-vendas/binóculos",
+      "categoria": "modelos",
+      "chave": "mappoa-vendas/binóculos",
+      "nome": "Binóculos",
+      "uso": "K.modelo('mappoa-vendas/binóculos', { escala: 5 })",
+      "pacote": "mappoa-vendas",
+      "pedir": "usa o modelo mappoa-vendas/binóculos",
+      "foto": "modelos-mappoa-vendas--binóculos.jpg"
+    },
+    {
+      "id": "modelos/mappoa-vendas/escudo-com",
+      "categoria": "modelos",
+      "chave": "mappoa-vendas/escudo-com",
+      "nome": "Escudo com",
+      "uso": "K.modelo('mappoa-vendas/escudo-com', { escala: 5 })",
+      "pacote": "mappoa-vendas",
+      "pedir": "usa o modelo mappoa-vendas/escudo-com",
+      "foto": "modelos-mappoa-vendas--escudo-com.jpg"
+    },
+    {
+      "id": "modelos/mappoa-vendas/medalha",
+      "categoria": "modelos",
+      "chave": "mappoa-vendas/medalha",
+      "nome": "Medalha",
+      "uso": "K.modelo('mappoa-vendas/medalha', { escala: 5 })",
+      "pacote": "mappoa-vendas",
+      "pedir": "usa o modelo mappoa-vendas/medalha",
+      "foto": "modelos-mappoa-vendas--medalha.jpg"
+    },
+    {
+      "id": "modelos/mappoa-vendas/sino-de-notificação",
+      "categoria": "modelos",
+      "chave": "mappoa-vendas/sino-de-notificação",
+      "nome": "Sino de notificação",
+      "uso": "K.modelo('mappoa-vendas/sino-de-notificação', { escala: 5 })",
+      "pacote": "mappoa-vendas",
+      "pedir": "usa o modelo mappoa-vendas/sino-de-notificação",
+      "foto": "modelos-mappoa-vendas--sino-de-notificação.jpg"
+    },
+    {
+      "id": "modelos/mappoa-vendas/chave",
+      "categoria": "modelos",
+      "chave": "mappoa-vendas/chave",
+      "nome": "Chave",
+      "uso": "K.modelo('mappoa-vendas/chave', { escala: 5 })",
+      "pacote": "mappoa-vendas",
+      "pedir": "usa o modelo mappoa-vendas/chave",
+      "foto": "modelos-mappoa-vendas--chave.jpg"
+    },
+    {
+      "id": "modelos/mappoa-vendas/pilha-de-cartões-de-empresas",
+      "categoria": "modelos",
+      "chave": "mappoa-vendas/pilha-de-cartões-de-empresas",
+      "nome": "Pilha de cartões de empresas",
+      "uso": "K.modelo('mappoa-vendas/pilha-de-cartões-de-empresas', { escala: 5 })",
+      "pacote": "mappoa-vendas",
+      "pedir": "usa o modelo mappoa-vendas/pilha-de-cartões-de-empresas",
+      "foto": "modelos-mappoa-vendas--pilha-de-cartões-de-empresas.jpg"
+    },
+    {
+      "id": "modelos/mappoa/robô-do-mappoa",
+      "categoria": "modelos",
+      "chave": "mappoa/robô-do-mappoa",
+      "nome": "Robô do mappoa",
+      "uso": "K.modelo('mappoa/robô-do-mappoa', { escala: 5 })",
+      "pacote": "mappoa",
+      "pedir": "usa o modelo mappoa/robô-do-mappoa",
+      "foto": "modelos-mappoa--robô-do-mappoa.jpg"
+    },
+    {
+      "id": "modelos/mappoa/logo-3d",
+      "categoria": "modelos",
+      "chave": "mappoa/logo-3d",
+      "nome": "Logo 3d",
+      "uso": "K.modelo('mappoa/logo-3d', { escala: 5 })",
+      "pacote": "mappoa",
+      "pedir": "usa o modelo mappoa/logo-3d",
+      "foto": "modelos-mappoa--logo-3d.jpg"
+    },
+    {
+      "id": "modelos/mappoa/pino-de-mapa",
+      "categoria": "modelos",
+      "chave": "mappoa/pino-de-mapa",
+      "nome": "Pino de mapa",
+      "uso": "K.modelo('mappoa/pino-de-mapa', { escala: 5 })",
+      "pacote": "mappoa",
+      "pedir": "usa o modelo mappoa/pino-de-mapa",
+      "foto": "modelos-mappoa--pino-de-mapa.jpg"
+    },
+    {
+      "id": "modelos/mappoa/mapa-da-cidade-com-pinos",
+      "categoria": "modelos",
+      "chave": "mappoa/mapa-da-cidade-com-pinos",
+      "nome": "Mapa da cidade com pinos",
+      "uso": "K.modelo('mappoa/mapa-da-cidade-com-pinos', { escala: 5 })",
+      "pacote": "mappoa",
+      "pedir": "usa o modelo mappoa/mapa-da-cidade-com-pinos",
+      "foto": "modelos-mappoa--mapa-da-cidade-com-pinos.jpg"
+    },
+    {
+      "id": "modelos/mappoa/lupa",
+      "categoria": "modelos",
+      "chave": "mappoa/lupa",
+      "nome": "Lupa",
+      "uso": "K.modelo('mappoa/lupa', { escala: 5 })",
+      "pacote": "mappoa",
+      "pedir": "usa o modelo mappoa/lupa",
+      "foto": "modelos-mappoa--lupa.jpg"
+    },
+    {
+      "id": "modelos/mappoa/funil-de-4-andares",
+      "categoria": "modelos",
+      "chave": "mappoa/funil-de-4-andares",
+      "nome": "Funil de 4 andares",
+      "uso": "K.modelo('mappoa/funil-de-4-andares', { escala: 5 })",
+      "pacote": "mappoa",
+      "pedir": "usa o modelo mappoa/funil-de-4-andares",
+      "foto": "modelos-mappoa--funil-de-4-andares.jpg"
+    },
+    {
+      "id": "modelos/mappoa/peneira",
+      "categoria": "modelos",
+      "chave": "mappoa/peneira",
+      "nome": "Peneira",
+      "uso": "K.modelo('mappoa/peneira', { escala: 5 })",
+      "pacote": "mappoa",
+      "pedir": "usa o modelo mappoa/peneira",
+      "foto": "modelos-mappoa--peneira.jpg"
+    },
+    {
+      "id": "modelos/mappoa/computador-com-site-antigo",
+      "categoria": "modelos",
+      "chave": "mappoa/computador-com-site-antigo",
+      "nome": "Computador com site antigo",
+      "uso": "K.modelo('mappoa/computador-com-site-antigo', { escala: 5 })",
+      "pacote": "mappoa",
+      "pedir": "usa o modelo mappoa/computador-com-site-antigo",
+      "foto": "modelos-mappoa--computador-com-site-antigo.jpg"
+    },
+    {
+      "id": "modelos/mappoa/cartão-de-empresa",
+      "categoria": "modelos",
+      "chave": "mappoa/cartão-de-empresa",
+      "nome": "Cartão de empresa",
+      "uso": "K.modelo('mappoa/cartão-de-empresa', { escala: 5 })",
+      "pacote": "mappoa",
+      "pedir": "usa o modelo mappoa/cartão-de-empresa",
+      "foto": "modelos-mappoa--cartão-de-empresa.jpg"
+    },
+    {
+      "id": "modelos/mappoa/moeda-de-contato",
+      "categoria": "modelos",
+      "chave": "mappoa/moeda-de-contato",
+      "nome": "Moeda de contato",
+      "uso": "K.modelo('mappoa/moeda-de-contato', { escala: 5 })",
+      "pacote": "mappoa",
+      "pedir": "usa o modelo mappoa/moeda-de-contato",
+      "foto": "modelos-mappoa--moeda-de-contato.jpg"
+    }
+  ]
+}

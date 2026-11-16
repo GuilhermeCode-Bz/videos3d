@@ -1,0 +1,33 @@
+{
+  "titulo": "Você ainda procura clientes empresa por empresa no Google Maps?",
+  "capa": "Ainda no *Google Maps*?",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {"abaixa": true},
+  "personagem": {"tipo": "menino", "roupa": "camiseta", "cores": {"camiseta": "#2f6fd6", "bermuda": "#2f6f5e", "tenis": "#f4f1ea", "cabelo": "#7a4a22", "pele": "#e6b48a"}},
+  "voz": {"motor": "elevenlabs", "id": "TX3LPaxmHKxFdv7VOQHJ", "velocidade": 1.1, "acelerar": "auto"},
+  "alvoPpm": 190,
+  "frases": [
+    {"texto": "Você clicou na vigésima empresa do mapa. Se faltam oitenta, sua tarde acabou.", "plano": "gancho", "mostra": ["personagem", "pino_grande", "contador"], "gancho": true},
+    {"texto": "Esse é o Lucas. Ele é gestor de tráfego e precisa de cliente pra ontem.", "plano": "lucas", "mostra": ["personagem", "computador"]},
+    {"texto": "Se você é o Lucas, abre o mapa, digita \"hamburgueria\" e começa a clicar.", "plano": "digita", "mostra": ["tela", "personagem"]},
+    {"texto": "Clica na empresa, copia o nome, o telefone, abre o site, caça o Instagram.", "plano": "caca", "mostra": ["personagem", "cartao"]},
+    {"texto": "Cola tudo na planilha. E vai pra próxima.", "plano": "planilha", "mostra": ["planilha", "personagem"]},
+    {"texto": "Mas se cada uma leva três minutos, cem empresas são cinco horas de clique.", "plano": "cinco_horas", "mostra": ["relogio", "personagem"], "jogo": "falha"},
+    {"texto": "Então você usa um site que procura pra você: escreve o tipo de empresa e a cidade.", "plano": "busca", "mostra": ["tela", "personagem"], "jogo": "corrige"},
+    {"texto": "Esse é o *Mappoa*.", "plano": "mappoa_rotulo", "mostra": ["logo", "robo"]},
+    {"texto": "Ele abre o Google Maps e vai salvando as empresas sozinho na sua lista.", "plano": "captura", "mostra": ["robo", "tela"]},
+    {"texto": "Em poucos minutos, a lista que levava a tarde inteira tá pronta.", "plano": "pronta", "mostra": ["tela", "personagem"]},
+    {"texto": "Mas nome de empresa sozinho não vende nada. Como você fala com ela?", "plano": "so_nome", "mostra": ["cartao", "personagem"], "jogo": "falha"},
+    {"texto": "Então ele junta os contatos que estão públicos: WhatsApp, telefone, site e Instagram.", "plano": "contatos", "mostra": ["cartao", "robo"], "jogo": "corrige"},
+    {"texto": "Mas cem empresas numa planilha viram uma gaveta bagunçada.", "plano": "gaveta", "mostra": ["gaveta", "personagem"], "jogo": "falha"},
+    {"texto": "Então elas vão pra um quadro, e você arrasta cada uma: novos, contato enviado, follow-up, respondeu.", "plano": "quadro", "mostra": ["quadro", "personagem"], "jogo": "corrige"},
+    {"texto": "É por isso que o concorrente sempre parece chegar antes de você.", "plano": "concorrente", "mostra": ["predio_novo", "concorrente", "personagem"]},
+    {"texto": "Antes, o Lucas passava a tarde clicando no mapa. Agora, ele passa a tarde falando com empresas.", "plano": "antes_agora", "mostra": ["quadro", "personagem"], "jogo": "avanca"},
+    {"texto": "Quanto tempo você perde por dia no mapa? Comenta aí. No computador, digita mappoa.com e testa você também.", "plano": "segue", "mostra": ["personagem", "navegador", "computador"]}
+  ],
+  "cauda": {"segundos": 1.6, "plano": "cartao_fim"},
+  "trilha": {"arquivo": "trilha", "ganho": 0.22}
+}

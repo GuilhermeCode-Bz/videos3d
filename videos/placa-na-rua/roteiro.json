@@ -1,0 +1,157 @@
+{
+  "titulo": "Fiquei na rua com uma placa pedindo cliente (storytime)",
+  "capa": "Pedi *cliente* na rua?",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {
+    "abaixa": true
+  },
+  "personagem": {
+    "tipo": "menino",
+    "roupa": "camiseta",
+    "cores": {
+      "camiseta": "#2f6fd6",
+      "bermuda": "#2f6f5e",
+      "tenis": "#f4f1ea",
+      "cabelo": "#7a4a22",
+      "pele": "#e6b48a"
+    }
+  },
+  "voz": {
+    "motor": "elevenlabs",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "velocidade": 1.1,
+    "acelerar": "auto"
+  },
+  "alvoPpm": 190,
+  "frases": [
+    {
+      "texto": "Eu já fiquei na rua com uma placa pedindo cliente.",
+      "plano": "gancho",
+      "mostra": [
+        "personagem",
+        "placa",
+        "gente"
+      ],
+      "gancho": true
+    },
+    {
+      "texto": "Acabei o curso de site, postei o portfólio e ganhei uma curtida. Da minha mãe.",
+      "plano": "portfolio",
+      "mostra": [
+        "personagem",
+        "monitor",
+        "celular"
+      ]
+    },
+    {
+      "texto": "Fui caçar empresa no Maps, uma por uma, até de madrugada. Nada.",
+      "plano": "maps",
+      "mostra": [
+        "personagem",
+        "abas",
+        "relogio"
+      ],
+      "jogo": "falha"
+    },
+    {
+      "texto": "Três semanas, zero cliente. Peguei a placa e fui pra rua. Ganhei um real de esmola.",
+      "plano": "placa",
+      "mostra": [
+        "personagem",
+        "placa",
+        "calendario"
+      ]
+    },
+    {
+      "texto": "Até que um senhor parou: ninguém vai te procurar. Vai atrás de quem precisa.",
+      "plano": "conselho",
+      "mostra": [
+        "personagem",
+        "dono",
+        "pinos"
+      ]
+    },
+    {
+      "texto": "Naquela noite, decidi investir numa ferramenta que acha as empresas que precisam do meu serviço.",
+      "plano": "investe",
+      "mostra": [
+        "personagem",
+        "monitor"
+      ],
+      "jogo": "corrige"
+    },
+    {
+      "texto": "No computador, entrei no mappoa.com e pesquisei: clínicas em Campinas.",
+      "plano": "busca",
+      "mostra": [
+        "navegador",
+        "busca",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "E veio uma lista com oitenta clínicas sem site.",
+      "plano": "lista",
+      "mostra": [
+        "lista",
+        "robo",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Esse é o *Mappoa*, um sistema que acha quem precisa do seu serviço.",
+      "plano": "mappoa",
+      "mostra": [
+        "tela",
+        "robo",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Criei minha campanha no Mappoa e enviei a mensagem personalizada, já pronta.",
+      "plano": "campanha",
+      "mostra": [
+        "tela",
+        "personagem",
+        "monitor"
+      ]
+    },
+    {
+      "texto": "Mandei pra trinta. Quase todas disseram não. Mas uma respondeu: pode vir aqui.",
+      "plano": "venda",
+      "mostra": [
+        "personagem",
+        "celular"
+      ]
+    },
+    {
+      "texto": "Cheguei lá. O dono da clínica era aquele senhor da rua. Ele riu: achou, né?",
+      "plano": "reencontro",
+      "mostra": [
+        "personagem",
+        "dono"
+      ],
+      "jogo": "avanca"
+    },
+    {
+      "texto": "Comenta a sua cidade que eu te mando quantas empresas aí não têm site. No computador, digita mappoa.com e acha as clínicas sem site perto de você.",
+      "plano": "segue",
+      "mostra": [
+        "personagem",
+        "navegador",
+        "monitor"
+      ]
+    }
+  ],
+  "cauda": {
+    "segundos": 1.6,
+    "plano": "cartao"
+  },
+  "trilha": {
+    "arquivo": "trilha",
+    "ganho": 0.22
+  }
+}

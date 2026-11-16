@@ -1,0 +1,84 @@
+{
+  "comoLer": "A opinião da pessoa, dada no painel (npm run painel). Em \"cenas\", cada cena que ela quer diferente vem com \"opiniao\": \"mudar\" e o pedido em \"mudar\". Arrume essas cenas no cena.js, anote no canal/historico.md, rode o --revisar de novo e peça pra ela olhar as cenas novas no painel. \"video\" é a nota e o comentário do vídeo pronto.",
+  "cenasDe": "2026-11-04T22:11:59.861Z",
+  "cenas": [
+    {
+      "cena": 1,
+      "frase": "Como achar as empresas da sua cidade que ainda não têm site?",
+      "opiniao": "gostei"
+    },
+    {
+      "cena": 2,
+      "frase": "Esse é o Rafa. Ele faz sites lindos, mas não tem nenhum cliente.",
+      "opiniao": "gostei"
+    },
+    {
+      "cena": 3,
+      "frase": "Se você é o Rafa, sai na rua entrando loja por loja: \"Vocês têm site?\"",
+      "opiniao": "gostei"
+    },
+    {
+      "cena": 4,
+      "frase": "Mas no fim do dia são só doze lojas, e ele volta morto de cansaço.",
+      "opiniao": "gostei"
+    },
+    {
+      "cena": 5,
+      "frase": "Então você tenta pelo computador: procura empresa por empresa e anota tudo numa planilha.",
+      "opiniao": "gostei"
+    },
+    {
+      "cena": 6,
+      "frase": "Mas a planilha cresce devagar, e metade delas já tem site.",
+      "opiniao": "gostei"
+    },
+    {
+      "cena": 7,
+      "frase": "Então você usa uma ferramenta que procura por você: \"padarias em Campinas\".",
+      "opiniao": "gostei"
+    },
+    {
+      "cena": 8,
+      "frase": "E a lista enche: centenas de empresas, mostrando quem tem site e quem não tem, já com telefone e WhatsApp.",
+      "opiniao": "gostei"
+    },
+    {
+      "cena": 9,
+      "frase": "Esse é o Mappoa.",
+      "opiniao": "gostei"
+    },
+    {
+      "cena": 10,
+      "frase": "Mas mandar a mesma mensagem pra todo mundo tem cara de spam.",
+      "opiniao": "gostei"
+    },
+    {
+      "cena": 11,
+      "frase": "Então ele prepara uma mensagem pra cada empresa, falando do negócio dela. Quem envia é você.",
+      "opiniao": "gostei"
+    },
+    {
+      "cena": 12,
+      "frase": "É por isso que a mensagem fala do pão de queijo da padaria, e não \"prezado cliente\".",
+      "opiniao": "gostei"
+    },
+    {
+      "cena": 13,
+      "frase": "Antes, o Rafa batia de porta em porta. Agora, ele acha as empresas sem site da cidade inteira.",
+      "opiniao": "gostei"
+    },
+    {
+      "cena": 14,
+      "frase": "Qual tipo de empresa você quer achar primeiro? Comenta aí. Use o Mappoa você também pelo link da Bio.",
+      "opiniao": "gostei"
+    },
+    {
+      "cena": 15,
+      "frase": "(fim: o cartão de seguir)",
+      "opiniao": "gostei"
+    }
+  ],
+  "geral": "",
+  "atualizado": "2026-11-04T22:12:38.809Z",
+  "mandado": "2026-11-04T22:12:38.809Z"
+}

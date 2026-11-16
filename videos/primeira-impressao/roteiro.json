@@ -1,0 +1,26 @@
+{
+  "titulo": "Por que o cliente escolhe o advogado que tem site",
+  "capa": "Parece *menor*?",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {"abaixa": true},
+  "personagem": {"tipo": "menino", "roupa": "camiseta", "cores": {"camiseta": "#2f6fd6", "bermuda": "#2f6f5e", "tenis": "#f4f1ea", "cabelo": "#7a4a22", "pele": "#e6b48a"}},
+  "voz": {"motor": "elevenlabs", "id": "TX3LPaxmHKxFdv7VOQHJ", "velocidade": 1.1, "acelerar": "auto"},
+  "alvoPpm": 190,
+  "frases": [
+    {"texto": "O cliente achou dois advogados. Se um tem site e o outro não, ele já escolheu.", "plano": "gancho", "mostra": ["balanca", "cliente"], "gancho": true},
+    {"texto": "Pra quem procura, quem não tem site parece menor. Ou parece que nem existe mais.", "plano": "menor", "mostra": ["balanca"]},
+    {"texto": "Só que o Dr. Paulo é um ótimo advogado. Ele só não tem site.", "plano": "paulo", "mostra": ["dono", "trofeu"], "jogo": "falha"},
+    {"texto": "O Téo é web designer e tá caçando cliente. Mas nem sabe que o Dr. Paulo existe.", "plano": "teo", "mostra": ["personagem", "binoculos"]},
+    {"texto": "Aí ele digita mappoa.com no computador, e vem a lista dos advogados de Bauru sem site.", "plano": "lista", "mostra": ["navegador", "tela", "personagem"], "jogo": "corrige"},
+    {"texto": "Esse é o *Mappoa*: um sistema que separa quem tem site de quem não tem, e mostra quem mais precisa.", "plano": "mappoa", "mostra": ["tela", "robo", "personagem"]},
+    {"texto": "Na análise do Dr. Paulo, a dor tá escrita: sem site, o escritório parece menor do que é.", "plano": "analise", "mostra": ["tela", "paulo_mini"]},
+    {"texto": "O Téo manda a mensagem falando disso. E o Dr. Paulo responde: vamos conversar.", "plano": "mensagem", "mostra": ["personagem", "dono", "celular"]},
+    {"texto": "Antes, o cliente escolhia a outra. Agora, a balança vira pro lado do Dr. Paulo.", "plano": "antes_agora", "mostra": ["balanca"], "jogo": "avanca"},
+    {"texto": "Você contrataria alguém que não tem site? Comenta aí. No computador, digita mappoa.com e testa você também.", "plano": "segue", "mostra": ["personagem", "navegador", "monitor"]}
+  ],
+  "cauda": {"segundos": 1.6, "plano": "cartao"},
+  "trilha": {"arquivo": "trilha", "ganho": 0.22}
+}

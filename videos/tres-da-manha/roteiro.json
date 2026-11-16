@@ -1,0 +1,29 @@
+{
+  "titulo": "Web designer, três da manhã. E a planilha ainda tem duas linhas",
+  "capa": "*3 da manhã* e nada?",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {"abaixa": true},
+  "personagem": {"tipo": "menino", "roupa": "camiseta", "cores": {"camiseta": "#2f6fd6", "bermuda": "#2f6f5e", "tenis": "#f4f1ea", "cabelo": "#7a4a22", "pele": "#e6b48a"}},
+  "voz": {"motor": "elevenlabs", "id": "TX3LPaxmHKxFdv7VOQHJ", "velocidade": 1.1, "acelerar": "auto"},
+  "alvoPpm": 190,
+  "frases": [
+    {"texto": "Web designer, três da manhã. E a planilha ainda tem duas linhas.", "plano": "gancho", "mostra": ["personagem", "olheiras", "canecas", "planilha"], "gancho": true},
+    {"texto": "O Felipe passou a noite caçando cliente no Google Maps, oficina por oficina.", "plano": "caca", "mostra": ["personagem", "lanterna"]},
+    {"texto": "Abre o site: já tem. Abre outra: não acha o telefone.", "plano": "abas", "mostra": ["personagem", "abas", "monitor"]},
+    {"texto": "Fuça o Instagram, procura o WhatsApp, copia na planilha. E começa de novo.", "plano": "fuca", "mostra": ["personagem", "abas", "planilha"]},
+    {"texto": "Seis horas depois: duas oficinas. E nem sabe se elas precisam de site.", "plano": "duas", "mostra": ["personagem", "planilha", "canecas"], "jogo": "falha"},
+    {"texto": "Aí ele decidiu investir o preço de um pastel numa ferramenta de achar cliente.", "plano": "investe", "mostra": ["personagem", "nota", "monitor"], "jogo": "corrige"},
+    {"texto": "No computador, digita mappoa.com e escreve: oficinas em Londrina.", "plano": "busca", "mostra": ["navegador", "busca", "personagem"]},
+    {"texto": "E vem a lista: noventa e nove oficinas, quarenta sem site, já com os contatos.", "plano": "lista", "mostra": ["lista", "robo", "personagem"]},
+    {"texto": "Esse é o *Mappoa*, um sistema que acha quem precisa do seu serviço.", "plano": "mappoa", "mostra": ["tela", "robo", "personagem"]},
+    {"texto": "Ele abre uma oficina e já vê a nota pra oferta dele e a mensagem pronta.", "plano": "analise", "mostra": ["tela", "personagem", "monitor"]},
+    {"texto": "Mandou pra vinte. A maioria nem respondeu. Mas uma topou: a primeira venda.", "plano": "venda", "mostra": ["personagem", "dono"]},
+    {"texto": "Antes, a noite inteira pra achar duas. Agora, uma busca e ele vai atrás.", "plano": "antes_agora", "mostra": ["personagem"], "jogo": "avanca"},
+    {"texto": "E você, até que horas já ficou trabalhando? Comenta a hora. No computador, digita mappoa.com e acha as empresas sem site da sua cidade.", "plano": "segue", "mostra": ["personagem", "navegador", "monitor"]}
+  ],
+  "cauda": {"segundos": 1.6, "plano": "cartao"},
+  "trilha": {"arquivo": "trilha", "ganho": 0.22}
+}

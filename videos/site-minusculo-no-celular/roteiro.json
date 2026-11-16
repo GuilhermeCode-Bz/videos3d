@@ -1,0 +1,27 @@
+{
+  "titulo": "O cliente abriu o site no celular e tava tudo minúsculo",
+  "capa": "Dá pra *ler isso*?",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {"abaixa": true},
+  "personagem": {"tipo": "menino", "roupa": "camiseta", "cores": {"camiseta": "#2f6fd6", "bermuda": "#2f6f5e", "tenis": "#f4f1ea", "cabelo": "#7a4a22", "pele": "#e6b48a"}},
+  "voz": {"motor": "elevenlabs", "id": "TX3LPaxmHKxFdv7VOQHJ", "velocidade": 1.1, "acelerar": "auto"},
+  "alvoPpm": 190,
+  "frases": [
+    {"texto": "O cliente abriu o site no celular. Se tá tudo minúsculo, ele fecha.", "plano": "gancho", "mostra": ["celular", "lupa", "cliente"], "gancho": true},
+    {"texto": "O Breno é web designer, tá sem cliente, e essa imobiliária perde cliente assim.", "plano": "breno", "mostra": ["personagem", "monitor"]},
+    {"texto": "No computador, o site do seu Paulo é lindo. No celular, vira letrinha.", "plano": "site", "mostra": ["site", "celular", "dono"], "jogo": "falha"},
+    {"texto": "O cliente errou o botão do apartamento e foi pra outra imobiliária.", "plano": "botao", "mostra": ["cliente", "celular"]},
+    {"texto": "E o Breno procurava cliente um por um, até tarde da noite.", "plano": "procura", "mostra": ["personagem", "canecas", "monitor"]},
+    {"texto": "Então ele decidiu investir o preço de uma moqueca num sistema que acha quem precisa de site.", "plano": "investe", "mostra": ["personagem", "moqueca", "monitor"], "jogo": "corrige"},
+    {"texto": "Digitou mappoa.com no computador, e veio a lista das imobiliárias de Vitória, com e sem site.", "plano": "lista", "mostra": ["navegador", "tela", "personagem"]},
+    {"texto": "Esse é o *Mappoa*: separa quem não tem site e mostra as dores de quem tem.", "plano": "mappoa", "mostra": ["tela", "robo", "personagem"]},
+    {"texto": "O Breno confere no celular, manda a mensagem pronta, e o seu Paulo pede um site novo.", "plano": "mensagem", "mostra": ["dono", "celular"]},
+    {"texto": "Antes, o Breno caçava cliente. Agora, o site do seu Paulo cabe na palma da mão.", "plano": "antes_agora", "mostra": ["personagem", "dono", "celular"], "jogo": "avanca"},
+    {"texto": "E você, dava zoom ou fechava? Comenta ZOOM ou FECHAVA e segue. No computador, digita mappoa.com e testa você também.", "plano": "segue", "mostra": ["personagem", "navegador", "monitor"]}
+  ],
+  "cauda": {"segundos": 1.6, "plano": "cartao"},
+  "trilha": {"arquivo": "trilha", "ganho": 0.22}
+}

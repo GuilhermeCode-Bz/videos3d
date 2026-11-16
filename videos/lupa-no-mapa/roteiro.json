@@ -1,0 +1,126 @@
+{
+  "titulo": "Você procura cliente de lupa. E a cidade é gigante.",
+  "capa": "Ainda de *lupa*?",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {
+    "abaixa": true
+  },
+  "personagem": {
+    "tipo": "menino",
+    "roupa": "camiseta",
+    "cores": {
+      "camiseta": "#2f6fd6",
+      "bermuda": "#2f6f5e",
+      "tenis": "#f4f1ea",
+      "cabelo": "#7a4a22",
+      "pele": "#e6b48a"
+    }
+  },
+  "voz": {
+    "motor": "elevenlabs",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "velocidade": 1.1,
+    "acelerar": "auto"
+  },
+  "alvoPpm": 190,
+  "frases": [
+    {
+      "texto": "Você procura cliente de lupa. E a cidade é gigante.",
+      "plano": "gancho",
+      "mostra": [
+        "personagem",
+        "ferramenta"
+      ],
+      "gancho": true
+    },
+    {
+      "texto": "O Samuel é web designer e vasculha o mapa rua por rua, atrás de empresa sem site.",
+      "plano": "dor",
+      "mostra": [
+        "personagem",
+        "monitor"
+      ]
+    },
+    {
+      "texto": "Achou uma. Faltam todas as outras.",
+      "plano": "resultado",
+      "mostra": [
+        "personagem",
+        "planilha"
+      ],
+      "jogo": "falha"
+    },
+    {
+      "texto": "Enquanto isso, outro web designer acendeu o mapa inteiro de uma vez.",
+      "plano": "rival",
+      "mostra": [
+        "rival",
+        "personagem",
+        "pinos"
+      ],
+      "jogo": "corrige"
+    },
+    {
+      "texto": "Não é olho bom. É ferramenta boa.",
+      "plano": "virada",
+      "mostra": [
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Então o Samuel decide investir um cuscuz numa ferramenta que acha as empresas da cidade em segundos.",
+      "plano": "investe",
+      "mostra": [
+        "personagem",
+        "comida",
+        "monitor"
+      ]
+    },
+    {
+      "texto": "Digita mappoa.com no computador, e vem a lista das lojas de móveis de Campina Grande, separada em com site e sem site.",
+      "plano": "lista",
+      "mostra": [
+        "navegador",
+        "tela",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Esse é o *Mappoa*, um sistema que acha quem precisa do seu serviço.",
+      "plano": "mappoa",
+      "mostra": [
+        "tela",
+        "robo",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Antes, o Samuel procurava de lupa. Agora, vê a cidade inteira em segundos.",
+      "plano": "antes_agora",
+      "mostra": [
+        "personagem"
+      ],
+      "jogo": "avanca"
+    },
+    {
+      "texto": "Comenta a sua cidade e segue. No computador, digita mappoa.com e testa você também.",
+      "plano": "segue",
+      "mostra": [
+        "personagem",
+        "navegador",
+        "monitor"
+      ]
+    }
+  ],
+  "cauda": {
+    "segundos": 1.6,
+    "plano": "cartao"
+  },
+  "trilha": {
+    "arquivo": "trilha",
+    "ganho": 0.22
+  }
+}

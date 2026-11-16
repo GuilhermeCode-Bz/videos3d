@@ -1,0 +1,27 @@
+{
+  "titulo": "O outro web designer chegou primeiro",
+  "capa": "Chegou *tarde*?",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {"abaixa": true},
+  "personagem": {"tipo": "menino", "roupa": "camiseta", "cores": {"camiseta": "#2f6fd6", "bermuda": "#2f6f5e", "tenis": "#f4f1ea", "cabelo": "#7a4a22", "pele": "#e6b48a"}},
+  "voz": {"motor": "elevenlabs", "id": "TX3LPaxmHKxFdv7VOQHJ", "velocidade": 1.1, "acelerar": "auto"},
+  "alvoPpm": 190,
+  "frases": [
+    {"texto": "A escola do lado fechou o site com outro. Se você chegou depois, chegou tarde.", "plano": "gancho", "mostra": ["porta", "personagem"], "gancho": true},
+    {"texto": "O Igor é web designer, tá sem cliente, e acabou de levar essa porta na cara.", "plano": "igor", "mostra": ["personagem", "porta"]},
+    {"texto": "Ele passou a semana caçando escola de idiomas no Google, uma por uma.", "plano": "procura", "mostra": ["personagem", "calendario", "monitor"]},
+    {"texto": "Achou a da dona Lúcia na sexta. O outro web designer achou na segunda.", "plano": "achou", "mostra": ["personagem", "calendario", "outro"], "jogo": "falha"},
+    {"texto": "Quando o Igor chegou, ela já tinha fechado o site novo com ele.", "plano": "fechou", "mostra": ["tv_site", "dona", "outro"]},
+    {"texto": "Então o Igor decidiu investir o preço de um tropeiro num sistema que acha quem precisa de site.", "plano": "investe", "mostra": ["personagem", "tropeiro", "monitor"], "jogo": "corrige"},
+    {"texto": "Digitou mappoa.com no computador, e veio a lista das escolas de idiomas de BH, com e sem site.", "plano": "lista", "mostra": ["navegador", "tela", "personagem"]},
+    {"texto": "Esse é o *Mappoa*: mostra quem precisa de site, pra você não chegar depois.", "plano": "mappoa", "mostra": ["tela", "pinos", "personagem"]},
+    {"texto": "Na segunda cedo, ele mandou a mensagem pronta, e o seu Márcio, de outra escola, pediu um site.", "plano": "mensagem", "mostra": ["dono", "celular"]},
+    {"texto": "Antes, o Igor chegava depois. Agora, a porta abre pra ele primeiro.", "plano": "antes_agora", "mostra": ["personagem", "porta", "dono"], "jogo": "avanca"},
+    {"texto": "E você, chega primeiro ou depois? Comenta PRIMEIRO ou DEPOIS e segue. No computador, digita mappoa.com e testa você também.", "plano": "segue", "mostra": ["personagem", "navegador", "monitor"]}
+  ],
+  "cauda": {"segundos": 1.6, "plano": "cartao"},
+  "trilha": {"arquivo": "trilha", "ganho": 0.22}
+}

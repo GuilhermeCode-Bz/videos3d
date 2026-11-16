@@ -1,0 +1,26 @@
+{
+  "titulo": "Se a empresa não tem site, o cliente nem vê ela",
+  "capa": "Ninguém te *acha*?",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {"abaixa": true},
+  "personagem": {"tipo": "menino", "roupa": "camiseta", "cores": {"camiseta": "#2f6fd6", "bermuda": "#2f6f5e", "tenis": "#f4f1ea", "cabelo": "#7a4a22", "pele": "#e6b48a"}},
+  "voz": {"motor": "elevenlabs", "id": "TX3LPaxmHKxFdv7VOQHJ", "velocidade": 1.1, "acelerar": "auto"},
+  "alvoPpm": 190,
+  "frases": [
+    {"texto": "O cliente pesquisou \"dentista perto de mim\". Se a clínica não tem site, ele nem vê ela.", "plano": "gancho", "mostra": ["cliente", "celular", "fachada"], "gancho": true},
+    {"texto": "O Rafa é web designer, tá sem cliente, e nem imagina que essa clínica precisa dele.", "plano": "rafa", "mostra": ["personagem", "monitor"]},
+    {"texto": "Lá dentro, a dentista olha a agenda vazia e não entende por quê.", "plano": "agenda", "mostra": ["dentista", "agenda"], "jogo": "falha"},
+    {"texto": "O paciente achou outra clínica, que tem site. Viu o endereço, o horário, e marcou.", "plano": "outra", "mostra": ["cliente", "loja_dentista"]},
+    {"texto": "Mas o Rafa não sabe quais clínicas tão sem site. Procurar uma por uma leva o dia todo.", "plano": "procura", "mostra": ["personagem", "planilha", "despertador"]},
+    {"texto": "Aí ele digita mappoa.com no computador, e vem a lista das clínicas de Maringá sem site.", "plano": "lista", "mostra": ["navegador", "tela", "personagem"], "jogo": "corrige"},
+    {"texto": "Esse é o *Mappoa*: um sistema que mostra quem precisa do seu serviço, e por quê.", "plano": "mappoa", "mostra": ["tela", "robo", "personagem"]},
+    {"texto": "O Rafa mostra pra dentista: quem procura no Google acha a outra. E ela topa conversar.", "plano": "mostra", "mostra": ["personagem", "dentista", "tela"]},
+    {"texto": "Antes, o Rafa esperava cliente. Agora, ele acha quem tá perdendo paciente.", "plano": "antes_agora", "mostra": ["personagem", "dentista"], "jogo": "avanca"},
+    {"texto": "E na sua cidade, quantas empresas ainda não têm site? Comenta aí. No computador, digita mappoa.com e testa você também.", "plano": "segue", "mostra": ["personagem", "navegador", "monitor"]}
+  ],
+  "cauda": {"segundos": 1.6, "plano": "cartao"},
+  "trilha": {"arquivo": "trilha", "ganho": 0.22}
+}

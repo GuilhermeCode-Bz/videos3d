@@ -1,0 +1,26 @@
+{
+  "titulo": "Se você esperar o primeiro cliente aparecer, vai ficar assim",
+  "capa": "Esperando *cliente*?",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {"abaixa": true},
+  "personagem": {"tipo": "menino", "roupa": "camiseta", "cores": {"camiseta": "#2f6fd6", "bermuda": "#2f6f5e", "tenis": "#f4f1ea", "cabelo": "#7a4a22", "pele": "#e6b48a"}},
+  "voz": {"motor": "elevenlabs", "id": "TX3LPaxmHKxFdv7VOQHJ", "velocidade": 1.1, "acelerar": "auto"},
+  "alvoPpm": 190,
+  "frases": [
+    {"texto": "Se você esperar o primeiro cliente aparecer, vai ficar assim.", "plano": "gancho", "mostra": ["personagem", "barba", "teia"], "gancho": true},
+    {"texto": "O Bruno acabou de virar web designer. Postou \"faço sites\" e sentou pra esperar.", "plano": "disponivel", "mostra": ["personagem", "celular"]},
+    {"texto": "Passou um dia, uma semana, um mês. E o celular nem vibrou.", "plano": "esperando", "mostra": ["personagem", "celular", "barba"], "jogo": "falha"},
+    {"texto": "Só que a pizzaria do bairro não tem site, e nem sabe que o Bruno existe.", "plano": "pizzaria", "mostra": ["pizzaria", "pizzaiolo", "pensamento"], "jogo": "corrige"},
+    {"texto": "Quem aparece lá é outro web designer, que foi atrás. E fecha.", "plano": "outro", "mostra": ["rival", "pizzaiolo", "pizzaria"]},
+    {"texto": "Aí o Bruno corta a barba e decide ir atrás também. Mas atrás de quem?", "plano": "decide", "mostra": ["personagem", "tesoura"]},
+    {"texto": "Ele digita mappoa.com no computador, e vem a lista das pizzarias de Curitiba sem site.", "plano": "lista", "mostra": ["navegador", "tela", "personagem"]},
+    {"texto": "Esse é o *Mappoa*, um sistema que acha quem precisa do seu serviço.", "plano": "mappoa", "mostra": ["tela", "robo", "personagem"]},
+    {"texto": "Antes, o Bruno esperava sentado. Agora, ele chega primeiro.", "plano": "antes_agora", "mostra": ["personagem", "pizzaria", "pizzaiolo"], "jogo": "avanca"},
+    {"texto": "E você, tá esperando ou indo atrás? Comenta aí e segue pra achar o seu. No computador, digita mappoa.com e testa você também.", "plano": "segue", "mostra": ["personagem", "navegador", "monitor"]}
+  ],
+  "cauda": {"segundos": 1.6, "plano": "cartao"},
+  "trilha": {"arquivo": "trilha", "ganho": 0.22}
+}

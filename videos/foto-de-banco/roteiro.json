@@ -1,0 +1,27 @@
+{
+  "titulo": "O site da nutricionista tem a mesma foto de mil outros",
+  "capa": "Já viu *essa moça*?",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {"abaixa": true},
+  "personagem": {"tipo": "menino", "roupa": "camiseta", "cores": {"camiseta": "#2f6fd6", "bermuda": "#2f6f5e", "tenis": "#f4f1ea", "cabelo": "#7a4a22", "pele": "#e6b48a"}},
+  "voz": {"motor": "elevenlabs", "id": "TX3LPaxmHKxFdv7VOQHJ", "velocidade": 1.1, "acelerar": "auto"},
+  "alvoPpm": 190,
+  "frases": [
+    {"texto": "O site da nutricionista tem a mesma foto de mil outros. Se o cliente percebe, ele desconfia.", "plano": "gancho", "mostra": ["telas", "paciente"], "gancho": true},
+    {"texto": "O Enzo é web designer, tá sem cliente, e essa nutri perde paciente por uma foto.", "plano": "enzo", "mostra": ["personagem", "monitor"]},
+    {"texto": "No site da doutora Carla, a moça da salada nem é ela.", "plano": "site", "mostra": ["site", "dona"], "jogo": "falha"},
+    {"texto": "O paciente achou a mesma moça em outro site e marcou com outra nutri.", "plano": "paciente", "mostra": ["paciente", "celular"]},
+    {"texto": "E o Enzo procurava cliente um por um no Google, até de madrugada.", "plano": "procura", "mostra": ["personagem", "papeis", "despertador"]},
+    {"texto": "Então ele decidiu investir o preço de uma marmita num sistema que acha quem precisa de site.", "plano": "investe", "mostra": ["personagem", "marmita", "monitor"], "jogo": "corrige"},
+    {"texto": "Digitou mappoa.com no computador, e veio a lista das nutricionistas de Florianópolis, com e sem site.", "plano": "lista", "mostra": ["navegador", "tela", "personagem"]},
+    {"texto": "Esse é o *Mappoa*, que mostra as dores de cada uma, como site com cara de modelo pronto.", "plano": "mappoa", "mostra": ["tela", "robo", "personagem"]},
+    {"texto": "O Enzo manda a mensagem pronta, e a Carla pede um site com fotos dela.", "plano": "mensagem", "mostra": ["dona", "celular"]},
+    {"texto": "Antes, o Enzo caçava cliente na mão. Agora, o site da Carla tem a cara dela.", "plano": "antes_agora", "mostra": ["personagem", "dona"], "jogo": "avanca"},
+    {"texto": "E você, confiava nessa foto? Comenta CONFIAVA ou DESCONFIAVA e segue. No computador, digita mappoa.com e testa você também.", "plano": "segue", "mostra": ["personagem", "navegador", "monitor"]}
+  ],
+  "cauda": {"segundos": 1.6, "plano": "cartao"},
+  "trilha": {"arquivo": "trilha", "ganho": 0.22}
+}

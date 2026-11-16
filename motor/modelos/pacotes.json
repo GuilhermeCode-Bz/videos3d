@@ -1,0 +1,17 @@
+[
+  {
+    "nome": "Modelos do Mappoa",
+    "versao": "2026-11-10",
+    "maquina": "2.3.0",
+    "instalado": "2026-11-10T02:13:26.334Z",
+    "arquivos": [
+      "motor/modelos/mappoa-moveis.js",
+      "motor/modelos/mappoa-nichos.js",
+      "motor/modelos/mappoa-sombra-lisa.js",
+      "motor/modelos/mappoa-tecnologia.js",
+      "motor/modelos/mappoa-telas.js",
+      "motor/modelos/mappoa-vendas.js",
+      "motor/modelos/mappoa.js"
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "titulo": "Se você esperar o primeiro cliente parado, vai virar isso",
+  "capa": "Virou *estátua*?",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {"abaixa": true},
+  "personagem": {"tipo": "menino", "roupa": "camiseta", "cores": {"camiseta": "#2f6fd6", "bermuda": "#2f6f5e", "tenis": "#f4f1ea", "cabelo": "#7a4a22", "pele": "#e6b48a"}},
+  "voz": {"motor": "elevenlabs", "id": "TX3LPaxmHKxFdv7VOQHJ", "velocidade": 1.1, "acelerar": "auto"},
+  "alvoPpm": 190,
+  "frases": [
+    {"texto": "Se você esperar o primeiro cliente parado, vai virar isso.", "plano": "gancho", "mostra": ["personagem", "pedestal", "pombo"], "gancho": true},
+    {"texto": "O Enzo é web designer. Pendurou “faço sites” no peito e ficou parado esperando.", "plano": "disponivel", "mostra": ["personagem", "plaquinha", "pedestal"]},
+    {"texto": "Passou um mês, ele virou pedra. Só o pombo apareceu.", "plano": "esperando", "mostra": ["personagem", "calendario", "pombo"], "jogo": "falha"},
+    {"texto": "Só que o pet shop da frente não tem site, e o cliente nem acha o horário do banho.", "plano": "negocio", "mostra": ["loja_petshop", "dona", "celular"], "jogo": "corrige"},
+    {"texto": "Aí passa outro web designer, que foi atrás. Entra no pet shop e fecha.", "plano": "outro", "mostra": ["rival", "dona", "loja_petshop"]},
+    {"texto": "Cliente não visita estátua. Então o Enzo racha a pedra e decide ir atrás.", "plano": "decide", "mostra": ["personagem", "pedestal"]},
+    {"texto": "Ele investe o preço de um banho e tosa numa ferramenta que mostra quem precisa de site.", "plano": "investe", "mostra": ["personagem", "nota", "monitor"]},
+    {"texto": "No computador, digita mappoa.com, e vem a lista dos pet shops de Campo Grande sem site.", "plano": "lista", "mostra": ["navegador", "tela", "personagem"]},
+    {"texto": "Esse é o *Mappoa*, um sistema que acha quem precisa do seu serviço.", "plano": "mappoa", "mostra": ["tela", "robo", "personagem"]},
+    {"texto": "Antes, o Enzo esperava parado. Agora, ele chega primeiro.", "plano": "antes_agora", "mostra": ["personagem", "dona2"], "jogo": "avanca"},
+    {"texto": "E você, ficava parado ou ia atrás? Comenta PEDRA ou ATRÁS. No computador, digita mappoa.com e testa você também.", "plano": "segue", "mostra": ["personagem", "pedestal", "navegador"]}
+  ],
+  "cauda": {"segundos": 1.6, "plano": "cartao"},
+  "trilha": {"arquivo": "trilha", "ganho": 0.22}
+}

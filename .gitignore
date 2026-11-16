@@ -1,0 +1,22 @@
+node_modules/
+.env
+.env.local
+.env.txt
+.env.local.txt
+env.txt
+*.mp4
+*.mov
+*.log
+videos/*/narracao/
+videos/*/narracao.wav
+videos/*/timeline.json
+videos/*/previa-*.jpg
+videos/*/testes/
+videos/*/versoes/
+referencias/*/testes/
+referencias/*/narracao/
+referencias/*/timeline.json
+canal/testes-de-voz/
+.DS_Store
+# Repositório pessoal e privado, pra sincronizar entre máquinas: o canal (canal/*.md, logo, banner, peças,
+# referências) vai junto. Os vídeos prontos (.mp4/.mov) ficam fora, porque são pesados demais pro GitHub.

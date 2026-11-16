@@ -1,0 +1,29 @@
+{
+  "titulo": "Web designer atrás de empresas sem site",
+  "capa": "Empresas\n*sem site*?",
+  "cor": "#2e9d5b",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {"abaixa": true},
+  "voz": {"motor": "elevenlabs", "id": "TX3LPaxmHKxFdv7VOQHJ", "velocidade": 1.1, "acelerar": "auto"},
+  "alvoPpm": 190,
+  "frases": [
+    {"texto": "Como achar as empresas da sua cidade que ainda não têm site?", "plano": "gancho", "mostra": ["lojas", "personagem"], "gancho": true},
+    {"texto": "Esse é o Rafa. Ele faz sites lindos, mas não tem nenhum cliente.", "plano": "rafa", "mostra": ["personagem", "computador"]},
+    {"texto": "Se você é o Rafa, sai na rua entrando loja por loja: \"Vocês têm site?\"", "plano": "rua", "mostra": ["padaria", "personagem"]},
+    {"texto": "Mas no fim do dia são só doze lojas, e ele volta morto de cansaço.", "plano": "cansaco", "mostra": ["personagem"], "jogo": "falha"},
+    {"texto": "Então você tenta pelo computador: procura empresa por empresa e anota tudo numa planilha.", "plano": "planilha", "mostra": ["computador", "planilha", "personagem"], "jogo": "corrige"},
+    {"texto": "Mas a planilha cresce devagar, e metade delas já tem site.", "plano": "devagar", "mostra": ["planilha"], "jogo": "falha"},
+    {"texto": "Então você usa uma ferramenta que procura por você: \"padarias em Campinas\".", "plano": "busca", "mostra": ["computador", "personagem"], "jogo": "conserta", "rebobina": 0.6},
+    {"texto": "E a lista enche: centenas de empresas, mostrando quem tem site e quem não tem, já com telefone e WhatsApp.", "plano": "lista", "mostra": ["lista", "personagem"], "jogo": "corrige"},
+    {"texto": "Esse é o *Mappoa*.", "plano": "mappoa_rotulo", "mostra": ["lista"]},
+    {"texto": "Mas mandar a mesma mensagem pra todo mundo tem cara de spam.", "plano": "spam", "mostra": ["celular", "personagem"], "jogo": "falha"},
+    {"texto": "Então ele prepara uma mensagem pra cada empresa, falando do negócio dela. Quem envia é você.", "plano": "mensagem", "mostra": ["celular", "personagem"], "jogo": "corrige"},
+    {"texto": "É por isso que a mensagem fala do pão de queijo da padaria, e não \"prezado cliente\".", "plano": "paodequeijo", "mostra": ["padaria", "paodequeijo"]},
+    {"texto": "Antes, o Rafa batia de porta em porta. Agora, ele acha as empresas sem site da cidade inteira.", "plano": "antes_agora", "mostra": ["personagem", "pins"]},
+    {"texto": "Qual tipo de empresa você quer achar primeiro? Comenta aí. Use o Mappoa você também pelo link da Bio.", "plano": "segue", "mostra": ["personagem", "lojas"]}
+  ],
+  "cauda": {"segundos": 1.6, "plano": "cartao"},
+  "trilha": {"arquivo": "trilha", "ganho": 0.22}
+}

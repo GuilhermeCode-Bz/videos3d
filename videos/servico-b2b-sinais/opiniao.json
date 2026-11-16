@@ -1,0 +1,94 @@
+{
+  "comoLer": "A opinião da pessoa, dada no painel (npm run painel). Em \"cenas\", cada cena que ela quer diferente vem com \"opiniao\": \"mudar\" e o pedido em \"mudar\". Arrume essas cenas no cena.js, anote no canal/historico.md, rode o --revisar de novo e peça pra ela olhar as cenas novas no painel. \"video\" é a nota e o comentário do vídeo pronto.",
+  "cenasDe": "2026-11-05T21:05:06.222Z",
+  "cenas": [
+    {
+      "cena": 1,
+      "frase": "A dona da academia abriu sua proposta. Se a primeira linha é \"faço tráfego\", ela apaga.",
+      "opiniao": "gostei"
+    },
+    {
+      "cena": 2,
+      "frase": "Esse é o Caio. Ele é gestor de tráfego e vende serviço pra empresa.",
+      "opiniao": "gostei"
+    },
+    {
+      "cena": 3,
+      "frase": "Ele é bom no que faz. Mas a agenda dele tá vazia faz dois meses.",
+      "opiniao": "gostei"
+    },
+    {
+      "cena": 4,
+      "frase": "Se você é o Caio, manda a mesma proposta pra cinquenta empresas: \"Faço tráfego pago, preço bom.\"",
+      "opiniao": "gostei"
+    },
+    {
+      "cena": 5,
+      "frase": "Mas empresa não compra tráfego. Ela compra cliente entrando pela porta.",
+      "opiniao": "gostei"
+    },
+    {
+      "cena": 6,
+      "frase": "Então você troca o assunto: em vez do seu serviço, você fala do problema dela.",
+      "opiniao": "gostei"
+    },
+    {
+      "cena": 7,
+      "frase": "Mas qual problema? Cada empresa tem um, e ninguém te conta.",
+      "opiniao": "gostei"
+    },
+    {
+      "cena": 8,
+      "frase": "Então você olha o que ela deixa à mostra: o Instagram parado desde março, o site que não abre no celular, nenhum anúncio no ar.",
+      "opiniao": "gostei"
+    },
+    {
+      "cena": 9,
+      "frase": "Esses são os sinais de compra.",
+      "opiniao": "gostei"
+    },
+    {
+      "cena": 10,
+      "frase": "É por isso que a academia de fachada linda e Instagram parado é o melhor cliente do bairro: o problema tá na cara.",
+      "opiniao": "gostei"
+    },
+    {
+      "cena": 11,
+      "frase": "Mas fuçar empresa por empresa leva a tarde inteira, e você acha cinco.",
+      "opiniao": "gostei"
+    },
+    {
+      "cena": 12,
+      "frase": "Então você começa pela lista: no Mappoa, busca \"academias em Londrina\", e vêm centenas, com o site e o Instagram que estiverem públicos.",
+      "opiniao": "gostei"
+    },
+    {
+      "cena": 13,
+      "frase": "E a análise de cada uma mostra as dores, as oportunidades e por onde começar a conversa.",
+      "opiniao": "gostei"
+    },
+    {
+      "cena": 14,
+      "frase": "Aí você chama primeiro quem tem o problema que você resolve. Quem fecha ainda é você.",
+      "opiniao": "gostei"
+    },
+    {
+      "cena": 15,
+      "frase": "Antes, o Caio falava do serviço dele pra qualquer um. Agora, ele chega na empresa certa, falando da dor dela.",
+      "opiniao": "gostei"
+    },
+    {
+      "cena": 16,
+      "frase": "E você, vende qual serviço, e pra que tipo de empresa? Comenta aí. No computador, digita mappoa.com e testa você também.",
+      "opiniao": "gostei"
+    },
+    {
+      "cena": 17,
+      "frase": "(fim: o cartão de seguir)",
+      "opiniao": "gostei"
+    }
+  ],
+  "geral": "tem algumas sombras em formato de linhas, em todo o cenario, tira por favor",
+  "atualizado": "2026-11-05T21:06:15.279Z",
+  "mandado": "2026-11-05T21:06:15.279Z"
+}

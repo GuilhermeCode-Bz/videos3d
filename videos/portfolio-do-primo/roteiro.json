@@ -1,0 +1,27 @@
+{
+  "titulo": "O portfólio só com o site do primo",
+  "capa": "Portfólio do *primo*?",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {"abaixa": true},
+  "personagem": {"tipo": "menino", "roupa": "camiseta", "cores": {"camiseta": "#2f6fd6", "bermuda": "#2f6f5e", "tenis": "#f4f1ea", "cabelo": "#7a4a22", "pele": "#e6b48a"}},
+  "voz": {"motor": "elevenlabs", "id": "TX3LPaxmHKxFdv7VOQHJ", "velocidade": 1.1, "acelerar": "auto"},
+  "alvoPpm": 190,
+  "frases": [
+    {"texto": "Seu portfólio só tem o site do seu primo. Se o cliente vê isso, ele não confia.", "plano": "gancho", "mostra": ["portfolio", "primo", "cliente"], "gancho": true},
+    {"texto": "O Rafa é web designer em Salvador, e o único site que ele fez foi o do primo.", "plano": "rafa", "mostra": ["personagem", "portfolio", "primo"]},
+    {"texto": "Sem portfólio, ninguém fecha com ele. E sem fechar, ele nunca tem portfólio.", "plano": "ciclo", "mostra": ["personagem", "placas_ciclo", "setas"], "jogo": "falha"},
+    {"texto": "Então o Rafa decidiu investir o preço de um acarajé num sistema que acha quem precisa de site.", "plano": "investe", "mostra": ["personagem", "acaraje", "monitor"], "jogo": "corrige"},
+    {"texto": "Digitou mappoa.com no computador, e veio a lista das hamburguerias de Salvador, com e sem site.", "plano": "lista", "mostra": ["navegador", "tela", "personagem"]},
+    {"texto": "Esse é o *Mappoa*: mostra quem precisa de site e já deixa a mensagem pronta.", "plano": "mappoa", "mostra": ["tela", "telao", "personagem"]},
+    {"texto": "O Rafa mandou a mensagem pra Smash Bahia, que só tinha Instagram, e o seu Jorge respondeu.", "plano": "mensagem", "mostra": ["dono", "celular", "placa_smash"]},
+    {"texto": "Ele fechou o site da hamburgueria, com cardápio e pedido no WhatsApp.", "plano": "fechou", "mostra": ["tv_site", "dono", "personagem"]},
+    {"texto": "E esse virou o primeiro projeto de verdade do portfólio, do lado do site do primo.", "plano": "vira", "mostra": ["portfolio", "primo", "personagem"]},
+    {"texto": "Antes, o portfólio era o primo. Agora, é cliente de verdade.", "plano": "antes_agora", "mostra": ["portfolio", "cliente", "personagem"], "jogo": "avanca"},
+    {"texto": "E o seu portfólio, tem primo? Comenta PRIMO ou CLIENTE e segue. No computador, digita mappoa.com e testa você também.", "plano": "segue", "mostra": ["personagem", "navegador", "monitor"]}
+  ],
+  "cauda": {"segundos": 1.6, "plano": "cartao"},
+  "trilha": {"arquivo": "trilha", "ganho": 0.22}
+}

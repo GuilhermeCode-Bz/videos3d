@@ -1,0 +1,27 @@
+{
+  "titulo": "Se você esperar o primeiro cliente aparecer, vai ficar assim (o portfólio)",
+  "capa": "Portfólio *parado*?",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {"abaixa": true},
+  "personagem": {"tipo": "menino", "roupa": "camiseta", "cores": {"camiseta": "#2f6fd6", "bermuda": "#2f6f5e", "tenis": "#f4f1ea", "cabelo": "#7a4a22", "pele": "#e6b48a"}},
+  "voz": {"motor": "elevenlabs", "id": "TX3LPaxmHKxFdv7VOQHJ", "velocidade": 1.1, "acelerar": "auto"},
+  "alvoPpm": 190,
+  "frases": [
+    {"texto": "Se você esperar o primeiro cliente aparecer, vai ficar assim.", "plano": "gancho", "mostra": ["personagem", "barba", "teia"], "gancho": true},
+    {"texto": "O Mateus é web designer. Deixou o portfólio perfeito e sentou pra esperar.", "plano": "disponivel", "mostra": ["personagem", "celular"]},
+    {"texto": "Passou um dia, uma semana, um mês. E ninguém viu.", "plano": "esperando", "mostra": ["personagem", "celular", "barba"], "jogo": "falha"},
+    {"texto": "Só que a academia da esquina não tem site, e perde aluno que procura o horário.", "plano": "negocio", "mostra": ["academia", "dono", "pensamento"], "jogo": "corrige"},
+    {"texto": "Aí chega outro web designer, que foi bater na porta. E fecha.", "plano": "outro", "mostra": ["rival", "dono", "academia"]},
+    {"texto": "Aí o Mateus corta a barba. Esperar não traz cliente. Mas ir atrás de quem?", "plano": "decide", "mostra": ["personagem", "tesoura"]},
+    {"texto": "Então ele decidiu investir o preço de um açaí num sistema que traz academia sem site todo dia.", "plano": "investe", "mostra": ["personagem", "dinheiro", "monitor"]},
+    {"texto": "Digitou mappoa.com no computador, e veio a lista das academias de Natal sem site.", "plano": "lista", "mostra": ["navegador", "tela", "personagem"]},
+    {"texto": "Esse é o *Mappoa*, que mostra quem precisa do seu serviço.", "plano": "mappoa", "mostra": ["tela", "robo", "personagem"]},
+    {"texto": "Antes, o Mateus esperava alguém achar. Agora, ele chega primeiro.", "plano": "antes_agora", "mostra": ["personagem", "academia", "dono"], "jogo": "avanca"},
+    {"texto": "E você, esperava ou ia atrás? Comenta ESPERAVA ou ATRÁS e segue. No computador, digita mappoa.com e testa você também.", "plano": "segue", "mostra": ["personagem", "navegador", "monitor"]}
+  ],
+  "cauda": {"segundos": 1.6, "plano": "cartao"},
+  "trilha": {"arquivo": "trilha", "ganho": 0.22}
+}

@@ -1,0 +1,140 @@
+{
+  "titulo": "Se você esperar o primeiro cliente aparecer, vai ficar assim (os mil cartões)",
+  "capa": "Cartão *parado*?",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {
+    "abaixa": true
+  },
+  "personagem": {
+    "tipo": "menino",
+    "roupa": "camiseta",
+    "cores": {
+      "camiseta": "#2f6fd6",
+      "bermuda": "#2f6f5e",
+      "tenis": "#f4f1ea",
+      "cabelo": "#7a4a22",
+      "pele": "#e6b48a"
+    }
+  },
+  "voz": {
+    "motor": "elevenlabs",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "velocidade": 1.1,
+    "acelerar": "auto"
+  },
+  "alvoPpm": 190,
+  "frases": [
+    {
+      "texto": "Se você esperar o primeiro cliente aparecer, vai ficar assim.",
+      "plano": "gancho",
+      "mostra": [
+        "personagem",
+        "barba",
+        "teia"
+      ],
+      "gancho": true
+    },
+    {
+      "texto": "O Lucas é web designer. Imprimiu mil cartões de visita e esperou o telefone tocar.",
+      "plano": "disponivel",
+      "mostra": [
+        "personagem",
+        "celular"
+      ]
+    },
+    {
+      "texto": "Passou um dia, uma semana, um mês. E o telefone nem tocou.",
+      "plano": "esperando",
+      "mostra": [
+        "personagem",
+        "celular",
+        "barba"
+      ],
+      "jogo": "falha"
+    },
+    {
+      "texto": "Só que a loja de roupas da rua vende só pelo Instagram, e nem sabe que o Lucas existe.",
+      "plano": "negocio",
+      "mostra": [
+        "loja",
+        "dono",
+        "pensamento"
+      ],
+      "jogo": "corrige"
+    },
+    {
+      "texto": "Quem aparece lá é outro web designer, com um site pronto pra mostrar. E fecha.",
+      "plano": "outro",
+      "mostra": [
+        "rival",
+        "dono",
+        "loja"
+      ]
+    },
+    {
+      "texto": "Aí o Lucas corta a barba. Cartão parado não acha cliente. Mas ir atrás de quem?",
+      "plano": "decide",
+      "mostra": [
+        "personagem",
+        "tesoura"
+      ]
+    },
+    {
+      "texto": "Então ele decidiu investir o valor de um lanche num sistema que traz loja sem site todo dia.",
+      "plano": "investe",
+      "mostra": [
+        "personagem",
+        "dinheiro",
+        "monitor"
+      ]
+    },
+    {
+      "texto": "Digitou mappoa.com no computador, e veio a lista das lojas de roupa de Fortaleza sem site.",
+      "plano": "lista",
+      "mostra": [
+        "navegador",
+        "tela",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Esse é o *Mappoa*: ele acha quem precisa do seu serviço.",
+      "plano": "mappoa",
+      "mostra": [
+        "tela",
+        "robo",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Antes, o Lucas esperava o telefone tocar. Agora, ele chega primeiro.",
+      "plano": "antes_agora",
+      "mostra": [
+        "personagem",
+        "loja",
+        "dono"
+      ],
+      "jogo": "avanca"
+    },
+    {
+      "texto": "E você, distribuía cartão ou ia atrás? Comenta CARTÃO ou ATRÁS e segue. No computador, digita mappoa.com e testa você também.",
+      "plano": "segue",
+      "mostra": [
+        "personagem",
+        "navegador",
+        "monitor"
+      ]
+    }
+  ],
+  "cauda": {
+    "segundos": 1.6,
+    "plano": "cartao"
+  },
+  "trilha": {
+    "arquivo": "trilha",
+    "ganho": 0.22
+  }
+}

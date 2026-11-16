@@ -1,0 +1,125 @@
+{
+ "titulo": "Web designer, se você escolhe cliente na roleta, vai girar pra sempre",
+ "capa": "Cliente na *roleta*?",
+ "cor": "#2fb5a6",
+ "arroba": "@mappoa_leads",
+ "estilo": "redondo",
+ "fps": 60,
+ "efeitos": {
+  "abaixa": true
+ },
+ "personagem": {
+  "tipo": "menino",
+  "roupa": "camiseta",
+  "cores": {
+   "camiseta": "#2f6fd6",
+   "bermuda": "#2f6f5e",
+   "tenis": "#f4f1ea",
+   "cabelo": "#7a4a22",
+   "pele": "#e6b48a"
+  }
+ },
+ "voz": {
+  "motor": "elevenlabs",
+  "id": "TX3LPaxmHKxFdv7VOQHJ",
+  "velocidade": 1.1,
+  "acelerar": "auto"
+ },
+ "alvoPpm": 190,
+ "frases": [
+  {
+   "texto": "Web designer, se você escolhe cliente na roleta, vai girar pra sempre.",
+   "plano": "gancho",
+   "mostra": [
+    "personagem",
+    "roleta"
+   ],
+   "gancho": true
+  },
+  {
+   "texto": "O Rafa oferece site pra quem a roleta mandar: padaria, oficina, pet shop.",
+   "plano": "qualquer",
+   "mostra": [
+    "personagem",
+    "roleta"
+   ]
+  },
+  {
+   "texto": "Cada site é do zero, o portfólio parece de cinco pessoas, e ninguém confia.",
+   "plano": "portfolio",
+   "mostra": [
+    "personagem",
+    "portfolio"
+   ],
+   "jogo": "falha"
+  },
+  {
+   "texto": "Aí o Rafa trava a roleta num nicho só: barbearias, de qualquer cidade.",
+   "plano": "virada",
+   "mostra": [
+    "personagem",
+    "roleta"
+   ]
+  },
+  {
+   "texto": "E decide investir um corte de cabelo numa ferramenta que acha essas barbearias.",
+   "plano": "investe",
+   "mostra": [
+    "personagem",
+    "monitor"
+   ],
+   "jogo": "corrige"
+  },
+  {
+   "texto": "No computador, digita mappoa.com, e vem a lista das barbearias de Goiânia sem site.",
+   "plano": "lista",
+   "mostra": [
+    "navegador",
+    "personagem"
+   ]
+  },
+  {
+   "texto": "Esse é o *Mappoa*, um sistema que acha quem precisa do seu serviço.",
+   "plano": "mappoa",
+   "mostra": [
+    "tela",
+    "robo",
+    "personagem"
+   ]
+  },
+  {
+   "texto": "Ele abre uma, e já vem a nota, o WhatsApp e a mensagem pronta.",
+   "plano": "analise",
+   "mostra": [
+    "tela",
+    "personagem",
+    "monitor"
+   ]
+  },
+  {
+   "texto": "Antes, o Rafa girava a roleta. Agora, ele é o cara das barbearias.",
+   "plano": "antes_agora",
+   "mostra": [
+    "personagem"
+   ],
+   "jogo": "avanca"
+  },
+  {
+   "texto": "Comenta a sua cidade que eu mostro quantas empresas aí não têm site. No computador, digita mappoa.com e testa você também.",
+   "plano": "segue",
+   "mostra": [
+    "personagem",
+    "navegador",
+    "monitor"
+   ]
+  }
+ ],
+ "cauda": {
+  "segundos": 1.6,
+  "plano": "cartao"
+ },
+ "trilha": {
+  "arquivo": "trilha",
+  "ganho": 0.22
+ }
+}

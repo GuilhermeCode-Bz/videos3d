@@ -1,0 +1,27 @@
+{
+  "titulo": "O dono fez o site sozinho no fim de semana",
+  "capa": "Site de *domingo*?",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {"abaixa": true},
+  "personagem": {"tipo": "menino", "roupa": "camiseta", "cores": {"camiseta": "#2f6fd6", "bermuda": "#2f6f5e", "tenis": "#f4f1ea", "cabelo": "#7a4a22", "pele": "#e6b48a"}},
+  "voz": {"motor": "elevenlabs", "id": "TX3LPaxmHKxFdv7VOQHJ", "velocidade": 1.1, "acelerar": "auto"},
+  "alvoPpm": 190,
+  "frases": [
+    {"texto": "O dono fez o site sozinho no fim de semana. Se ficou assim, ele precisa de você.", "plano": "gancho", "mostra": ["telao", "dono"], "gancho": true},
+    {"texto": "O Caio é web designer, tá sem cliente, e nem sabe que essa padaria existe.", "plano": "caio", "mostra": ["personagem", "monitor"]},
+    {"texto": "No site do seu Zé, o telefone tá errado e o cardápio é uma foto torta.", "plano": "site", "mostra": ["site", "dono"], "jogo": "falha"},
+    {"texto": "O cliente ligou, o número não existe, e ele foi comprar na concorrente.", "plano": "cliente", "mostra": ["cliente", "celular"]},
+    {"texto": "E o Caio procura cliente um por um no Google, até de madrugada.", "plano": "procura", "mostra": ["personagem", "planilha", "despertador"]},
+    {"texto": "Então ele decidiu investir o preço de um café num sistema que acha site assim todo dia.", "plano": "investe", "mostra": ["personagem", "caneca", "monitor"], "jogo": "corrige"},
+    {"texto": "Digitou mappoa.com no computador, e veio a lista das padarias de Recife com site fraco.", "plano": "lista", "mostra": ["navegador", "tela", "personagem"]},
+    {"texto": "Esse é o *Mappoa*, que mostra quem tem mais chance de comprar o seu site.", "plano": "mappoa", "mostra": ["tela", "robo", "personagem"]},
+    {"texto": "O Caio mostra pro seu Zé o que o cliente vê. E ele topa refazer.", "plano": "mostra", "mostra": ["personagem", "dono", "tela"]},
+    {"texto": "Antes, o Caio caçava cliente. Agora, ele acha quem já precisa dele.", "plano": "antes_agora", "mostra": ["personagem", "dono"], "jogo": "avanca"},
+    {"texto": "E você, ia atrás do seu Zé ou esperava? Comenta ATRÁS ou ESPERAVA e segue. No computador, digita mappoa.com e testa você também.", "plano": "segue", "mostra": ["personagem", "navegador", "monitor"]}
+  ],
+  "cauda": {"segundos": 1.6, "plano": "cartao"},
+  "trilha": {"arquivo": "trilha", "ganho": 0.22}
+}

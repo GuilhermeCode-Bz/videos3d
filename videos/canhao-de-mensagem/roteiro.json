@@ -1,0 +1,155 @@
+{
+  "titulo": "Mandar a mesma mensagem pra toda empresa? Não faça isso",
+  "capa": "*Não faça* isso!",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {
+    "abaixa": true
+  },
+  "personagem": {
+    "tipo": "menino",
+    "roupa": "camiseta",
+    "cores": {
+      "camiseta": "#2f6fd6",
+      "bermuda": "#2f6f5e",
+      "tenis": "#f4f1ea",
+      "cabelo": "#7a4a22",
+      "pele": "#e6b48a"
+    }
+  },
+  "voz": {
+    "motor": "elevenlabs",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "velocidade": 1.1,
+    "acelerar": "auto"
+  },
+  "alvoPpm": 190,
+  "frases": [
+    {
+      "texto": "Web designer, vai mandar mensagem pra uma empresa hoje? Então não faça isso.",
+      "plano": "gancho",
+      "mostra": [
+        "personagem",
+        "canhao",
+        "baloes"
+      ],
+      "gancho": true
+    },
+    {
+      "texto": "O Bruno manda a mesma mensagem pra qualquer empresa que aparece no Maps.",
+      "plano": "qualquer",
+      "mostra": [
+        "personagem",
+        "canhao",
+        "baloes"
+      ]
+    },
+    {
+      "texto": "A loja que acabou de fazer site novo? Recebe. O banco? Recebe também.",
+      "plano": "errados",
+      "mostra": [
+        "loja_nova",
+        "banco"
+      ]
+    },
+    {
+      "texto": "Cem mensagens no dia. Visualizou, não respondeu. Bloqueou.",
+      "plano": "ignorado",
+      "mostra": [
+        "personagem",
+        "celular"
+      ],
+      "jogo": "falha"
+    },
+    {
+      "texto": "O erro não é mandar mensagem. É mandar pra quem nem precisa de você.",
+      "plano": "virada",
+      "mostra": [
+        "personagem",
+        "alvo",
+        "canhao"
+      ]
+    },
+    {
+      "texto": "Aí ele decidiu investir o preço de um açaí numa ferramenta que mostra quem precisa.",
+      "plano": "investe",
+      "mostra": [
+        "personagem",
+        "comida",
+        "monitor"
+      ],
+      "jogo": "corrige"
+    },
+    {
+      "texto": "No computador, digita mappoa.com e escreve: academias em Joinville.",
+      "plano": "busca",
+      "mostra": [
+        "navegador",
+        "busca",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "E vem a lista: oitenta e sete academias, trinta e uma sem site, já com os contatos.",
+      "plano": "lista",
+      "mostra": [
+        "lista",
+        "robo",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Esse é o *Mappoa*, um sistema que acha quem precisa do seu serviço.",
+      "plano": "mappoa",
+      "mostra": [
+        "tela",
+        "robo",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Ele abre uma academia: nota noventa pra oferta dele e a mensagem pronta, falando dela.",
+      "plano": "analise",
+      "mostra": [
+        "tela",
+        "personagem",
+        "monitor"
+      ]
+    },
+    {
+      "texto": "Mandou pra quinze, não pra cem. A maioria não respondeu. Mas uma topou: a primeira venda.",
+      "plano": "venda",
+      "mostra": [
+        "personagem",
+        "dono"
+      ]
+    },
+    {
+      "texto": "Antes, cem mensagens pro nada. Agora, menos mensagem, e pra quem precisa.",
+      "plano": "antes_agora",
+      "mostra": [
+        "personagem"
+      ],
+      "jogo": "avanca"
+    },
+    {
+      "texto": "Quantas mensagens você já mandou sem resposta? Comenta o número. No computador, digita mappoa.com e acha as academias sem site da sua cidade.",
+      "plano": "segue",
+      "mostra": [
+        "personagem",
+        "navegador",
+        "monitor"
+      ]
+    }
+  ],
+  "cauda": {
+    "segundos": 1.6,
+    "plano": "cartao"
+  },
+  "trilha": {
+    "arquivo": "trilha",
+    "ganho": 0.22
+  }
+}
