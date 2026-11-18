@@ -12,6 +12,8 @@
 
 - Direto, sem pedir aprovação de nada (roteiro, cenas ou render): fazer tudo até o fim e só trazer os vídeos prontos. Render sempre um por vez, porque o PC é lento (você pediu, 16/11/2026; troca a regra de 11/11 de pedir o ok do roteiro e das cenas)
 
+- Vídeo feito na nuvem (Claude Code na web) fica em `videos/nuvem-<tema>/`, pra não misturar com os do computador e continuar aparecendo no painel. O `video.mp4` não sobe pro GitHub (é pesado demais): mandar o arquivo direto pra pessoa baixar (você pediu, 18/11/2026)
+
 ## Roteiro e narração
 
 - A dor de TODO vídeo é achar o próximo cliente: o tema, o gancho e a virada saem dela. Assunto que não bate nisso (preço, organizar conversa, ligar ou mandar mensagem) só entra se a história levar pra achar o próximo cliente (você pediu, 11/11/2026)
