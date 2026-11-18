@@ -1,0 +1,144 @@
+{
+  "titulo": "Faltam trinta dias pro aluguel vencer",
+  "capa": "*30 dias*",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {
+    "abaixa": true
+  },
+  "personagem": {
+    "tipo": "menino",
+    "roupa": "camiseta",
+    "cores": {
+      "camiseta": "#2f6fd6",
+      "bermuda": "#2f6f5e",
+      "tenis": "#f4f1ea",
+      "cabelo": "#7a4a22",
+      "pele": "#e6b48a"
+    }
+  },
+  "voz": {
+    "motor": "elevenlabs",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "velocidade": 1.1,
+    "acelerar": "auto"
+  },
+  "alvoPpm": 190,
+  "frases": [
+    {
+      "texto": "Faltam trinta dias pro aluguel vencer. E o Guto tem zero clientes.",
+      "plano": "gancho",
+      "mostra": [
+        "contador",
+        "personagem"
+      ],
+      "gancho": true
+    },
+    {
+      "texto": "Dia vinte e nove: ele posta o portfólio. Duas curtidas. Da mãe e da tia.",
+      "plano": "dia29",
+      "mostra": [
+        "personagem",
+        "celular",
+        "contador"
+      ]
+    },
+    {
+      "texto": "Dia quinze: ele manda proposta pra cem empresas. Copiando e colando.",
+      "plano": "dia15",
+      "mostra": [
+        "personagem",
+        "monitor",
+        "contador"
+      ]
+    },
+    {
+      "texto": "Dia cinco: o dono do apartamento já manda áudio.",
+      "plano": "dia5",
+      "mostra": [
+        "personagem",
+        "celular",
+        "contador"
+      ]
+    },
+    {
+      "texto": "Dia três: o Guto para de esperar o cliente. E vai procurar.",
+      "plano": "dia3",
+      "mostra": [
+        "personagem",
+        "contador"
+      ]
+    },
+    {
+      "texto": "Ele investe o preço de um hambúrguer num sistema que acha quem precisa de site.",
+      "plano": "investe",
+      "mostra": [
+        "personagem",
+        "pagamento",
+        "monitor"
+      ]
+    },
+    {
+      "texto": "No computador, digita mappoa.com, e vem a lista dos dentistas de Salvador sem site.",
+      "plano": "lista",
+      "mostra": [
+        "navegador",
+        "tela",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Esse é o *Mappoa*, um sistema que mostra quem tem mais chance de comprar.",
+      "plano": "mappoa",
+      "mostra": [
+        "tela",
+        "robo",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Ele abre a Clínica Sorriso Bahia: o WhatsApp, nota noventa e quatro, e a mensagem pronta.",
+      "plano": "ficha",
+      "mostra": [
+        "tela",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Dia um: a dentista responde. E fecha o site.",
+      "plano": "dia1",
+      "mostra": [
+        "dentista",
+        "personagem",
+        "contrato"
+      ]
+    },
+    {
+      "texto": "O aluguel? Pago. Com um dia de folga.",
+      "plano": "pago",
+      "mostra": [
+        "contador",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Segue pra ver mais. No computador, digita mappoa.com e testa você também.",
+      "plano": "segue",
+      "mostra": [
+        "personagem",
+        "navegador",
+        "monitor"
+      ]
+    }
+  ],
+  "cauda": {
+    "segundos": 1.6,
+    "plano": "cartao"
+  },
+  "trilha": {
+    "arquivo": "trilha",
+    "ganho": 0.22
+  }
+}

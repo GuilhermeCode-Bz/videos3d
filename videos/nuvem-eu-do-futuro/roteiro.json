@@ -1,0 +1,143 @@
+{
+  "titulo": "O Nico do futuro veio dar um aviso",
+  "capa": "Ele do *futuro*",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {
+    "abaixa": true
+  },
+  "personagem": {
+    "tipo": "menino",
+    "roupa": "camiseta",
+    "cores": {
+      "camiseta": "#2f6fd6",
+      "bermuda": "#2f6f5e",
+      "tenis": "#f4f1ea",
+      "cabelo": "#7a4a22",
+      "pele": "#e6b48a"
+    }
+  },
+  "voz": {
+    "motor": "elevenlabs",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "velocidade": 1.1,
+    "acelerar": "auto"
+  },
+  "alvoPpm": 190,
+  "frases": [
+    {
+      "texto": "O Nico de 2027 saiu de um portal. Veio dar um aviso pro Nico de hoje.",
+      "plano": "gancho",
+      "mostra": [
+        "portal",
+        "personagem",
+        "futuro"
+      ],
+      "gancho": true
+    },
+    {
+      "texto": "Se você continuar só postando e esperando, daqui a um ano você ainda tá aqui.",
+      "plano": "aviso",
+      "mostra": [
+        "futuro",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "No mesmo quarto, com o mesmo portfólio. E sem cliente.",
+      "plano": "quarto",
+      "mostra": [
+        "futuro",
+        "monitor",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "O Nico de hoje duvidou. O do futuro mostrou a conta bancária.",
+      "plano": "conta",
+      "mostra": [
+        "futuro",
+        "celular",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Então o Nico decidiu mudar o futuro. Hoje.",
+      "plano": "decide",
+      "mostra": [
+        "personagem",
+        "portal"
+      ]
+    },
+    {
+      "texto": "Investiu o preço de um X-tudo num sistema que acha quem precisa de site.",
+      "plano": "investe",
+      "mostra": [
+        "personagem",
+        "pagamento",
+        "monitor"
+      ]
+    },
+    {
+      "texto": "No computador, digitou mappoa.com, e veio a lista das imobiliárias de Florianópolis sem site.",
+      "plano": "lista",
+      "mostra": [
+        "navegador",
+        "tela",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Esse é o *Mappoa*, um sistema que mostra quem tem mais chance de comprar.",
+      "plano": "mappoa",
+      "mostra": [
+        "tela",
+        "robo",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Abriu a Ilha Imóveis: o WhatsApp, nota oitenta e oito, e a mensagem pronta.",
+      "plano": "ficha",
+      "mostra": [
+        "tela",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "No mesmo dia, a imobiliária respondeu.",
+      "plano": "responde",
+      "mostra": [
+        "personagem",
+        "celular"
+      ]
+    },
+    {
+      "texto": "E o Nico do futuro sumiu. O futuro dele tinha mudado.",
+      "plano": "sumiu",
+      "mostra": [
+        "portal",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Segue pra ver mais. No computador, digita mappoa.com e testa você também.",
+      "plano": "segue",
+      "mostra": [
+        "personagem",
+        "navegador",
+        "monitor"
+      ]
+    }
+  ],
+  "cauda": {
+    "segundos": 1.6,
+    "plano": "cartao"
+  },
+  "trilha": {
+    "arquivo": "trilha",
+    "ganho": 0.22
+  }
+}

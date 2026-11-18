@@ -1,0 +1,141 @@
+{
+  "titulo": "Plantão: web designer sem cliente há três meses",
+  "capa": "*Plantão* urgente",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {
+    "abaixa": true
+  },
+  "personagem": {
+    "tipo": "menino",
+    "roupa": "camiseta",
+    "cores": {
+      "camiseta": "#2f6fd6",
+      "bermuda": "#2f6f5e",
+      "tenis": "#f4f1ea",
+      "cabelo": "#7a4a22",
+      "pele": "#e6b48a"
+    }
+  },
+  "voz": {
+    "motor": "elevenlabs",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "velocidade": 1.1,
+    "acelerar": "auto"
+  },
+  "alvoPpm": 190,
+  "frases": [
+    {
+      "texto": "Plantão urgente: web designer está há três meses sem cliente.",
+      "plano": "gancho",
+      "mostra": [
+        "personagem",
+        "manchete"
+      ],
+      "gancho": true
+    },
+    {
+      "texto": "O Lucas foi visto pela última vez atualizando o portfólio. Pela décima vez.",
+      "plano": "portfolio",
+      "mostra": [
+        "personagem",
+        "monitor"
+      ]
+    },
+    {
+      "texto": "Vizinhos relatam que ele manda a mesma mensagem pra empresas de outro estado.",
+      "plano": "vizinhos",
+      "mostra": [
+        "vizinha",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Enquanto isso, as oficinas da rua dele seguem sem site. A menos de cem metros.",
+      "plano": "oficinas",
+      "mostra": [
+        "oficina",
+        "mecanico"
+      ]
+    },
+    {
+      "texto": "Fontes confirmam: hoje de manhã, ele mudou de estratégia.",
+      "plano": "fontes",
+      "mostra": [
+        "personagem",
+        "manchete"
+      ]
+    },
+    {
+      "texto": "Ele investiu o preço de um lanche num sistema que acha quem precisa de site.",
+      "plano": "investe",
+      "mostra": [
+        "personagem",
+        "pagamento",
+        "monitor"
+      ]
+    },
+    {
+      "texto": "No computador, digitou mappoa.com, e veio a lista das oficinas mecânicas de Porto Alegre sem site.",
+      "plano": "lista",
+      "mostra": [
+        "navegador",
+        "tela",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Esse é o *Mappoa*, um sistema que mostra quem tem mais chance de comprar.",
+      "plano": "mappoa",
+      "mostra": [
+        "tela",
+        "robo",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Abriu a Oficina do Gaúcho: o WhatsApp, nota noventa e dois, e a mensagem pronta.",
+      "plano": "ficha",
+      "mostra": [
+        "tela",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Atualização: o dono da oficina respondeu. E fechou.",
+      "plano": "atualizacao",
+      "mostra": [
+        "mecanico",
+        "personagem",
+        "contrato"
+      ]
+    },
+    {
+      "texto": "O Lucas passa bem. E já tem o próximo cliente na lista.",
+      "plano": "passabem",
+      "mostra": [
+        "personagem",
+        "tela"
+      ]
+    },
+    {
+      "texto": "Segue pra ver mais. No computador, digita mappoa.com e testa você também.",
+      "plano": "segue",
+      "mostra": [
+        "personagem",
+        "navegador",
+        "monitor"
+      ]
+    }
+  ],
+  "cauda": {
+    "segundos": 1.6,
+    "plano": "cartao"
+  },
+  "trilha": {
+    "arquivo": "trilha",
+    "ganho": 0.22
+  }
+}
