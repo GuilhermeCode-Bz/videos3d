@@ -72,6 +72,8 @@
 
 ## Lições técnicas
 
+- Na nuvem (Claude Code na web), a chave da ElevenLabs fica nas configurações da máquina, não no `.env` (lá vai só `ELEVENLABS_API_KEY=proxy-injected`), e todo comando da Máquina roda com `NODE_USE_ENV_PROXY=1` na frente, senão ele não acha a internet (18/11/2026)
+
 > Pra IA: erros da cena ou do motor que já deram trabalho neste canal, e como resolver.
 
 - O ✓/✗ posto com `K.tela(ponto)` antes do `K.filmar` sai no lugar errado (usa a câmera do quadro anterior): calcular o `K.tela` depois do `K.filmar` (web-designer-sem-site, 04/11/2026)
