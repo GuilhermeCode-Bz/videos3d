@@ -6,19 +6,19 @@
         "id": "e40e48ab-1f9d-5460-b86b-7a900ee3d4f6",
         "programa": "Claude Code",
         "modelo": "claude-opus-5-5",
-        "entrada": 10113,
-        "cache": 3534954,
-        "saida": 4774,
-        "total": 3549841,
+        "entrada": 11697,
+        "cache": 5326778,
+        "saida": 5943,
+        "total": 5344418,
         "de": "2026-11-18T14:56:50.302Z",
-        "ate": "2026-11-18T15:12:30.539Z",
-        "medido": "2026-11-18T15:12:35.395Z"
+        "ate": "2026-11-18T15:19:48.945Z",
+        "medido": "2026-11-18T15:19:51.375Z"
       }
     ],
-    "entrada": 10113,
-    "cache": 3534954,
-    "saida": 4774,
-    "total": 3549841
+    "entrada": 11697,
+    "cache": 5326778,
+    "saida": 5943,
+    "total": 5344418
   },
   "elevenlabs": {
     "creditos": 868,
