@@ -27,11 +27,23 @@
         "de": null,
         "ate": null,
         "medido": "2026-11-17T05:58:34.286Z"
+      },
+      {
+        "id": "e40e48ab-1f9d-5460-b86b-7a900ee3d4f6",
+        "programa": "Claude Code",
+        "modelo": "claude-opus-5-5",
+        "entrada": 54423,
+        "cache": 2823547,
+        "saida": 11112,
+        "total": 2889082,
+        "de": "2026-11-18T11:03:49.559Z",
+        "ate": "2026-11-18T11:14:10.731Z",
+        "medido": "2026-11-18T11:14:14.929Z"
       }
     ],
-    "entrada": 0,
-    "cache": 0,
-    "saida": 0,
-    "total": 0
+    "entrada": 54423,
+    "cache": 2823547,
+    "saida": 11112,
+    "total": 2889082
   }
 }
