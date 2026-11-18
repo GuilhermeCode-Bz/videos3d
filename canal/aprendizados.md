@@ -78,6 +78,8 @@
 
 - Na nuvem (Claude Code na web), a ElevenLabs do plano grátis NÃO funciona: a chave conecta (`NODE_USE_ENV_PROXY=1` na frente do comando e `ELEVENLABS_API_KEY=proxy-injected` no `.env`), mas na hora de gravar ela responde "Unusual activity... Free Tier access has been disabled" (o servidor da nuvem parece VPN). E a voz de teste (espeak-ng) não pôde ser instalada aqui. Narração na nuvem só com plano pago; senão, roteiro e cena.js na nuvem e o render no computador (18/11/2026)
 
+- Na nuvem sem a voz de teste (espeak-ng não instala), dá pra revisar as cenas com uma "voz muda": um script espeak-ng no PATH (na pasta de rascunho) que só gera silêncio com o tempo da frase (~170 palavras/min, pelo ffmpeg do ffmpeg-static); as prévias e a folha saem iguais, só a hora de cada palavra é aproximada (nuvem-documentario, 18/11/2026)
+
 > Pra IA: erros da cena ou do motor que já deram trabalho neste canal, e como resolver.
 
 - No home_office, com a cadeira giratória no SEAT girada pro monitor (PI), o personagem sentado virado pra câmera fica atrás do encosto (só aparecem as pernas). No fim do cena(), se ele está no SEAT, girar a cadeira junto: cad.rotation.y = menino.g.rotation.y (nuvem-mesma-segunda, 18/11/2026)
