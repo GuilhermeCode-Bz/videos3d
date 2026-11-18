@@ -5,24 +5,143 @@
   "arroba": "@mappoa_leads",
   "estilo": "redondo",
   "fps": 60,
-  "efeitos": {"abaixa": true},
-  "personagem": {"tipo": "menino", "roupa": "camiseta", "cores": {"camiseta": "#2f6fd6", "bermuda": "#2f6f5e", "tenis": "#f4f1ea", "cabelo": "#7a4a22", "pele": "#e6b48a"}},
-  "voz": {"motor": "elevenlabs", "id": "TX3LPaxmHKxFdv7VOQHJ", "velocidade": 1.1, "acelerar": "auto"},
+  "efeitos": {
+    "abaixa": true
+  },
+  "personagem": {
+    "tipo": "menino",
+    "roupa": "camiseta",
+    "cores": {
+      "camiseta": "#2f6fd6",
+      "bermuda": "#2f6f5e",
+      "tenis": "#f4f1ea",
+      "cabelo": "#7a4a22",
+      "pele": "#e6b48a"
+    }
+  },
+  "voz": {
+    "motor": "elevenlabs",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "velocidade": 1.1,
+    "acelerar": "auto"
+  },
   "alvoPpm": 190,
   "frases": [
-    {"texto": "O Rafa acordou na mesma segunda-feira. Pela quinta vez.", "plano": "gancho", "mostra": ["despertador", "calendario", "personagem"], "gancho": true},
-    {"texto": "Toda segunda, ele posta o portfólio e espera um cliente aparecer.", "plano": "posta", "mostra": ["personagem", "celular", "monitor"]},
-    {"texto": "Às seis da tarde, zero clientes. E o dia volta pro começo.", "plano": "volta", "mostra": ["relogio", "personagem", "calendario"]},
-    {"texto": "Na sexta segunda, ele tenta panfleto na rua. Choveu.", "plano": "panfleto", "mostra": ["personagem", "panfletos"]},
-    {"texto": "Na sétima, ele entende: o dia só acaba se ele fechar um cliente.", "plano": "regra", "mostra": ["personagem", "despertador"]},
-    {"texto": "Então ele decide investir o preço de um café num sistema que acha quem precisa de site.", "plano": "investe", "mostra": ["personagem", "cafe", "monitor"]},
-    {"texto": "No computador, ele digita mappoa.com, e vem a lista das barbearias de Recife sem site.", "plano": "lista", "mostra": ["navegador", "tela", "personagem"]},
-    {"texto": "Esse é o *Mappoa*, um sistema que mostra quem tem mais chance de comprar.", "plano": "mappoa", "mostra": ["tela", "robo", "personagem"]},
-    {"texto": "Ele abre a Barbearia do Zé: o WhatsApp, nota noventa e um, e a mensagem pronta.", "plano": "empresa", "mostra": ["tela", "personagem"]},
-    {"texto": "Às cinco e cinquenta e nove, o Zé responde: fechado.", "plano": "fecha", "mostra": ["despertador", "celular", "personagem"]},
-    {"texto": "E pela primeira vez, o Rafa acorda numa terça.", "plano": "terca", "mostra": ["calendario", "personagem", "despertador"]},
-    {"texto": "Segue pra ver mais. No computador, digita mappoa.com e testa você também.", "plano": "segue", "mostra": ["personagem", "navegador", "monitor"]}
+    {
+      "texto": "O Rafa acordou na mesma segunda-feira. Pela quinta vez.",
+      "plano": "gancho",
+      "mostra": [
+        "despertador",
+        "calendario",
+        "personagem"
+      ],
+      "gancho": true
+    },
+    {
+      "texto": "Toda segunda, ele posta o portfólio e espera um cliente aparecer.",
+      "plano": "posta",
+      "mostra": [
+        "personagem",
+        "celular",
+        "monitor"
+      ]
+    },
+    {
+      "texto": "Às seis da tarde, zero clientes. E o dia volta pro começo.",
+      "plano": "volta",
+      "mostra": [
+        "relogio",
+        "personagem",
+        "calendario"
+      ]
+    },
+    {
+      "texto": "Na sexta segunda, ele tenta panfleto na rua. Choveu.",
+      "plano": "panfleto",
+      "mostra": [
+        "personagem",
+        "panfletos"
+      ],
+      "jogo": "falha"
+    },
+    {
+      "texto": "Na sétima, ele entende: o dia só acaba se ele fechar um cliente.",
+      "plano": "regra",
+      "mostra": [
+        "personagem",
+        "despertador"
+      ]
+    },
+    {
+      "texto": "Então ele decide investir o preço de um café num sistema que acha quem precisa de site.",
+      "plano": "investe",
+      "mostra": [
+        "personagem",
+        "cafe",
+        "monitor"
+      ]
+    },
+    {
+      "texto": "No computador, ele digita mappoa.com, e vem a lista das barbearias de Recife sem site.",
+      "plano": "lista",
+      "mostra": [
+        "navegador",
+        "tela",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Esse é o *Mappoa*, um sistema que mostra quem tem mais chance de comprar.",
+      "plano": "mappoa",
+      "mostra": [
+        "tela",
+        "robo",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Ele abre a Barbearia do Zé: o WhatsApp, nota noventa e um, e a mensagem pronta.",
+      "plano": "empresa",
+      "mostra": [
+        "tela",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Às cinco e cinquenta e nove, o Zé responde: fechado.",
+      "plano": "fecha",
+      "mostra": [
+        "despertador",
+        "celular",
+        "personagem"
+      ],
+      "jogo": "corrige"
+    },
+    {
+      "texto": "E pela primeira vez, o Rafa acorda numa terça.",
+      "plano": "terca",
+      "mostra": [
+        "calendario",
+        "personagem",
+        "despertador"
+      ]
+    },
+    {
+      "texto": "Segue pra ver mais. No computador, digita mappoa.com e testa você também.",
+      "plano": "segue",
+      "mostra": [
+        "personagem",
+        "navegador",
+        "monitor"
+      ]
+    }
   ],
-  "cauda": {"segundos": 1.6, "plano": "cartao"},
-  "trilha": {"arquivo": "trilha", "ganho": 0.22}
+  "cauda": {
+    "segundos": 1.6,
+    "plano": "cartao"
+  },
+  "trilha": {
+    "arquivo": "trilha",
+    "ganho": 0.22
+  }
 }

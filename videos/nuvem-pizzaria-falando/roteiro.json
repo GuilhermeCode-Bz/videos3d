@@ -33,7 +33,7 @@
       "mostra": [
         "fachada",
         "olhos",
-        "personagem"
+        "designers"
       ],
       "gancho": true
     },
@@ -53,7 +53,8 @@
         "celular",
         "cliente",
         "fachada"
-      ]
+      ],
+      "jogo": "falha"
     },
     {
       "texto": "Do outro lado da cidade, o Téo já tinha mandado cinquenta propostas. Zero respostas.",
@@ -106,7 +107,8 @@
         "personagem",
         "porta",
         "olhos"
-      ]
+      ],
+      "jogo": "corrige"
     },
     {
       "texto": "Hoje eu tenho site. E o meu forno não para.",

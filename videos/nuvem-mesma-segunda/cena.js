@@ -7,7 +7,7 @@
 // linhas da ficha do roteiro.md.
 (function () {
   const PI = Math.PI;
-  let bl, CS, menino, robo, comp, cel, navG, telaC, telaM, desp, relogio, calend, contrato, carimbo, cafe, moeda, clarao, FOV0;
+  let cad, bl, CS, menino, robo, comp, cel, navG, telaC, telaM, desp, relogio, calend, contrato, carimbo, cafe, moeda, clarao, FOV0;
   const tudo = [], fx = {}, folhasV = [], panfs = [];
   const V = (x, y, z) => new THREE.Vector3(x, y, z);
   const mais = (p, d) => [p[0] + d[0], p[1] + d[1], p[2] + d[2]];
@@ -145,7 +145,7 @@
 
     // Quarto: o computador, a cadeira, o despertador gigante, o relógio, o calendário e as folhas voando
     comp = K.computador({ corMesa: 0xc89a6a }); guarda(comp, 'monitor', COMP);
-    const cad = K.m3d('cadeira_giratoria', { cor: 0x1067f8 }); cad.rotation.y = PI; guarda(cad, null, SEAT);
+    cad = K.m3d('cadeira_giratoria', { cor: 0x1067f8 }); cad.rotation.y = PI; guarda(cad, null, SEAT);
     desp = K.m3d('despertador', { tam: 2.6 }); desp.rotation.y = -0.5; guarda(desp, 'despertador', DESP);
     relogio = K.m3d('relogio_parede'); relogio.scale.setScalar(2); guarda(relogio, 'relogio', REL);
     calend = folha(1.0, 1.25, 400, diaCal('SEGUNDA')); guarda(calend, 'calendario', CAL);
@@ -286,7 +286,7 @@
       K.som('errado', tZe, 0.5); K.som('rebobina', tVo, 0.55); K.som('whoosh', tCo, 0.4);
       // CÂMERA: (1) no relógio, chegando · (2) o quarto, afastando
       const cv = (tZe + tVo) / 2;
-      if (tc < cv) K.mirar([1.2, 2.5, K.lerp(0.2, -0.6, pc(tc, B.inicio, cv))], REL);
+      if (tc < cv) K.mirar([1.1, 2.45, K.lerp(1.4, 0.7, pc(tc, B.inicio, cv))], REL);
       else K.filmar([cabecaDe(menino, 0.3), REL, CAL, mais(SEAT, [0, 0.4, 0])], 'afastando', pc(tc, cv, B.ate), { plano: 'medio', lado: 22, altura: 'olho', tam: 3.2 });
       // EFEITOS VISUAIS: "0 clientes" em "zero" · ✗ · clarão em "começo"
       fx.et.zero.em({ tela: [540, 400] }, tc - tZe);
@@ -353,7 +353,7 @@
       menino.humor(tc > tDe ? 'feliz' : 'normal');
       menino.g.updateMatrixWorld(true);
       const mao = menino.mao(1), cPos = mais(mao, [0.03, 0.05, 0.06]);
-      if (tc < tSi) { ve(cafe); cafe.position.set(...cPos); cafe.rotation.set(0, 0.4, 0); cafe.scale.setScalar(1.6 * pop(tc - tCa + 0.35)); }
+      if (tc < tSi) { ve(cafe); cafe.position.set(...cPos); cafe.rotation.set(0, 0.4, 0); cafe.scale.setScalar(0.9 * pop(tc - tCa + 0.35)); }
       if (tc > tSi) {
         fx.poof.em(cPos, tc - tSi, { escala: 0.35 });
         const q = K.clamp((tc - tSi) / 0.45);
@@ -367,7 +367,7 @@
       for (let k = 0; k < 6; k++) K.som('estalo', tSt - 0.4 + k * 0.12, 0.2);
       fx.et.investir.em(cabecaDe(menino, 0.55), tc - tIn);
       // CÂMERA: (1) chegando nele com o café · (2) subindo pra tela com os pinos
-      if (tc < tSi + 0.15) K.filmar([menino, cabecaDe(menino, 0.45), cPos], 'chegando', pc(tc, B.inicio, tSi + 0.15), { plano: 'medio', lado: 15, altura: 'olho', espacoCima: 0.3, obstaculos: false, tam: 1.6 });
+      if (tc < tSi + 0.15) { const k = K.suave(pc(tc, B.inicio, tSi + 0.15)); K.mirar([K.lerp(0.75, 0.6, k), 1.55, K.lerp(3.2, 2.6, k)], [0.85, 1.15, -0.5]); }
       else K.filmar([MONITOR, mais(MONITOR, [0, 0.45, 0]), menino], 'subindo', pc(tc, tSi + 0.15, B.ate), { plano: 'medio', lado: 'frente', altura: 'olho', obstaculos: false, tam: 1.9 });
     },
     lista(B, tc) {
@@ -422,7 +422,7 @@
       // CÂMERA: (1) perto da tela, de frente-esquerda · (2) chegando, frente
       const cv = (tNo + tMs) / 2;
       if (tc < cv) K.filmar([telaC, mais(TELA_Q, [0, 1.0, 0]), mais(TELA_Q, [0, -1.0, 0])], 'chegando', pc(tc, B.inicio, cv), { plano: 'perto', lado: -12, altura: 'olho', tam: 1.5 });
-      else K.filmar([telaC, menino, cabecaDe(menino, 0.3)], 'chegando', pc(tc, cv, B.ate), { plano: 'medio', lado: 8, altura: 'olho', tam: 2.4 });
+      else K.filmar([telaC, menino, cabecaDe(menino, 0.3)], 'chegando', pc(tc, cv, B.ate), { plano: 'medio', lado: 8, altura: 'olho', tam: 1.9 });
       if (tc > tZa && tc < tMs) fx.et.zap.em({ tela: [540, 400] }, tc - tZa);
     },
     fecha(B, tc) {
@@ -462,9 +462,9 @@
       else { menino.colocar(SEAT, tc < tTe ? CAL : [1.6, 1.4, 4]); menino.reagir(tc < tTe ? 'surpreso' : 'vitoria', tc - tAc); }
       // CÂMERA: (1) o calendário virando · (2) nele de frente, chegando
       const cv = tTe + 0.35;
-      if (tc < cv) K.mirar([0.95, 2.0, K.lerp(0.9, 0.4, pc(tc, B.inicio, cv))], [CAL[0] - 0.2, CAL[1] - 0.45, CAL[2]]);
+      if (tc < cv) K.mirar([0.0, 2.15, K.lerp(1.0, 0.5, pc(tc, B.inicio, cv))], [CAL[0] - 0.2, CAL[1] - 0.45, CAL[2]]);
       else K.filmar([cabecaDe(menino, 0.3), mais(SEAT, [0, 0.4, 0]), CAL], 'chegando', pc(tc, cv, B.ate), { plano: 'medio', lado: 25, altura: 'olho', tam: 2.6 });
-      fx.et.terca.em({ tela: [540, 400] }, tc - tTe);
+      fx.et.terca.em({ tela: [540, 900] }, tc - tTe);
       K.som('ding', B.inicio + 0.1, 0.3); K.som('whoosh', tTe, 0.3); K.som('festa', tTe + 0.1, 0.55);
       void tPr;
     },
@@ -497,7 +497,7 @@
       ve(comp, calend); comp.tela.desenhar(telaEscura, 'esc');
       despTocando(0.37, 1.2, 7);
       menino.colocar(SEAT, [1.6, 1.4, 4]); menino.sentar(1); menino.reagir('susto', 0.3);
-      K.filmar([cabecaDe(menino, 0.3), mais(SEAT, [0, 0.3, 0]), mais(DESP, [0, 1.5, 0])], 'parado', 0, { plano: 'medio', lado: 25, altura: 'olho', espacoCima: 0.3, tam: 2.6 });
+      K.filmar([cabecaDe(menino, 0.3), mais(SEAT, [0, 0.3, 0]), mais(DESP, [0, 1.5, 0])], 'parado', 0, { plano: 'perto', lado: 25, altura: 'olho', espacoCima: 0.35, tam: 1.7 });
     }
   };
 
@@ -515,6 +515,7 @@
     telaM.g.scale.setScalar(1); telaM.g.position.set(-0.35, 1.65, 0.1); telaM.g.rotation.set(0, 0, 0);
     contrato.scale.setScalar(1); carimbo.visible = false;
     if (!P[B.plano]) throw new Error(`Falta o plano "${B.plano}" no cena.js (um por frase do roteiro.json)`);
+    if ((plano === 'capa' ? 'quarto' : LUGAR[B.plano] || 'quarto') === 'quarto') cad.visible = true;
     P[B.plano](B, tc);
   }
   window.CENA = { montar, cena, capa: () => cena(0, 0, 'capa') };
