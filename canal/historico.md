@@ -300,3 +300,4 @@
 - 18/11/2026 · canal · pediu 3 vídeos totalmente diferentes (texto, jeito de contar, personagem), mantendo o jeito de apresentar o Mappoa → 3 formatos: loop de tempo (nuvem-mesma-segunda), a empresa contando em 1ª pessoa e narração de corrida
 - 18/11/2026 · nuvem-mesma-segunda · roteiro.md, roteiro.json e cena.js prontos (o Rafa preso na mesma segunda até fechar um cliente; barbearias de Recife, 41 sem site; fim: acorda numa terça); a revisão parou na narração: a ElevenLabs bloqueou o plano grátis vindo da nuvem ("atividade incomum") → parei e avisei
 - 18/11/2026 · canal · 'não mudar o personagem' → o principal continua o menino de camiseta azul do canal nos 3 vídeos novos; regra anotada
+- 18/11/2026 · canal · pediu pra eu deixar os 3 quase prontos: ele grava só a narração no computador e sobe pro GitHub, e eu faço as cenas e o render aqui na nuvem → roteiro.json dos 3 prontos (nuvem-mesma-segunda, nuvem-pizzaria-falando, nuvem-corrida-do-cliente)

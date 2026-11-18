@@ -1,0 +1,144 @@
+{
+  "titulo": "Dois web designers, um cliente só",
+  "capa": "Corrida pelo *cliente*",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {
+    "abaixa": true
+  },
+  "personagem": {
+    "tipo": "menino",
+    "roupa": "camiseta",
+    "cores": {
+      "camiseta": "#2f6fd6",
+      "bermuda": "#2f6f5e",
+      "tenis": "#f4f1ea",
+      "cabelo": "#7a4a22",
+      "pele": "#e6b48a"
+    }
+  },
+  "voz": {
+    "motor": "elevenlabs",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "velocidade": 1.1,
+    "acelerar": "auto"
+  },
+  "alvoPpm": 190,
+  "frases": [
+    {
+      "texto": "Dada a largada! Dois web designers, um cliente só!",
+      "plano": "gancho",
+      "mostra": [
+        "personagem",
+        "rival",
+        "faixa"
+      ],
+      "gancho": true
+    },
+    {
+      "texto": "O Davi sai na frente, carregando uma planilha de quarenta quilos!",
+      "plano": "planilha",
+      "mostra": [
+        "personagem",
+        "planilha"
+      ]
+    },
+    {
+      "texto": "Ele para em cada loja, pergunta se tem site, e ouve não, não e não!",
+      "plano": "lojas",
+      "mostra": [
+        "personagem",
+        "lojista",
+        "planilha"
+      ]
+    },
+    {
+      "texto": "Enquanto isso, o rival corre direto, sem parar em loja nenhuma!",
+      "plano": "rival",
+      "mostra": [
+        "rival",
+        "faixa"
+      ]
+    },
+    {
+      "texto": "Fim da primeira prova: o rival fecha o cliente. O Davi chega com a planilha.",
+      "plano": "fim1",
+      "mostra": [
+        "rival",
+        "contrato",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Replay! O celular do rival já mostrava quem não tinha site.",
+      "plano": "replay",
+      "mostra": [
+        "rival",
+        "celular"
+      ]
+    },
+    {
+      "texto": "O Davi não pensa duas vezes: investe o preço de um isotônico num sistema que acha quem precisa de site.",
+      "plano": "investe",
+      "mostra": [
+        "personagem",
+        "isotonico",
+        "monitor"
+      ]
+    },
+    {
+      "texto": "No computador, ele digita mappoa.com, e vem a lista dos salões de Goiânia sem site: trinta e oito!",
+      "plano": "lista",
+      "mostra": [
+        "navegador",
+        "tela",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Esse é o *Mappoa*, um sistema que mostra quem tem mais chance de comprar!",
+      "plano": "mappoa",
+      "mostra": [
+        "tela",
+        "robo",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Ele abre o Studio Glam: o WhatsApp, nota noventa, e a mensagem pronta!",
+      "plano": "ficha",
+      "mostra": [
+        "tela",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Segunda prova! O Davi vai direto, sem planilha, e cruza a linha primeiro!",
+      "plano": "vitoria",
+      "mostra": [
+        "personagem",
+        "faixa",
+        "medalha"
+      ]
+    },
+    {
+      "texto": "Segue pra ver mais. No computador, digita mappoa.com e testa você também.",
+      "plano": "segue",
+      "mostra": [
+        "personagem",
+        "navegador",
+        "monitor"
+      ]
+    }
+  ],
+  "cauda": {
+    "segundos": 1.6,
+    "plano": "cartao"
+  },
+  "trilha": {
+    "arquivo": "trilha",
+    "ganho": 0.22
+  }
+}
