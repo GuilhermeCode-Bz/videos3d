@@ -14,6 +14,8 @@
 
 - Vídeo feito na nuvem (Claude Code na web) fica em `videos/nuvem-<tema>/`, pra não misturar com os do computador e continuar aparecendo no painel. O `video.mp4` não sobe pro GitHub (é pesado demais): mandar o arquivo direto pra pessoa baixar (você pediu, 18/11/2026)
 
+- Conferir TUDO antes do render completo: além da folha, uma prévia de cada corte de câmera de cada frase (o personagem inteiro e sem nada tapando, os efeitos sem cobrir a tela, os textos legíveis), e só renderizar quando estiver certo. Depois de renderizado, o vídeo fica como está: não refazer por conta própria; achou algo, contar e só refazer se ele pedir (você pediu, 18/11/2026)
+
 ## Roteiro e narração
 
 - O personagem principal é SEMPRE o do canal (o menino de camiseta azul de `canal/identidade.md`), mesmo quando o vídeo muda o formato, o texto ou quem narra: o que muda é a história, não ele (você pediu, 18/11/2026)
