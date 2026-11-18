@@ -304,3 +304,4 @@
 - 18/11/2026 · canal · 'aproveita e completa 10 vídeos' → mais 7 roteiros, cada um num formato: documentário de bicho, receita ao contrário, plantão de telejornal, conto de fadas, contagem regressiva do aluguel, ele do futuro e fase de videogame (os 10 somam uns 8.200 caracteres da ElevenLabs)
 - 18/11/2026 · canal · trocou a chave da ElevenLabs por outra conta → a voz funcionou aqui na nuvem; narração gravada aqui mesmo (nuvem-mesma-segunda 788 e nuvem-pizzaria-falando ~870 caracteres)
 - 18/11/2026 · nuvem-mesma-segunda · vídeo pronto na nuvem (48 s, voz Liam, 788 créditos), capa ('Segunda de novo') e publicacao.md; mandado na conversa
+- 18/11/2026 · nuvem-mesma-segunda · revisei os quadros do vídeo pronto: o encosto da cadeira tapava o Rafa sentado e o monitor mostrava a Barbearia do Zé antes da hora → corrigido, render de novo na fila (o antigo foi pra versoes/)

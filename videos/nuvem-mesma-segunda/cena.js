@@ -102,7 +102,7 @@
   function siteDemo(c, w, h) {
     c.fillStyle = '#f7f9fc'; c.fillRect(0, 0, w, h);
     const d = c.createLinearGradient(0, 0, w, 0); d.addColorStop(0, '#2fb5a6'); d.addColorStop(1, '#2f6fd6'); c.fillStyle = d; c.fillRect(0, 0, w, h * 0.34);
-    txt(c, 'Barbearia do Zé', w * 0.06, h * 0.13, w * 0.075, '#fff', 900); txt(c, 'agende o seu corte', w * 0.06, h * 0.24, w * 0.045, '#fff', 700);
+    txt(c, 'Rafa Web Design', w * 0.06, h * 0.13, w * 0.075, '#fff', 900); txt(c, 'sites rápidos e bonitos', w * 0.06, h * 0.24, w * 0.045, '#fff', 700);
     [0, 1, 2].forEach((i) => { rr(c, w * (0.06 + i * 0.31), h * 0.45, w * 0.27, h * 0.45, 10, '#fff'); rr(c, w * (0.08 + i * 0.31), h * 0.48, w * 0.23, h * 0.22, 8, ['#c7f0ea', '#fde68a', '#c7d7fe'][i]); });
   }
 
@@ -517,6 +517,8 @@
     if (!P[B.plano]) throw new Error(`Falta o plano "${B.plano}" no cena.js (um por frase do roteiro.json)`);
     if ((plano === 'capa' ? 'quarto' : LUGAR[B.plano] || 'quarto') === 'quarto') cad.visible = true;
     P[B.plano](B, tc);
+    // a cadeira gira junto com o Rafa quando ele está sentado nela (senão o encosto tapa ele)
+    if (menino.g.visible && Math.hypot(menino.g.position.x - SEAT[0], menino.g.position.z - SEAT[2]) < 0.05) cad.rotation.y = menino.g.rotation.y;
   }
   window.CENA = { montar, cena, capa: () => cena(0, 0, 'capa') };
 })();

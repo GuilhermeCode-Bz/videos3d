@@ -80,6 +80,9 @@
 
 > Pra IA: erros da cena ou do motor que já deram trabalho neste canal, e como resolver.
 
+- No home_office, com a cadeira giratória no SEAT girada pro monitor (PI), o personagem sentado virado pra câmera fica atrás do encosto (só aparecem as pernas). No fim do cena(), se ele está no SEAT, girar a cadeira junto: cad.rotation.y = menino.g.rotation.y (nuvem-mesma-segunda, 18/11/2026)
+- Na rua_predios, câmera de frente pra quem corre com outro personagem do vídeo ATRÁS dela (a dona esperando na chegada) reprova "colado na câmera": só pôr esse personagem quando a câmera olha pra ele. As árvores escondidas continuam barrando o K.seguir: na corrida, K.mirar fixo no meio do calçadão (x 0,25) (nuvem-corrida-do-cliente, 18/11/2026)
+
 - O ✓/✗ posto com `K.tela(ponto)` antes do `K.filmar` sai no lugar errado (usa a câmera do quadro anterior): calcular o `K.tela` depois do `K.filmar` (web-designer-sem-site, 04/11/2026)
 - Na cidade, os vasos de planta do calçadão (x -15 e -8) ficam na frente de loja posta perto de x -14 e escondem o personagem: lojas próprias a partir de x -21 (web-designer-sem-site, 04/11/2026)
 - O render completo pode travar no começo com "page.screenshot: Timeout 30000ms" (o navegador demorou): é só rodar de novo, a voz já feita não gasta crédito (cold-call, 04/11/2026)
