@@ -162,3 +162,20 @@
 | Pedido de casamento (`pedido-de-casamento`) | "Ele fez a proposta no primeiro encontro. E levou água na cara." (o Léo ajoelhado com a caixinha "Proposta: site R$ 1.500"; trinta foras, de molho; ninguém casa sem se conhecer; floriculturas de Fortaleza; no fim a dona da água serve café) | ✅ | ✅ | ⬜ | |
 | Esperar no grupo da família (`esperar-grupo-da-familia`) | "Ele sentou pra esperar o primeiro cliente. Isso foi há trinta dias." (a barba do campeão com gancho novo, pedido do dono em 18/11/2026; o Renan manda "faço sites" no grupo da família e só a tia responde com palminhas; o Salão Bella sem site; o rival fecha; corta a barba; "o preço de um sorvete"; salões de beleza de Santos; fim novo "Segue pra ver mais"; feito em 18/11/2026, 49 s) | ✅ | ✅ | ⬜ | |
 | Um cliente gritou na esquina (`cliente-gritou-na-esquina`) | "Um cliente gritou por ele na esquina. E ele tava de fone." (o megafone do campeão empresa-gritando com gancho novo em 3ª pessoa, feito sem pedir aprovação em 18/11/2026; o instrutor do Pilates Icaraí grita "ALGUÉM FAZ MEU SITE?" e o Heitor passa de fone mandando proposta pra outro estado; o rival ouve e fecha; virada: ele tira o fone e a rua inteira tava gritando; "o preço de um biscoito Globo"; estúdios de pilates de Niterói; fim novo "Segue pra ver mais"; pasta `videos/cliente-gritou-na-esquina`; feito em 18/11/2026, 46,7 s) | ✅ | ✅ | ⬜ | |
+
+### Lote da nuvem (18/11/2026): 10 vídeos totalmente diferentes, roteiros em videos/nuvem-*/
+
+| Tema | Pasta | Roteiro | Vídeo | Postado | Resultado |
+|---|---|---|---|---|---|
+| A mesma segunda-feira (loop de tempo) | nuvem-mesma-segunda | ✅ | ✅ | ⬜ | |
+| Eu sou uma pizzaria (a empresa conta) | nuvem-pizzaria-falando | ✅ | ⬜ (renderizando) | ⬜ | |
+| Corrida pelo cliente (locutor esportivo) | nuvem-corrida-do-cliente | ✅ | ⬜ (na fila) | ⬜ | |
+| Habitat natural (documentário) | nuvem-documentario | 📝 | ⬜ | ⬜ | |
+| Receita do fracasso (culinária) | nuvem-receita-sem-cliente | 📝 | ⬜ | ⬜ | |
+| Plantão urgente (telejornal) | nuvem-plantao | 📝 | ⬜ | ⬜ | |
+| Era uma vez (conto de fadas) | nuvem-era-uma-vez | 📝 | ⬜ | ⬜ | |
+| 30 dias (contagem do aluguel) | nuvem-aluguel-vence | 📝 | ⬜ | ⬜ | |
+| Ele do futuro (viagem no tempo) | nuvem-eu-do-futuro | 📝 | ⬜ | ⬜ | |
+| Fase 1 (videogame) | nuvem-fase-1 | 📝 | ⬜ | ⬜ | |
+
+Os 7 de baixo: roteiro.json pronto, sem narração nem cena.js. Fazer numa conversa nova (cena.js a partir dos 3 de cima, que já têm o bloco do Mappoa).

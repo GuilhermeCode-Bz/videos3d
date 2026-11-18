@@ -305,3 +305,4 @@
 - 18/11/2026 · canal · trocou a chave da ElevenLabs por outra conta → a voz funcionou aqui na nuvem; narração gravada aqui mesmo (nuvem-mesma-segunda 788 e nuvem-pizzaria-falando ~870 caracteres)
 - 18/11/2026 · nuvem-mesma-segunda · vídeo pronto na nuvem (48 s, voz Liam, 788 créditos), capa ('Segunda de novo') e publicacao.md; mandado na conversa
 - 18/11/2026 · nuvem-mesma-segunda · revisei os quadros do vídeo pronto: o encosto da cadeira tapava o Rafa sentado e o monitor mostrava a Barbearia do Zé antes da hora → corrigido, render de novo na fila (o antigo foi pra versoes/)
+- 18/11/2026 · canal · combinou: esta conversa termina a fila de render (pizzaria, corrida e a segunda-feira corrigida); os outros 7 vão pra uma conversa nova → anotado na pauta
