@@ -369,10 +369,10 @@
       // OBJETOS SE MEXENDO: a tampa treme fervendo · em "receita" pula com um poof · fumaça preta saindo
       const pula = tc > tRe ? Math.sin(K.clamp((tc - tRe) / 0.5) * PI) : 0;
       tampa(pula * 0.8, 1, tc);
-      // CÂMERA: (1) aberta, de frente, a moldura do AO VIVO · (2) em ~0,8 s, de lado na panela · (3) em "receita", perto dele de frente
+      // CÂMERA: (1) aberta, de frente, a moldura do AO VIVO · (2) em ~0,8 s, de frente-esquerda, ele e a panela atrás · (3) em "receita", perto dele de frente
       const c1 = B.inicio + 0.8, c2 = Math.max(c1 + 0.6, tRe - 0.05);
       if (tc < c1) K.mirar([K.lerp(0.9, 0.7, pc(tc, B.inicio, c1)), 1.75, K.lerp(5.0, 4.6, pc(tc, B.inicio, c1))], [0.45, 1.15, -0.9]);
-      else if (tc < c2) { const k = K.suave(pc(tc, c1, c2)); K.mirar([K.lerp(2.3, 2.1, k), 1.55, K.lerp(1.2, 1.0, k)], [0.75, 1.15, -1.0]); }
+      else if (tc < c2) { const k = K.suave(pc(tc, c1, c2)); K.mirar([K.lerp(-1.4, -1.2, k), 1.65, K.lerp(1.6, 1.35, k)], [0.55, 1.2, -1.15]); }
       else { const k = K.suave(pc(tc, c2, B.ate)); K.mirar([K.lerp(0.75, 0.65, k), 1.6, K.lerp(2.5, 2.2, k)], [0.55, 1.3, -1.2]); }
       moldura(tc < c1 ? 1 : 0);
       conchaNaMao();
@@ -398,7 +398,7 @@
       // CÂMERA: (1) chegando de frente-esquerda nele com o portfólio · (2) em "não", de cima do lado da panela
       const cv = tNa - 0.05;
       if (tc < cv) K.filmar([cabecaDe(menino, 0.3), mais(BETO, [0.25, 1.75, 0.3]), mais(BETO, [0, 0.9, 0.4])], 'chegando', pc(tc, B.inicio, cv), { plano: 'medio', lado: -20, altura: 'olho', tam: 1.6, obstaculos: false });
-      else { const q = K.suave(pc(tc, cv, B.ate)); K.mirar([K.lerp(1.9, 1.7, q), 2.05, K.lerp(0.6, 0.45, q)], [0.75, 1.05, -0.95]); }
+      else { const q = K.suave(pc(tc, cv, B.ate)); K.mirar([K.lerp(2.0, 1.8, q), 2.15, K.lerp(1.2, 1.0, q)], [0.62, 1.2, -1.1]); }
       if (tc < tNa) { menino.g.updateMatrixWorld(true); const a = menino.mao(0), b = menino.mao(1); ve(portfolio); portfolio.position.set((a[0] + b[0]) / 2, Math.max(a[1], b[1]) + 0.22, (a[2] + b[2]) / 2 + 0.12); portfolio.rotation.set(0, 0, Math.sin(tc * 3) * 0.08); portfolio.scale.setScalar(1); }
       else if (k < 1) { ve(portfolio); const de = mais(BETO, [0.3, 1.5, 0.3]); portfolio.position.set(K.lerp(de[0], PAN[0], k), K.lerp(de[1], PAN[1] + 0.3, k) + Math.sin(k * PI) * 0.3, K.lerp(de[2], PAN[2], k)); portfolio.rotation.set(k * 1.4, 0, k * 0.6); portfolio.scale.setScalar(K.lerp(1, 0.55, k)); }
       // EFEITOS VISUAIS: "1. Portfólio escondido" em "Primeiro" · ✨ no "portfólio" · ✗ em "ninguém"
@@ -419,13 +419,13 @@
       posts.forEach((p, i) => {
         const t0 = tTr + i * 0.35, k = pc(tc, t0, t0 + 0.55);
         if (tc < t0 || k >= 1) return;
-        ve(p); const de = mais(BETO, [0.35, 1.25, 0.45]);
-        p.position.set(K.lerp(de[0], PAN[0], k), K.lerp(de[1], PAN[1] + 0.25, k) + Math.sin(k * PI) * 0.55, K.lerp(de[2], PAN[2], k));
-        p.rotation.set(-0.4, k * 2.5, 0); p.scale.setScalar(1 - k * 0.4);
+        ve(p); const de = mais(BETO, [0.25, 1.15, 0.55]);
+        p.position.set(K.lerp(de[0], PAN[0], k), K.lerp(de[1], PAN[1] + 0.25, k) + Math.sin(k * PI) * 0.25, K.lerp(de[2], PAN[2], k));
+        p.rotation.set(-0.3, -0.5 + Math.sin(k * PI) * 0.4, Math.sin(k * PI) * 0.3); p.scale.setScalar(1 - k * 0.4);
         K.som('pingo', t0 + 0.5, 0.35);
       });
-      // CÂMERA: (1) de lado, da altura da panela, os posts voando · (2) em "Para", perto dele com o celular, de frente
-      if (tc < tPa) { const q = K.suave(pc(tc, B.inicio, tPa)); K.mirar([K.lerp(2.6, 2.3, q), 1.85, K.lerp(-0.2, 0.2, q)], [0.7, 1.25, -1.05]); }
+      // CÂMERA: (1) de frente-esquerda, um pouco do alto, os posts voando pra panela · (2) em "Para", perto dele com o celular, de frente
+      if (tc < tPa) { const q = K.suave(pc(tc, B.inicio, tPa)); K.mirar([K.lerp(-1.6, -1.4, q), 2.2, K.lerp(1.9, 1.65, q)], [0.6, 1.3, -1.1]); }
       else K.filmar([cabecaDe(menino, 0.3), mais(BETO, [0.3, 1.0, 0.3])], 'chegando', pc(tc, tPa, B.ate), { plano: 'perto', lado: 12, altura: 'olho', tam: 1.35, obstaculos: false });
       if (tc > tPa) celNaMao((c, w, h) => perfil(c, w, h, { seg: 12 }), 'p12', 1.7);
       // EFEITOS VISUAIS: "2. Post pra 12 pessoas" em "Junte" · o contador "12 seguidores" em "doze"
