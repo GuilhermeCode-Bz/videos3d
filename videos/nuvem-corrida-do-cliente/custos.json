@@ -19,5 +19,17 @@
     "cache": 799075,
     "saida": 6053,
     "total": 810527
+  },
+  "elevenlabs": {
+    "creditos": 868,
+    "caracteres": 868,
+    "vezes": [
+      {
+        "quando": "2026-11-18T12:10:37.149Z",
+        "caracteres": 868,
+        "creditos": 868,
+        "modelo": "eleven_multilingual_v2"
+      }
+    ]
   }
 }

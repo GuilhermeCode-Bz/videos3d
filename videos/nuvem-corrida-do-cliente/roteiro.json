@@ -52,7 +52,8 @@
         "personagem",
         "lojista",
         "planilha"
-      ]
+      ],
+      "jogo": "falha"
     },
     {
       "texto": "Enquanto isso, o rival corre direto, sem parar em loja nenhuma!",
@@ -84,7 +85,6 @@
       "plano": "investe",
       "mostra": [
         "personagem",
-        "isotonico",
         "monitor"
       ]
     },
@@ -121,7 +121,8 @@
         "personagem",
         "faixa",
         "medalha"
-      ]
+      ],
+      "jogo": "corrige"
     },
     {
       "texto": "Segue pra ver mais. No computador, digita mappoa.com e testa você também.",
