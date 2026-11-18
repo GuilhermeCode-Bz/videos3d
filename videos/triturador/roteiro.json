@@ -1,0 +1,158 @@
+{
+  "titulo": "Web designer: sua mensagem tá indo direto pra cá",
+  "capa": "Direto pro *triturador*",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {
+    "abaixa": true
+  },
+  "personagem": {
+    "tipo": "menino",
+    "roupa": "camiseta",
+    "cores": {
+      "camiseta": "#2f6fd6",
+      "bermuda": "#2f6f5e",
+      "tenis": "#f4f1ea",
+      "cabelo": "#7a4a22",
+      "pele": "#e6b48a"
+    }
+  },
+  "voz": {
+    "motor": "elevenlabs",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "velocidade": 1.1,
+    "acelerar": "auto"
+  },
+  "alvoPpm": 190,
+  "frases": [
+    {
+      "texto": "Web designer, sua mensagem tá indo direto pra cá.",
+      "plano": "gancho",
+      "mostra": [
+        "personagem",
+        "triturador",
+        "esteira"
+      ],
+      "gancho": true
+    },
+    {
+      "texto": "O Fábio postou “faço site” no grupo. Só apareceu concorrente.",
+      "plano": "grupo",
+      "mostra": [
+        "personagem",
+        "post_q",
+        "comentarios"
+      ]
+    },
+    {
+      "texto": "No Instagram, postou um mês inteiro. Ninguém viu.",
+      "plano": "insta",
+      "mostra": [
+        "personagem",
+        "celular",
+        "calendario"
+      ],
+      "jogo": "falha"
+    },
+    {
+      "texto": "Mandou “oi, faço sites” pra cem empresas. Silêncio total.",
+      "plano": "mensagens",
+      "mostra": [
+        "personagem",
+        "voando",
+        "celular"
+      ]
+    },
+    {
+      "texto": "O erro: mensagem igual, pra quem nem precisa de site, vai direto pro triturador.",
+      "plano": "virada",
+      "mostra": [
+        "personagem",
+        "esteira",
+        "alertas"
+      ]
+    },
+    {
+      "texto": "Então ele decidiu investir numa ferramenta que acha quem precisa de site.",
+      "plano": "investe",
+      "mostra": [
+        "personagem",
+        "monitor"
+      ],
+      "jogo": "corrige"
+    },
+    {
+      "texto": "No computador, entrou no mappoa.com e buscou: lavanderias em Juiz de Fora.",
+      "plano": "busca",
+      "mostra": [
+        "navegador",
+        "busca",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Veio a lista: noventa e seis lavanderias, trinta e oito sem site.",
+      "plano": "lista",
+      "mostra": [
+        "lista",
+        "robo",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Esse é o *Mappoa*, um sistema que acha quem precisa do seu serviço.",
+      "plano": "mappoa",
+      "mostra": [
+        "tela",
+        "robo",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Montou a campanha, e cada lavanderia recebeu uma mensagem sobre o problema dela.",
+      "plano": "campanha",
+      "mostra": [
+        "tela",
+        "personagem",
+        "monitor"
+      ]
+    },
+    {
+      "texto": "Quase todas disseram não. Mas uma dona respondeu: passa aqui hoje.",
+      "plano": "venda",
+      "mostra": [
+        "personagem",
+        "celular"
+      ]
+    },
+    {
+      "texto": "Era a dona do triturador. De cem mensagens, a dele foi a única que ela tirou da esteira.",
+      "plano": "reencontro",
+      "mostra": [
+        "personagem",
+        "dono",
+        "minha"
+      ],
+      "jogo": "avanca"
+    },
+    {
+      "texto": "Comenta a sua cidade que eu te mando quantas empresas aí não têm site. No computador, digita mappoa.com e acha as lavanderias sem site perto de você.",
+      "plano": "segue",
+      "mostra": [
+        "personagem",
+        "navegador",
+        "monitor"
+      ]
+    }
+  ],
+  "cauda": {
+    "segundos": 1.6,
+    "plano": "cartao"
+  },
+  "trilha": {
+    "arquivo": "trilha",
+    "ganho": 0.22
+  }
+}

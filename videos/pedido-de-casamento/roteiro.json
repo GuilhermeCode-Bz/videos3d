@@ -1,0 +1,162 @@
+{
+  "titulo": "Ele fez a proposta no primeiro encontro",
+  "capa": "Pediu em *casamento*",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {
+    "abaixa": true
+  },
+  "personagem": {
+    "tipo": "menino",
+    "roupa": "camiseta",
+    "cores": {
+      "camiseta": "#2f6fd6",
+      "bermuda": "#2f6f5e",
+      "tenis": "#f4f1ea",
+      "cabelo": "#7a4a22",
+      "pele": "#e6b48a"
+    }
+  },
+  "voz": {
+    "motor": "elevenlabs",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "velocidade": 1.1,
+    "acelerar": "auto"
+  },
+  "alvoPpm": 190,
+  "frases": [
+    {
+      "texto": "Ele fez a proposta no primeiro encontro. E levou água na cara.",
+      "plano": "gancho",
+      "mostra": [
+        "personagem",
+        "caixinha",
+        "dono"
+      ],
+      "gancho": true
+    },
+    {
+      "texto": "O Léo faz sites, e chega em toda empresa já pedindo em casamento.",
+      "plano": "intro",
+      "mostra": [
+        "personagem",
+        "caixinha"
+      ]
+    },
+    {
+      "texto": "Nem sabe o nome dela, nem se ela tá procurando alguém.",
+      "plano": "nemsabe",
+      "mostra": [
+        "personagem",
+        "dono"
+      ]
+    },
+    {
+      "texto": "Dia trinta: trinta foras, e o Léo de molho.",
+      "plano": "foras",
+      "mostra": [
+        "personagem"
+      ],
+      "jogo": "falha"
+    },
+    {
+      "texto": "Aí ele entendeu: ninguém casa sem se conhecer.",
+      "plano": "virada",
+      "mostra": [
+        "personagem",
+        "caixinha"
+      ],
+      "jogo": "corrige"
+    },
+    {
+      "texto": "Então ele decidiu investir numa ferramenta que mostra quem tá procurando alguém.",
+      "plano": "investe",
+      "mostra": [
+        "personagem",
+        "monitor"
+      ]
+    },
+    {
+      "texto": "No computador, entrou no mappoa.com e buscou: floriculturas em Fortaleza.",
+      "plano": "busca",
+      "mostra": [
+        "navegador",
+        "busca",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Veio a lista: noventa floriculturas, trinta e quatro sem site.",
+      "plano": "lista",
+      "mostra": [
+        "lista",
+        "robo",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Esse é o *Mappoa*, um sistema que acha quem precisa do seu serviço.",
+      "plano": "mappoa",
+      "mostra": [
+        "tela",
+        "robo",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Abriu a primeira: nota noventa e a mensagem pronta pro WhatsApp.",
+      "plano": "analise",
+      "mostra": [
+        "tela",
+        "personagem",
+        "monitor"
+      ]
+    },
+    {
+      "texto": "Mandou pra trinta. Quase todas disseram não. Mas uma disse sim: passa aqui amanhã.",
+      "plano": "venda",
+      "mostra": [
+        "personagem",
+        "celular"
+      ]
+    },
+    {
+      "texto": "Era a dona da água na cara. Dessa vez, ela serviu café.",
+      "plano": "reencontro",
+      "mostra": [
+        "personagem",
+        "dono",
+        "cafe"
+      ],
+      "jogo": "avanca"
+    },
+    {
+      "texto": "Antes, ajoelhado e molhado. Agora, sequinho e fechando.",
+      "plano": "antes_agora",
+      "mostra": [
+        "personagem",
+        "dono",
+        "contrato"
+      ]
+    },
+    {
+      "texto": "Segue pra ver mais. No computador, digita mappoa.com e testa você também.",
+      "plano": "fim",
+      "mostra": [
+        "personagem",
+        "navegador",
+        "monitor"
+      ]
+    }
+  ],
+  "cauda": {
+    "segundos": 1.6,
+    "plano": "cartao"
+  },
+  "trilha": {
+    "arquivo": "trilha",
+    "ganho": 0.22
+  }
+}

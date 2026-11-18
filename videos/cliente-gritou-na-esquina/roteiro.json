@@ -1,0 +1,26 @@
+{
+  "titulo": "Um cliente gritou por ele na esquina",
+  "capa": "Ele tava de *fone*",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {"abaixa": true},
+  "personagem": {"tipo": "menino", "roupa": "camiseta", "cores": {"camiseta": "#2f6fd6", "bermuda": "#2f6f5e", "tenis": "#f4f1ea", "cabelo": "#7a4a22", "pele": "#e6b48a"}},
+  "voz": {"motor": "elevenlabs", "id": "TX3LPaxmHKxFdv7VOQHJ", "velocidade": 1.1, "acelerar": "auto"},
+  "alvoPpm": 190,
+  "frases": [
+    {"texto": "Um cliente gritou por ele na esquina. E ele tava de fone.", "plano": "gancho", "mostra": ["personal", "megafone", "personagem"], "gancho": true},
+    {"texto": "O Heitor é web designer e passa o dia de fone, mandando proposta pra outro estado.", "plano": "longe", "mostra": ["personagem", "monitor", "propostas"]},
+    {"texto": "Só que o estúdio de pilates da esquina não tem site. Quem procura não acha nem o horário.", "plano": "academia", "mostra": ["personal", "aluno", "celular"], "jogo": "falha"},
+    {"texto": "Quem ouviu foi outro web designer. Chegou primeiro e fechou o site.", "plano": "rival", "mostra": ["rival", "personal", "contrato"], "jogo": "corrige"},
+    {"texto": "Aí o Heitor tira o fone. E a rua inteira tava gritando.", "plano": "ouvir", "mostra": ["megafones", "personagem", "fone"]},
+    {"texto": "Então ele decidiu investir o preço de um biscoito Globo num sistema que mostra quem tá gritando por site.", "plano": "investe", "mostra": ["personagem", "biscoito", "monitor"]},
+    {"texto": "Digitou mappoa.com no computador, e veio a lista dos estúdios de pilates de Niterói sem site.", "plano": "lista", "mostra": ["navegador", "tela", "personagem"]},
+    {"texto": "Esse é o *Mappoa*, um sistema que acha quem precisa do seu serviço.", "plano": "mappoa", "mostra": ["tela", "robo", "personagem"]},
+    {"texto": "Antes, o Heitor só ouvia música. Agora, ele é o primeiro a ouvir.", "plano": "antes_agora", "mostra": ["personagem", "lojista", "tela"], "jogo": "avanca"},
+    {"texto": "Segue pra ver mais. No computador, digita mappoa.com e testa você também.", "plano": "segue", "mostra": ["personagem", "navegador", "monitor"]}
+  ],
+  "cauda": {"segundos": 1.6, "plano": "cartao"},
+  "trilha": {"arquivo": "trilha", "ganho": 0.22}
+}
