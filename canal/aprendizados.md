@@ -75,7 +75,7 @@
 
 ## Lições técnicas
 
-- Na nuvem (Claude Code na web), a chave da ElevenLabs fica nas configurações da máquina, não no `.env` (lá vai só `ELEVENLABS_API_KEY=proxy-injected`), e todo comando da Máquina roda com `NODE_USE_ENV_PROXY=1` na frente, senão ele não acha a internet (18/11/2026)
+- Na nuvem (Claude Code na web), a ElevenLabs do plano grátis NÃO funciona: a chave conecta (`NODE_USE_ENV_PROXY=1` na frente do comando e `ELEVENLABS_API_KEY=proxy-injected` no `.env`), mas na hora de gravar ela responde "Unusual activity... Free Tier access has been disabled" (o servidor da nuvem parece VPN). E a voz de teste (espeak-ng) não pôde ser instalada aqui. Narração na nuvem só com plano pago; senão, roteiro e cena.js na nuvem e o render no computador (18/11/2026)
 
 > Pra IA: erros da cena ou do motor que já deram trabalho neste canal, e como resolver.
 
