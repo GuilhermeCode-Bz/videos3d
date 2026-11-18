@@ -5,20 +5,20 @@
       {
         "id": "e40e48ab-1f9d-5460-b86b-7a900ee3d4f6",
         "programa": "Claude Code",
-        "modelo": "claude-opus-5-5",
-        "entrada": 17844,
-        "cache": 8987852,
-        "saida": 11730,
-        "total": 9017426,
-        "de": "2026-11-18T12:27:09.703Z",
-        "ate": "2026-11-18T12:38:37.822Z",
-        "medido": "2026-11-18T12:38:40.848Z"
+        "modelo": null,
+        "entrada": 0,
+        "cache": 0,
+        "saida": 0,
+        "total": 0,
+        "de": null,
+        "ate": null,
+        "medido": "2026-11-18T14:13:44.758Z"
       }
     ],
-    "entrada": 17844,
-    "cache": 8987852,
-    "saida": 11730,
-    "total": 9017426
+    "entrada": 0,
+    "cache": 0,
+    "saida": 0,
+    "total": 0
   },
   "elevenlabs": {
     "creditos": 788,

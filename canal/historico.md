@@ -308,3 +308,4 @@
 - 18/11/2026 · canal · combinou: esta conversa termina a fila de render (pizzaria, corrida e a segunda-feira corrigida); os outros 7 vão pra uma conversa nova → anotado na pauta
 - 18/11/2026 · nuvem-pizzaria-falando · vídeo pronto na nuvem (52 s, voz Liam, 864 créditos), capa ('Ninguém me viu') e publicacao.md; mandado na conversa
 - 18/11/2026 · nuvem-corrida-do-cliente · conferi os quadros do vídeo pronto: a medalha tapava o Davi no fim e a planilha escondia ele nas lojas → corrigido, render de novo (o antigo vai pra versoes/)
+- 18/11/2026 · nuvem-mesma-segunda · versão corrigida pronta (a cadeira gira com o Rafa, o site dele no monitor); conferida quadro a quadro e mandada
