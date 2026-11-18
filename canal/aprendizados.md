@@ -14,7 +14,7 @@
 
 - Vídeo feito na nuvem (Claude Code na web) fica em `videos/nuvem-<tema>/`, pra não misturar com os do computador e continuar aparecendo no painel. O `video.mp4` não sobe pro GitHub (é pesado demais): mandar o arquivo direto pra pessoa baixar (você pediu, 18/11/2026)
 
-- O render completo demora demais (~35 min na nuvem): conferir TUDO antes dele. Depois do --revisar APROVADO, tirar prévias (--previa) de cada frase nos momentos de corte de câmera e abrir as imagens; só renderizar quando nenhuma cena tiver câmera dentro da parede (quadro de uma cor só), personagem cortado na borda ou efeito tapando ele. Se estiver tudo bom, segue direto pro render sem perguntar. Se algo sair ruim no vídeo pronto, anotar a causa em "Lições técnicas" pra não repetir (você pediu, 18/11/2026)
+- O render completo demora demais (~35 min na nuvem): conferir TUDO antes dele. Depois do --revisar APROVADO, abrir a folha e tirar uma prévia (--previa) de cada corte de câmera de cada frase; só renderizar quando nenhuma cena tiver câmera dentro da parede (quadro de uma cor só), personagem cortado na borda ou tapado, efeito cobrindo a tela ou texto ilegível. Tudo bom: segue direto pro render sem perguntar. Depois de renderizado, o vídeo fica como está: não refazer por conta própria; achou algo, anotar a causa em "Lições técnicas" e só refazer se ele pedir (você pediu, 18/11/2026)
 
 ## Roteiro e narração
 
@@ -86,6 +86,8 @@
 
 > Pra IA: erros da cena ou do motor que já deram trabalho neste canal, e como resolver.
 
+- Na nuvem, cada conversa trabalha no seu galho (branch) do GitHub e o que ela fez não volta sozinho pro main: a pauta do main pode dizer "falta fazer" de um vídeo que outra conversa já entregou (a receita foi feita 2 vezes). Antes de escolher o próximo vídeo, rodar git fetch e olhar a pauta e os commits dos outros galhos claude/* (git log origin/claude/<galho>), e juntar o que já foi feito antes de começar (18/11/2026)
+
 - No home_office, com a cadeira giratória no SEAT girada pro monitor (PI), o personagem sentado virado pra câmera fica atrás do encosto (só aparecem as pernas). No fim do cena(), se ele está no SEAT, girar a cadeira junto: cad.rotation.y = menino.g.rotation.y (nuvem-mesma-segunda, 18/11/2026)
 - Na rua_predios, câmera de frente pra quem corre com outro personagem do vídeo ATRÁS dela (a dona esperando na chegada) reprova "colado na câmera": só pôr esse personagem quando a câmera olha pra ele. As árvores escondidas continuam barrando o K.seguir: na corrida, K.mirar fixo no meio do calçadão (x 0,25) (nuvem-corrida-do-cliente, 18/11/2026)
 
@@ -141,6 +143,7 @@
 - Personagem gigante (escala 6) na cidade_maquete: a revisão marca "colado na câmera" quando ele passa de 85% da altura da tela, até em câmera de baixo pra cima de propósito; filmar o gigante a 15 m ou mais e sem o corte do rosto (cidade-pequena, 14/11/2026)
 - Na rua_predios, o lado esquerdo começa com clínica (z 35,9), pizzaria, academia, salão, padaria (12,9), farmácia (6,9), loja, café, mercado (-13,1)...; o direito com salão (41,1), padaria, farmácia, loja, café, mercado (10,1), ótica, pet shop (0,1). Pra filmar uma loja do meio da rua, K.mirar do calçadão do lado oposto, fora das árvores (preso-na-rua, 14/11/2026)
 - K.m3d("celular") não existe (o render para no montar): o celular de mão é K.celular() (tem .g e .tela.desenhar), escala ~1,8 na mão (canhao-de-mensagem, 16/11/2026)
+- Programa de culinária na cozinha (bancada no meio, o personagem atrás e a panela do lado direito dele): câmera pela direita põe a panela na frente da cara dele, e a revisão aprova assim mesmo; filmar pela frente-esquerda. K.fumaca e K.poof perto da câmera tapam a tela inteira (preto ou branco): fumaça com escala ~0,3-0,45 e vento pra trás (z negativo), poof com escala ~0,2. Plano com canvas (post, balão) virado de costas sai espelhado: girar pouco (y entre -0,5 e 0,5) (nuvem-receita-sem-cliente, 18/11/2026)
 - Placa solta que vira pra câmera (balão, comentário, plaquinha) com lookAt ANTES do K.mirar usa a câmera do quadro anterior e aparece espelhada no corte: virar tudo numa função chamada no fim do cena(), depois do plano (canhao-de-mensagem, 16/11/2026)
 - Na rua_predios, as árvores e os bancos são filhos diretos de C.grupo em x ±2,6: pra filmar livre perto da cena, esconder só os de um trecho de z no montar (o.visible = false). E coisa deitada no chão do meio do calçadão (x entre -1,2 e 1,2) precisa de y ≥ 0,05, senão a faixa do meio tampa de longe (planilha-infinita, 16/11/2026)
 - Multidão correndo (K.boneco com irPara { correr: true }): todos vindo do fundo da rua (-z); quem vem de trás da câmera passa colado na lente e reprova o gancho. No home_office, K.filmar "afastando" com alvo perto da parede atravessou e deu quadro todo creme: K.mirar fixo de [2,2, 2, 4,2] (grupo-de-facebook, 16/11/2026)
