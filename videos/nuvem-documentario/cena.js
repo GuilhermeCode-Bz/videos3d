@@ -366,7 +366,7 @@
       for (let k = 0; k < 6; k++) K.som('estalo', tSt - 0.4 + k * 0.12, 0.2);
       fx.et.investir.em(cabecaDe(menino, 0.55), tc - tIn);
       if (tc < tSi + 0.15) { const k = K.suave(pc(tc, B.inicio, tSi + 0.15)); K.mirar([K.lerp(0.75, 0.6, k), 1.55, K.lerp(3.2, 2.6, k)], [0.85, 1.15, -0.5]); }
-      else K.filmar([MONITOR, mais(MONITOR, [0, 0.45, 0]), menino], 'subindo', pc(tc, tSi + 0.15, B.ate), { plano: 'medio', lado: 'frente', altura: 'olho', obstaculos: false, tam: 1.9 });
+      else { const k = K.suave(pc(tc, tSi + 0.15, B.ate)); K.mirar([K.lerp(0.6, 0.4, k), K.lerp(1.45, 1.65, k), K.lerp(3.8, 3.3, k)], [0.1, 1.2, -0.8]); }
     },
     lista(B, tc) {
       // NA TELA: a barra mappoa.com; a lista das clínicas de estética de Belém sobe; "29 sem site" · MOSTRA: navegador, tela, personagem
@@ -455,13 +455,13 @@
       if (tc < tEv) menino.reagir('erguendo', tc - B.inicio); else if (tc < tCr) menino.reagir('vitoria', tc - tEv); else menino.apontar(0.45);
       // CÂMERA: (1) chegando de frente nele procurando · (2) em "evolui", herói de baixo pra cima
       if (tc < tEv) K.filmar([cabecaDe(menino, 0.3), mais(POS, [0, 0.5, 0])], 'chegando', pc(tc, B.inicio, tEv), { plano: 'medio', lado: -12, altura: 'olho', tam: 1.9 });
-      else K.heroi(menino, pc(tc, tEv, B.ate), { lado: 18, dist: 3.0 });
+      else { const k = K.suave(pc(tc, tEv, B.ate)); K.mirar([K.lerp(1.7, 1.5, k), 1.0, K.lerp(4.4, 3.8, k)], [0.9, 1.35, 1.0]); }
       // OBJETOS: os binóculos no olho (antes) e na mão (depois)
       ve(binoc); menino.g.updateMatrixWorld(true);
       if (tc < tEv) { const cab = cabecaDe(menino, -0.02), f = V(0, 0, 1).applyQuaternion(menino.g.quaternion); binoc.position.set(cab[0] + f.x * 0.28, cab[1], cab[2] + f.z * 0.28); binoc.rotation.set(0, menino.g.rotation.y, 0); }
       else { const m = menino.mao(1); binoc.position.set(m[0], m[1] + 0.05, m[2]); binoc.rotation.set(0.3, menino.g.rotation.y, 0); }
       // EFEITOS VISUAIS: poof em "evolui" · "Caçado" (com ✗) em "caçado" · "Caçador ✓" em "caçador"
-      fx.poof.em(mais(POS, [0, 0.9, 0]), tc - tEv, { escala: 0.7 });
+      fx.poof.em(mais(POS, [0.7, 0.3, -0.6]), tc - tEv, { escala: 0.35 });
       if (tc < tCr) fx.et.cacado.em({ tela: [540, 400] }, tc - tCa); else fx.et.cacador.em({ tela: [540, 400] }, tc - tCr);
       if (tc > tCa && tc < tCr) fx.simb.em(mais(cabecaDe(menino, 0.5), [-0.4, 0, 0]), tc - tCa, { tipo: '✗', tam: 0.45 });
       if (tc > tCr) fx.simb2.em(mais(cabecaDe(menino, 0.5), [0.45, 0, 0]), tc - tCr, { tipo: '✓', tam: 0.5 });
