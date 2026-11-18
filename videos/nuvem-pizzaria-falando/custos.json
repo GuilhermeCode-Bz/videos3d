@@ -11,5 +11,25 @@
         "modelo": "eleven_multilingual_v2"
       }
     ]
+  },
+  "ia": {
+    "conversas": [
+      {
+        "id": "e40e48ab-1f9d-5460-b86b-7a900ee3d4f6",
+        "programa": "Claude Code",
+        "modelo": "claude-opus-5-5",
+        "entrada": 367121,
+        "cache": 1322576,
+        "saida": 1860,
+        "total": 1691557,
+        "de": "2026-11-18T13:42:34.645Z",
+        "ate": "2026-11-18T13:43:20.911Z",
+        "medido": "2026-11-18T13:45:05.091Z"
+      }
+    ],
+    "entrada": 367121,
+    "cache": 1322576,
+    "saida": 1860,
+    "total": 1691557
   }
 }

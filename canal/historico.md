@@ -306,3 +306,5 @@
 - 18/11/2026 · nuvem-mesma-segunda · vídeo pronto na nuvem (48 s, voz Liam, 788 créditos), capa ('Segunda de novo') e publicacao.md; mandado na conversa
 - 18/11/2026 · nuvem-mesma-segunda · revisei os quadros do vídeo pronto: o encosto da cadeira tapava o Rafa sentado e o monitor mostrava a Barbearia do Zé antes da hora → corrigido, render de novo na fila (o antigo foi pra versoes/)
 - 18/11/2026 · canal · combinou: esta conversa termina a fila de render (pizzaria, corrida e a segunda-feira corrigida); os outros 7 vão pra uma conversa nova → anotado na pauta
+- 18/11/2026 · nuvem-pizzaria-falando · vídeo pronto na nuvem (52 s, voz Liam, 864 créditos), capa ('Ninguém me viu') e publicacao.md; mandado na conversa
+- 18/11/2026 · nuvem-corrida-do-cliente · conferi os quadros do vídeo pronto: a medalha tapava o Davi no fim e a planilha escondia ele nas lojas → corrigido, render de novo (o antigo vai pra versoes/)

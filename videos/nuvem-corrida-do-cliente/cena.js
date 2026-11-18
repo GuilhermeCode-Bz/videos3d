@@ -279,7 +279,7 @@
       });
       // CÂMERA: do outro lado do calçadão, acompanhando o Davi de loja em loja
       const pz = menino.g.position.z;
-      K.mirar([-1.6, 1.9, pz + 4.6], [1.4, 1.3, pz - 0.6]);
+      K.mirar([-0.3, 1.8, pz - 4.2], [1.4, 1.3, pz - 0.2]);
       fx.et.nao.em({ tela: [540, 400] }, tc - tN1);
       void tPa;
     },
@@ -448,11 +448,10 @@
       navG.mostrar('endereco', { letras, ir: tc > tTe });
       for (let k = 0; k < 10; k++) K.som('clique', tDi + k * 0.08, 0.3);
       K.som('ding', tTe, 0.6); K.som('clique', tSg + K.SEGUIR_CLIQUE, 0.9);
-      ve(robo, medalha); robo.g.position.set(-1.9, 0, 0.3); robo.g.rotation.y = 0.45; robo.em(tc, { acena: 1, mapa: false });
+      ve(robo); robo.g.position.set(-1.9, 0, 0.3); robo.g.rotation.y = 0.45; robo.em(tc, { acena: 1, mapa: false });
       menino.colocar(EM_PE, tc > tDi ? MONITOR : [0.8, 1.4, 5]);
       if (tc > tDi) menino.reagir('digitando', tc); else menino.reagir('chamando', tc - B.inicio);
-      const cab = cabecaDe(menino, -0.75); medalha.position.set(cab[0], cab[1], cab[2] + 0.2); medalha.rotation.set(0, menino.g.rotation.y, 0); medalha.scale.setScalar(0.9);
-      if (tc < tPc - 0.3) K.filmar([menino, cabecaDe(menino, 0.4), MONITOR], 'chegando', pc(tc, B.inicio, tPc - 0.3), { plano: 'medio', lado: 'frente', altura: 'olho', espacoCima: 0.35, obstaculos: false });
+            if (tc < tPc - 0.3) K.filmar([menino, cabecaDe(menino, 0.4), MONITOR], 'chegando', pc(tc, B.inicio, tPc - 0.3), { plano: 'medio', lado: 'frente', altura: 'olho', espacoCima: 0.35, obstaculos: false });
       else K.filmar([navG, comp, menino], 'parado', pc(tc, tPc - 0.3, B.ate), { plano: 'aberto', lado: 'frente', altura: 'olho', espacoCima: 0.4, obstaculos: false });
     },
     cartao(B, tc) {

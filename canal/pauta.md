@@ -168,8 +168,8 @@
 | Tema | Pasta | Roteiro | Vídeo | Postado | Resultado |
 |---|---|---|---|---|---|
 | A mesma segunda-feira (loop de tempo) | nuvem-mesma-segunda | ✅ | ✅ | ⬜ | |
-| Eu sou uma pizzaria (a empresa conta) | nuvem-pizzaria-falando | ✅ | ⬜ (renderizando) | ⬜ | |
-| Corrida pelo cliente (locutor esportivo) | nuvem-corrida-do-cliente | ✅ | ⬜ (na fila) | ⬜ | |
+| Eu sou uma pizzaria (a empresa conta) | nuvem-pizzaria-falando | ✅ | ✅ | ⬜ | |
+| Corrida pelo cliente (locutor esportivo) | nuvem-corrida-do-cliente | ✅ | ⬜ (renderizando de novo) | ⬜ | |
 | Habitat natural (documentário) | nuvem-documentario | 📝 | ⬜ | ⬜ | |
 | Receita do fracasso (culinária) | nuvem-receita-sem-cliente | 📝 | ⬜ | ⬜ | |
 | Plantão urgente (telejornal) | nuvem-plantao | 📝 | ⬜ | ⬜ | |
