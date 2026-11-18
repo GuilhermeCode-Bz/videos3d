@@ -172,7 +172,7 @@
 | Corrida pelo cliente (locutor esportivo) | nuvem-corrida-do-cliente | ✅ | ✅ | ⬜ | |
 | Habitat natural (documentário) | nuvem-documentario | ✅ | ✅ | ⬜ | |
 | Receita do fracasso (culinária) | nuvem-receita-sem-cliente | ✅ | ✅ | ⬜ | |
-| Plantão urgente (telejornal) | nuvem-plantao | 📝 | ⬜ | ⬜ | |
+| Plantão urgente (telejornal) | nuvem-plantao | ✅ | ✅ | ⬜ | |
 | Era uma vez (conto de fadas) | nuvem-era-uma-vez | 📝 | ⬜ | ⬜ | |
 | 30 dias (contagem do aluguel) | nuvem-aluguel-vence | 📝 | ⬜ | ⬜ | |
 | Ele do futuro (viagem no tempo) | nuvem-eu-do-futuro | 📝 | ⬜ | ⬜ | |
