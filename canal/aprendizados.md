@@ -16,6 +16,7 @@
 
 ## Roteiro e narração
 
+- O personagem principal é SEMPRE o do canal (o menino de camiseta azul de `canal/identidade.md`), mesmo quando o vídeo muda o formato, o texto ou quem narra: o que muda é a história, não ele (você pediu, 18/11/2026)
 - A dor de TODO vídeo é achar o próximo cliente: o tema, o gancho e a virada saem dela. Assunto que não bate nisso (preço, organizar conversa, ligar ou mandar mensagem) só entra se a história levar pra achar o próximo cliente (você pediu, 11/11/2026)
 - Além dos vídeos de "personagem + Mappoa", o canal tem a série "Como funciona a venda": o vídeo existe pra explicar um conceito (cold call, prospecção ativa, lead, follow-up, funil...), montado peça por peça na fórmula, e o Mappoa entra só na parte de achar os contatos, sem virar o assunto. Mensagem de fundo: não esperar o cliente cair do nada (você pediu, 04/11/2026)
 - Gancho tem que fazer a pessoa PARAR de rolar o feed: conflito ou ação na tela já no 1º segundo (telefone tocando, alguém desligando na cara, algo quebrando), nunca abrir com paisagem parada ou câmera passeando; a fala é curta (até ~10 palavras) e abre uma curiosidade que só se resolve no vídeo ("a pior frase pra começar uma ligação é essa"), fala com "você" e com a dor; dar sempre 2 ou 3 opções de gancho com a minha escolhida (você pediu, 04/11/2026)
