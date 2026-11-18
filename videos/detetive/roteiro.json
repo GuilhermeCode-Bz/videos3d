@@ -1,0 +1,156 @@
+{
+  "titulo": "Web designer: você não devia ter que virar detetive pra achar cliente",
+  "capa": "Detetive de *cliente*",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {
+    "abaixa": true
+  },
+  "personagem": {
+    "tipo": "menino",
+    "roupa": "camiseta",
+    "cores": {
+      "camiseta": "#2f6fd6",
+      "bermuda": "#2f6f5e",
+      "tenis": "#f4f1ea",
+      "cabelo": "#7a4a22",
+      "pele": "#e6b48a"
+    }
+  },
+  "voz": {
+    "motor": "elevenlabs",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "velocidade": 1.1,
+    "acelerar": "auto"
+  },
+  "alvoPpm": 190,
+  "frases": [
+    {
+      "texto": "Web designer, você não devia ter que virar detetive pra achar cliente.",
+      "plano": "gancho",
+      "mostra": [
+        "personagem",
+        "quadro",
+        "lupa"
+      ],
+      "gancho": true
+    },
+    {
+      "texto": "O Breno pendurou o bairro na parede: cada loja, um barbante e um post-it: tem site?",
+      "plano": "quadro",
+      "mostra": [
+        "personagem",
+        "quadro"
+      ]
+    },
+    {
+      "texto": "Três noites e onze cafés depois, achou o suspeito: a Autoescola Via Certa.",
+      "plano": "noites",
+      "mostra": [
+        "personagem",
+        "cafes",
+        "suspeito"
+      ]
+    },
+    {
+      "texto": "Chegou lá: a autoescola tinha site desde dois mil e dezenove.",
+      "plano": "tropeco",
+      "mostra": [
+        "personagem",
+        "dono",
+        "placa"
+      ],
+      "jogo": "falha"
+    },
+    {
+      "texto": "Então ele decidiu investir numa ferramenta que já entrega o caso resolvido.",
+      "plano": "investe",
+      "mostra": [
+        "personagem",
+        "monitor"
+      ],
+      "jogo": "corrige"
+    },
+    {
+      "texto": "No computador, entrou no mappoa.com e buscou: autoescolas em Recife.",
+      "plano": "busca",
+      "mostra": [
+        "navegador",
+        "busca",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Veio a lista: noventa e duas autoescolas, trinta e quatro sem site.",
+      "plano": "lista",
+      "mostra": [
+        "lista",
+        "robo",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Esse é o *Mappoa*, um sistema que acha quem precisa do seu serviço.",
+      "plano": "mappoa",
+      "mostra": [
+        "tela",
+        "robo",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Abriu a primeira: nota oitenta e nove e a mensagem pronta pro WhatsApp.",
+      "plano": "analise",
+      "mostra": [
+        "tela",
+        "personagem",
+        "monitor"
+      ]
+    },
+    {
+      "texto": "Mandou pra trinta. Quase todas disseram não. Mas uma respondeu: pode vir amanhã.",
+      "plano": "venda",
+      "mostra": [
+        "personagem",
+        "celular"
+      ]
+    },
+    {
+      "texto": "Era a autoescola da frente da casa dele. Nunca tinha entrado no quadro.",
+      "plano": "reencontro",
+      "mostra": [
+        "personagem",
+        "janela"
+      ],
+      "jogo": "avanca"
+    },
+    {
+      "texto": "Antes, três noites num caso errado. Agora, o caso chega resolvido. E o barbante virou varal de meia.",
+      "plano": "antes_agora",
+      "mostra": [
+        "personagem",
+        "caso",
+        "varal"
+      ]
+    },
+    {
+      "texto": "Já foi esse detetive? Comenta EU. No computador, digita mappoa.com e acha as autoescolas sem site perto de você.",
+      "plano": "segue",
+      "mostra": [
+        "personagem",
+        "navegador",
+        "monitor"
+      ]
+    }
+  ],
+  "cauda": {
+    "segundos": 1.6,
+    "plano": "cartao"
+  },
+  "trilha": {
+    "arquivo": "trilha",
+    "ganho": 0.22
+  }
+}

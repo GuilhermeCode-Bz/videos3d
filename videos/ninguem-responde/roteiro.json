@@ -1,0 +1,157 @@
+{
+  "titulo": "Mandei 100 mensagens e ninguém respondeu (storytime)",
+  "capa": "Ninguém *respondeu*?",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {
+    "abaixa": true
+  },
+  "personagem": {
+    "tipo": "menino",
+    "roupa": "camiseta",
+    "cores": {
+      "camiseta": "#2f6fd6",
+      "bermuda": "#2f6f5e",
+      "tenis": "#f4f1ea",
+      "cabelo": "#7a4a22",
+      "pele": "#e6b48a"
+    }
+  },
+  "voz": {
+    "motor": "elevenlabs",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "velocidade": 1.1,
+    "acelerar": "auto"
+  },
+  "alvoPpm": 190,
+  "frases": [
+    {
+      "texto": "Eu mandei cem mensagens. Ninguém respondeu.",
+      "plano": "gancho",
+      "mostra": [
+        "personagem",
+        "mensagens",
+        "celular"
+      ],
+      "gancho": true
+    },
+    {
+      "texto": "Postei no grupo de Facebook: faço site. Quarenta comentaram: eu também.",
+      "plano": "grupo",
+      "mostra": [
+        "personagem",
+        "post_q",
+        "comentarios"
+      ]
+    },
+    {
+      "texto": "Postei no Instagram todo dia. Duas curtidas. Uma era minha.",
+      "plano": "insta",
+      "mostra": [
+        "personagem",
+        "celular",
+        "calendario"
+      ],
+      "jogo": "falha"
+    },
+    {
+      "texto": "No dia trinta, mandei “oi, faço sites” pra cem empresas. Visualizaram e sumiram.",
+      "plano": "mensagens",
+      "mostra": [
+        "personagem",
+        "voando",
+        "celular"
+      ]
+    },
+    {
+      "texto": "Até que eu entendi: eu mandava pra quem nem precisava de site.",
+      "plano": "virada",
+      "mostra": [
+        "personagem",
+        "alertas"
+      ]
+    },
+    {
+      "texto": "Naquela noite, decidi investir numa ferramenta que acha as empresas que precisam do meu serviço.",
+      "plano": "investe",
+      "mostra": [
+        "personagem",
+        "monitor"
+      ],
+      "jogo": "corrige"
+    },
+    {
+      "texto": "No computador, entrei no mappoa.com e pesquisei: clínicas em Campinas.",
+      "plano": "busca",
+      "mostra": [
+        "navegador",
+        "busca",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "E veio uma lista com oitenta clínicas sem site.",
+      "plano": "lista",
+      "mostra": [
+        "lista",
+        "robo",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Esse é o *Mappoa*, um sistema que acha quem precisa do seu serviço.",
+      "plano": "mappoa",
+      "mostra": [
+        "tela",
+        "robo",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Criei minha campanha no Mappoa e enviei a mensagem personalizada, já pronta.",
+      "plano": "campanha",
+      "mostra": [
+        "tela",
+        "personagem",
+        "monitor"
+      ]
+    },
+    {
+      "texto": "Mandei pra trinta. Quase todas disseram não. Mas uma respondeu: pode vir aqui.",
+      "plano": "venda",
+      "mostra": [
+        "personagem",
+        "celular"
+      ]
+    },
+    {
+      "texto": "Cheguei lá, e o dono falou: você foi o único que não mandou “oi, faço sites”.",
+      "plano": "reencontro",
+      "mostra": [
+        "personagem",
+        "dono",
+        "inbox"
+      ],
+      "jogo": "avanca"
+    },
+    {
+      "texto": "Comenta a sua cidade que eu te mando quantas empresas aí não têm site. No computador, digita mappoa.com e acha as clínicas sem site perto de você.",
+      "plano": "segue",
+      "mostra": [
+        "personagem",
+        "navegador",
+        "monitor"
+      ]
+    }
+  ],
+  "cauda": {
+    "segundos": 1.6,
+    "plano": "cartao"
+  },
+  "trilha": {
+    "arquivo": "trilha",
+    "ganho": 0.22
+  }
+}

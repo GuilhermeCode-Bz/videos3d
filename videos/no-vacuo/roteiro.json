@@ -1,0 +1,152 @@
+{
+  "titulo": "Ele mandou oi pra ela e ficou no vácuo",
+  "capa": "Deixou no *vácuo*",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {
+    "abaixa": true
+  },
+  "personagem": {
+    "tipo": "menino",
+    "roupa": "camiseta",
+    "cores": {
+      "camiseta": "#2f6fd6",
+      "bermuda": "#2f6f5e",
+      "tenis": "#f4f1ea",
+      "cabelo": "#7a4a22",
+      "pele": "#e6b48a"
+    }
+  },
+  "voz": {
+    "motor": "elevenlabs",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "velocidade": 1.1,
+    "acelerar": "auto"
+  },
+  "alvoPpm": 190,
+  "frases": [
+    {
+      "texto": "Ele mandou um oi pra ela. E ficou no vácuo. Literalmente.",
+      "plano": "gancho",
+      "mostra": [
+        "personagem",
+        "conversa"
+      ],
+      "gancho": true
+    },
+    {
+      "texto": "O Gui faz sites, e ela é a dona da pizzaria que ele queria de cliente.",
+      "plano": "intro",
+      "mostra": [
+        "personagem",
+        "dono",
+        "placa"
+      ]
+    },
+    {
+      "texto": "Mandou bom dia, boa noite e até figurinha. Uma semana depois, tava em órbita.",
+      "plano": "orbita",
+      "mostra": [
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Aí ele descobriu: ela era comprometida. Já tinha site.",
+      "plano": "comprometida",
+      "mostra": [
+        "personagem",
+        "dono",
+        "rival"
+      ],
+      "jogo": "falha"
+    },
+    {
+      "texto": "Então o Gui decidiu investir numa ferramenta que mostra quem tá solteira. Quer dizer, sem site.",
+      "plano": "investe",
+      "mostra": [
+        "personagem",
+        "monitor"
+      ],
+      "jogo": "corrige"
+    },
+    {
+      "texto": "No computador, entrou no mappoa.com e buscou: pizzarias em Natal.",
+      "plano": "busca",
+      "mostra": [
+        "navegador",
+        "busca",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Veio a lista: oitenta e sete pizzarias, trinta e uma sem site.",
+      "plano": "lista",
+      "mostra": [
+        "lista",
+        "robo",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Esse é o *Mappoa*, um sistema que acha quem precisa do seu serviço.",
+      "plano": "mappoa",
+      "mostra": [
+        "tela",
+        "robo",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Abriu a primeira: nota noventa e a mensagem pronta pro WhatsApp.",
+      "plano": "analise",
+      "mostra": [
+        "tela",
+        "personagem",
+        "monitor"
+      ]
+    },
+    {
+      "texto": "Mandou pra trinta. Quase todas disseram não. Mas uma respondeu na hora: vem amanhã.",
+      "plano": "venda",
+      "mostra": [
+        "personagem",
+        "celular"
+      ]
+    },
+    {
+      "texto": "E a comprometida? Terminou com o outro, mandou oi pro Gui, e agora quem tá no vácuo é ela.",
+      "plano": "reencontro",
+      "mostra": [
+        "dono"
+      ],
+      "jogo": "avanca"
+    },
+    {
+      "texto": "Antes, em órbita. Agora, pé no chão e cliente fechado.",
+      "plano": "antes_agora",
+      "mostra": [
+        "personagem",
+        "cliente"
+      ]
+    },
+    {
+      "texto": "Segue pra ver mais. No computador, digita mappoa.com e testa você também.",
+      "plano": "fim",
+      "mostra": [
+        "personagem",
+        "navegador",
+        "monitor"
+      ]
+    }
+  ],
+  "cauda": {
+    "segundos": 1.6,
+    "plano": "cartao"
+  },
+  "trilha": {
+    "arquivo": "trilha",
+    "ganho": 0.22
+  }
+}

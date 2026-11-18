@@ -1,0 +1,166 @@
+{
+  "titulo": "Web designer: você tá pescando cliente no deserto",
+  "capa": "Pescando no *deserto*",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {
+    "abaixa": true
+  },
+  "personagem": {
+    "tipo": "menino",
+    "roupa": "camiseta",
+    "cores": {
+      "camiseta": "#2f6fd6",
+      "bermuda": "#2f6f5e",
+      "tenis": "#f4f1ea",
+      "cabelo": "#7a4a22",
+      "pele": "#e6b48a"
+    }
+  },
+  "voz": {
+    "motor": "elevenlabs",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "velocidade": 1.1,
+    "acelerar": "auto"
+  },
+  "alvoPpm": 190,
+  "frases": [
+    {
+      "texto": "Web designer, você tá pescando cliente no deserto.",
+      "plano": "gancho",
+      "mostra": [
+        "personagem",
+        "vara",
+        "balde"
+      ],
+      "gancho": true
+    },
+    {
+      "texto": "O Ícaro joga a isca \"faço sites\" pra quem já tem site, ou nem precisa.",
+      "plano": "isca",
+      "mostra": [
+        "personagem",
+        "isca",
+        "cacto"
+      ]
+    },
+    {
+      "texto": "Dia um, nada. Dia trinta, só sobrou osso.",
+      "plano": "dias",
+      "mostra": [
+        "personagem",
+        "balde"
+      ]
+    },
+    {
+      "texto": "Aí a linha puxou: uma bota velha. \"Já tenho site.\"",
+      "plano": "bota",
+      "mostra": [
+        "personagem",
+        "bota",
+        "vara"
+      ],
+      "jogo": "falha"
+    },
+    {
+      "texto": "E atrás da duna, que ele nunca subiu, um lago cheio de peixe.",
+      "plano": "duna",
+      "mostra": [
+        "duna",
+        "lago",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Então ele decidiu investir numa ferramenta que mostra onde o peixe está.",
+      "plano": "investe",
+      "mostra": [
+        "personagem",
+        "monitor"
+      ],
+      "jogo": "corrige"
+    },
+    {
+      "texto": "No computador, entrou no mappoa.com e buscou: escolas de natação em Petrolina.",
+      "plano": "busca",
+      "mostra": [
+        "navegador",
+        "busca",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Veio a lista: setenta e oito escolas, vinte e nove sem site.",
+      "plano": "lista",
+      "mostra": [
+        "lista",
+        "robo",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Esse é o *Mappoa*, um sistema que acha quem precisa do seu serviço.",
+      "plano": "mappoa",
+      "mostra": [
+        "tela",
+        "robo",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Abriu a primeira: nota noventa e a mensagem pronta pro WhatsApp.",
+      "plano": "analise",
+      "mostra": [
+        "tela",
+        "personagem",
+        "monitor"
+      ]
+    },
+    {
+      "texto": "Mandou pra trinta. Quase todas disseram não. Mas uma mordeu a isca: pode vir hoje.",
+      "plano": "venda",
+      "mostra": [
+        "personagem",
+        "celular"
+      ]
+    },
+    {
+      "texto": "Era a escola de natação do outro lado da duna.",
+      "plano": "reencontro",
+      "mostra": [
+        "personagem",
+        "placa",
+        "dono"
+      ],
+      "jogo": "avanca"
+    },
+    {
+      "texto": "Antes, isca na areia. Agora, pesca no lago. E o balde virou vaso do cacto.",
+      "plano": "antes_agora",
+      "mostra": [
+        "personagem",
+        "lago",
+        "balde2"
+      ]
+    },
+    {
+      "texto": "Comenta a sua cidade. No computador, digita mappoa.com e acha as escolas de natação sem site.",
+      "plano": "segue",
+      "mostra": [
+        "personagem",
+        "navegador",
+        "monitor"
+      ]
+    }
+  ],
+  "cauda": {
+    "segundos": 1.6,
+    "plano": "cartao"
+  },
+  "trilha": {
+    "arquivo": "trilha",
+    "ganho": 0.22
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "titulo": "Web designer: é assim que o dono lê a sua mensagem",
+  "capa": "Foi direto pro *lixo*",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {
+    "abaixa": true
+  },
+  "personagem": {
+    "tipo": "menino",
+    "roupa": "camiseta",
+    "cores": {
+      "camiseta": "#2f6fd6",
+      "bermuda": "#2f6f5e",
+      "tenis": "#f4f1ea",
+      "cabelo": "#7a4a22",
+      "pele": "#e6b48a"
+    }
+  },
+  "voz": {
+    "motor": "elevenlabs",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "velocidade": 1.1,
+    "acelerar": "auto"
+  },
+  "alvoPpm": 190,
+  "frases": [
+    {
+      "texto": "Web designer, é assim que o dono lê a sua mensagem.",
+      "plano": "gancho",
+      "mostra": [
+        "dono",
+        "mensagens",
+        "celular"
+      ],
+      "gancho": true
+    },
+    {
+      "texto": "O Rodrigo faz sites. Postou no grupo de Facebook e só concorrente comentou.",
+      "plano": "grupo",
+      "mostra": [
+        "personagem",
+        "post_q",
+        "comentarios"
+      ]
+    },
+    {
+      "texto": "Postou no Instagram todo dia. Ninguém viu.",
+      "plano": "insta",
+      "mostra": [
+        "personagem",
+        "celular",
+        "calendario"
+      ],
+      "jogo": "falha"
+    },
+    {
+      "texto": "Aí mandou “oi, faço sites” pra cem empresas. Nenhuma respondeu.",
+      "plano": "mensagens",
+      "mostra": [
+        "personagem",
+        "voando",
+        "celular"
+      ]
+    },
+    {
+      "texto": "O erro: mandava a mesma mensagem, pra quem nem precisava de site.",
+      "plano": "virada",
+      "mostra": [
+        "personagem",
+        "alertas"
+      ]
+    },
+    {
+      "texto": "Então ele decidiu investir numa ferramenta que acha quem precisa do serviço dele.",
+      "plano": "investe",
+      "mostra": [
+        "personagem",
+        "monitor"
+      ],
+      "jogo": "corrige"
+    },
+    {
+      "texto": "No computador, ele entrou no mappoa.com e pesquisou: cafeterias em Curitiba.",
+      "plano": "busca",
+      "mostra": [
+        "navegador",
+        "busca",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "E veio uma lista com sessenta cafeterias sem site.",
+      "plano": "lista",
+      "mostra": [
+        "lista",
+        "robo",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Esse é o *Mappoa*, um sistema que acha quem precisa do seu serviço.",
+      "plano": "mappoa",
+      "mostra": [
+        "tela",
+        "robo",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Ele criou a campanha e mandou uma mensagem personalizada pra cada cafeteria.",
+      "plano": "campanha",
+      "mostra": [
+        "tela",
+        "personagem",
+        "monitor"
+      ]
+    },
+    {
+      "texto": "Quase todas disseram não. Mas uma respondeu: passa aqui amanhã.",
+      "plano": "venda",
+      "mostra": [
+        "personagem",
+        "celular"
+      ]
+    },
+    {
+      "texto": "Chegando lá, era o dono do começo. A mensagem do Rodrigo foi a única que ele leu.",
+      "plano": "reencontro",
+      "mostra": [
+        "personagem",
+        "dono",
+        "inbox"
+      ],
+      "jogo": "avanca"
+    },
+    {
+      "texto": "Comenta a sua cidade que eu te mando quantas empresas aí não têm site. No computador, digita mappoa.com e acha as cafeterias sem site perto de você.",
+      "plano": "segue",
+      "mostra": [
+        "personagem",
+        "navegador",
+        "monitor"
+      ]
+    }
+  ],
+  "cauda": {
+    "segundos": 1.6,
+    "plano": "cartao"
+  },
+  "trilha": {
+    "arquivo": "trilha",
+    "ganho": 0.22
+  }
+}

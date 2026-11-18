@@ -1,0 +1,157 @@
+{
+  "titulo": "Web designer: todo post de \"alguém faz site?\" termina assim",
+  "capa": "300 pro *mesmo* cliente",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {
+    "abaixa": true
+  },
+  "personagem": {
+    "tipo": "menino",
+    "roupa": "camiseta",
+    "cores": {
+      "camiseta": "#2f6fd6",
+      "bermuda": "#2f6f5e",
+      "tenis": "#f4f1ea",
+      "cabelo": "#7a4a22",
+      "pele": "#e6b48a"
+    }
+  },
+  "voz": {
+    "motor": "elevenlabs",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "velocidade": 1.1,
+    "acelerar": "auto"
+  },
+  "alvoPpm": 190,
+  "frases": [
+    {
+      "texto": "Web designer, todo post de “alguém faz site?” termina assim.",
+      "plano": "gancho",
+      "mostra": [
+        "personagem",
+        "post",
+        "multidao"
+      ],
+      "gancho": true
+    },
+    {
+      "texto": "O Caio postou “faço site” no grupo. Choveu concorrente cobrando menos.",
+      "plano": "grupo",
+      "mostra": [
+        "personagem",
+        "post_q",
+        "comentarios"
+      ]
+    },
+    {
+      "texto": "No Instagram, postou todo dia. Nenhum cliente.",
+      "plano": "insta",
+      "mostra": [
+        "personagem",
+        "celular",
+        "calendario"
+      ],
+      "jogo": "falha"
+    },
+    {
+      "texto": "Mandou o mesmo “oi, faço sites” pra cem empresas. Só visualização.",
+      "plano": "mensagens",
+      "mostra": [
+        "personagem",
+        "voando",
+        "celular"
+      ]
+    },
+    {
+      "texto": "O erro: ele brigava com trezentos no mesmo post e mandava pra quem nem precisava de site.",
+      "plano": "virada",
+      "mostra": [
+        "personagem",
+        "alertas"
+      ]
+    },
+    {
+      "texto": "Aí saiu da guerra e decidiu investir numa ferramenta que acha empresa sem site.",
+      "plano": "investe",
+      "mostra": [
+        "personagem",
+        "monitor"
+      ],
+      "jogo": "corrige"
+    },
+    {
+      "texto": "No computador, entrou no mappoa.com e buscou: floriculturas em Belo Horizonte.",
+      "plano": "busca",
+      "mostra": [
+        "navegador",
+        "busca",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Veio a lista: cento e dez floriculturas, quarenta e duas sem site.",
+      "plano": "lista",
+      "mostra": [
+        "lista",
+        "robo",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Esse é o *Mappoa*, um sistema que acha quem precisa do seu serviço.",
+      "plano": "mappoa",
+      "mostra": [
+        "tela",
+        "robo",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Montou a campanha, e cada floricultura recebeu uma mensagem feita pra ela.",
+      "plano": "campanha",
+      "mostra": [
+        "tela",
+        "personagem",
+        "monitor"
+      ]
+    },
+    {
+      "texto": "A maioria disse não. Mas uma dona respondeu: me liga agora.",
+      "plano": "venda",
+      "mostra": [
+        "personagem",
+        "celular"
+      ]
+    },
+    {
+      "texto": "Era a dona do post “alguém faz site?”. Não leu nenhum dos trezentos comentários. Só a mensagem dele.",
+      "plano": "reencontro",
+      "mostra": [
+        "personagem",
+        "dono",
+        "lidas"
+      ],
+      "jogo": "avanca"
+    },
+    {
+      "texto": "Comenta a sua cidade que eu te mando quantas empresas aí não têm site. No computador, digita mappoa.com e acha as floriculturas sem site perto de você.",
+      "plano": "segue",
+      "mostra": [
+        "personagem",
+        "navegador",
+        "monitor"
+      ]
+    }
+  ],
+  "cauda": {
+    "segundos": 1.6,
+    "plano": "cartao"
+  },
+  "trilha": {
+    "arquivo": "trilha",
+    "ganho": 0.22
+  }
+}

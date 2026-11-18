@@ -1,0 +1,158 @@
+{
+  "titulo": "Web designer: tem um cliente escondido nessa montanha",
+  "capa": "Garimpando *cliente*",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {
+    "abaixa": true
+  },
+  "personagem": {
+    "tipo": "menino",
+    "roupa": "camiseta",
+    "cores": {
+      "camiseta": "#2f6fd6",
+      "bermuda": "#2f6f5e",
+      "tenis": "#f4f1ea",
+      "cabelo": "#7a4a22",
+      "pele": "#e6b48a"
+    }
+  },
+  "voz": {
+    "motor": "elevenlabs",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "velocidade": 1.1,
+    "acelerar": "auto"
+  },
+  "alvoPpm": 190,
+  "frases": [
+    {
+      "texto": "Web designer, tem um cliente escondido nessa montanha.",
+      "plano": "gancho",
+      "mostra": [
+        "personagem",
+        "montanha",
+        "peneira"
+      ],
+      "gancho": true
+    },
+    {
+      "texto": "O Murilo peneira empresa por empresa atrás de quem precisa de site.",
+      "plano": "peneira",
+      "mostra": [
+        "personagem",
+        "peneira",
+        "montanha"
+      ]
+    },
+    {
+      "texto": "Dia um: essa já tem site. Dia dois: essa já tem quem faça.",
+      "plano": "dias",
+      "mostra": [
+        "personagem",
+        "pedra1",
+        "cascalho"
+      ]
+    },
+    {
+      "texto": "Uma semana depois, a peneira só tinha cascalho. E o aluguel vencendo.",
+      "plano": "cascalho",
+      "mostra": [
+        "personagem",
+        "peneira",
+        "cascalho"
+      ],
+      "jogo": "falha"
+    },
+    {
+      "texto": "Então ele decidiu investir numa ferramenta que já separa as pepitas.",
+      "plano": "investe",
+      "mostra": [
+        "personagem",
+        "monitor"
+      ],
+      "jogo": "corrige"
+    },
+    {
+      "texto": "No computador, entrou no mappoa.com e buscou: estúdios de tatuagem em Blumenau.",
+      "plano": "busca",
+      "mostra": [
+        "navegador",
+        "busca",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Veio a lista: oitenta e quatro estúdios, trinta e um sem site.",
+      "plano": "lista",
+      "mostra": [
+        "lista",
+        "robo",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Esse é o *Mappoa*, um sistema que acha quem precisa do seu serviço.",
+      "plano": "mappoa",
+      "mostra": [
+        "tela",
+        "robo",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Abriu o primeiro: nota noventa, e uma mensagem pronta sobre o problema dele.",
+      "plano": "analise",
+      "mostra": [
+        "tela",
+        "personagem",
+        "monitor"
+      ]
+    },
+    {
+      "texto": "Mandou pra trinta. Quase todos disseram não. Mas um tatuador respondeu: passa aqui hoje.",
+      "plano": "venda",
+      "mostra": [
+        "personagem",
+        "celular"
+      ]
+    },
+    {
+      "texto": "Era a primeira pedra que ele jogou fora. O “site” era só um Instagram.",
+      "plano": "reencontro",
+      "mostra": [
+        "personagem",
+        "dono",
+        "pedra1"
+      ],
+      "jogo": "avanca"
+    },
+    {
+      "texto": "Antes, uma semana de cascalho. Agora, trinta pepitas numa tarde. E a peneira virou escorredor de macarrão.",
+      "plano": "antes_agora",
+      "mostra": [
+        "personagem",
+        "pepitas",
+        "macarrao"
+      ]
+    },
+    {
+      "texto": "Comenta a sua cidade. No computador, digita mappoa.com e acha os estúdios sem site perto de você.",
+      "plano": "segue",
+      "mostra": [
+        "personagem",
+        "navegador",
+        "monitor"
+      ]
+    }
+  ],
+  "cauda": {
+    "segundos": 1.6,
+    "plano": "cartao"
+  },
+  "trilha": {
+    "arquivo": "trilha",
+    "ganho": 0.22
+  }
+}
