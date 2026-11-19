@@ -20,3 +20,9 @@
 - A revisão confere o "mostra" só nas amostras de 37%, 63% e 90% da frase: peça que só aparece no começo de uma frase com dois lugares (a alavanca do freio, até 30%) reprova como "não aparece". Deixar no "mostra" só o que fica na tela a partir do meio da frase (montanha-russa, 19/11/2026)
 - Post-it ou placa que a câmera vê dos dois lados: duas folhas FrontSide de costas uma pra outra (a segunda com rotation.y = PI); com DoubleSide o texto aparece espelhado por trás (montanha-russa, 19/11/2026)
 - Capa com o personagem no carrinho na descida: câmera na frente do carrinho (lado ~75, tam 1,9) olhando pra cima do trilho fica dramática, mas o rosto aponta pro chão; levantar a cabeça só na capa (menino.cabeca.rotation.x = -0,75) (montanha-russa, 19/11/2026)
+- Defeitos que ficaram no vídeo pronto (não renderizei de novo, como o dono pediu): (1) na oficina, a câmera "passando" do rival entrando pelo portão (lado 15, alvo o rival lá no fundo) encostou numa parede e uma faixa cinza tapa metade do quadro por ~1 s, com o rival pequeno no fundo. Pra quem entra pelo portão da oficina (fundo, x 3,2), filmar com K.mirar fixo de dentro da oficina (ex.: de [0,5, 1,7, 4] olhando [2, 1,2, -2]) e não pôr só o personagem do fundo no alvo; (2) a placa SALDO DA CONTA aparece cortada atrás da frase da capa no corte 1 do gancho em alguns quadros: placa alta perto do pico vai mais pro fundo ou some nos closes (montanha-russa, 19/11/2026)
+
+## Resultado
+
+- 43,8 s, 130 palavras, 10 frases, 1 render só (19,5 min de quadros), vídeo conferido com o ffmpeg (inteiro)
+- Gasto: 698 créditos da ElevenLabs (sobraram 30.497) e ~17,5 milhões de tokens da IA (quase tudo relido da memória)
