@@ -1,0 +1,24 @@
+{
+  "comoLer": "Quanto este vídeo gastou (npm run custos). \"elevenlabs\": os créditos gastos pra narrar (o render anota a cada vez que narra; frase já narrada não gasta de novo). \"ia\": os tokens da IA, por conversa: entrada (o que ela leu de novo), cache (o que ela releu da memória da conversa, bem mais barato) e saída (o que ela escreveu, com o raciocínio).",
+  "elevenlabs": {
+    "creditos": 834,
+    "caracteres": 834,
+    "vezes": [
+      {
+        "quando": "2026-11-19T15:17:03.417Z",
+        "caracteres": 688,
+        "creditos": 688,
+        "modelo": "eleven_multilingual_v2",
+        "sobraram": 29372
+      },
+      {
+        "quando": "2026-11-19T15:19:44.519Z",
+        "caracteres": 146,
+        "creditos": 146,
+        "modelo": "eleven_multilingual_v2",
+        "sobraram": 28819
+      }
+    ],
+    "sobraram": 28819
+  }
+}

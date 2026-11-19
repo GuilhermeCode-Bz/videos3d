@@ -1,0 +1,25 @@
+{
+  "titulo": "Ele mandou o orçamento e o cliente virou fumaça",
+  "capa": "Virou *fumaça*?",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {"abaixa": true},
+  "personagem": {"tipo": "menino", "roupa": "camiseta", "cores": {"camiseta": "#2f6fd6", "bermuda": "#2f6f5e", "tenis": "#f4f1ea", "cabelo": "#7a4a22", "pele": "#e6b48a"}},
+  "voz": {"motor": "elevenlabs", "id": "TX3LPaxmHKxFdv7VOQHJ", "velocidade": 1.1, "acelerar": "auto"},
+  "alvoPpm": 190,
+  "frases": [
+    {"texto": "Ele mandou o orçamento. E o cliente virou fumaça.", "plano": "gancho", "mostra": ["dono", "orcamento", "chapeu"], "gancho": true},
+    {"texto": "O Caio é web designer e manda orçamento pra todo mundo que pede preço no Instagram.", "plano": "manda", "mostra": ["personagem", "avioes", "celular"]},
+    {"texto": "\"Gostei, vou ver e te falo.\" Passou uma semana, um mês. E nada.", "plano": "vacuo", "mostra": ["personagem", "celular"], "jogo": "falha"},
+    {"texto": "Só que o buffet infantil da esquina não tem site, e precisa.", "plano": "buffet", "mostra": ["buffet", "dona", "baloes"], "jogo": "corrige"},
+    {"texto": "Aí outro web designer bate lá, com o site já desenhado. E fecha.", "plano": "rival", "mostra": ["rival", "dona", "tablet"]},
+    {"texto": "Então o Caio abana a fumaça, decide investir e digita mappoa.com no computador. Vem a lista dos buffets infantis de Montes Claros sem site.", "plano": "virada", "mostra": ["personagem", "navegador", "tela"]},
+    {"texto": "Esse é o *Mappoa*, um sistema que acha quem tem o problema que você resolve.", "plano": "mappoa", "mostra": ["tela", "robo", "personagem"]},
+    {"texto": "Antes, o cliente do Caio virava fumaça. Agora, ele só manda orçamento pra quem precisa de verdade.", "plano": "antes_agora", "mostra": ["personagem", "dona2", "orcamento"], "jogo": "avanca"},
+    {"texto": "Segue pra ver mais. No computador, digita mappoa.com e testa você também.", "plano": "segue", "mostra": ["personagem", "navegador", "monitor"]}
+  ],
+  "cauda": {"segundos": 1.6, "plano": "cartao"},
+  "trilha": {"arquivo": "trilha", "ganho": 0.22}
+}
