@@ -1,0 +1,27 @@
+{
+  "titulo": "Como achar cliente pra vender site: os 3 sinais",
+  "capa": "Os 3 *sinais*",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "visual": "motion",
+  "fps": 60,
+  "efeitos": {"abaixa": true},
+  "personagem": {"tipo": "menino", "roupa": "camiseta", "cores": {"camiseta": "#2f6fd6", "bermuda": "#2f6f5e", "tenis": "#f4f1ea", "cabelo": "#7a4a22", "pele": "#e6b48a"}},
+  "voz": {"motor": "elevenlabs", "id": "TX3LPaxmHKxFdv7VOQHJ", "velocidade": 1.1, "acelerar": "auto"},
+  "alvoPpm": 190,
+  "frases": [
+    {"texto": "Quer achar cliente pra vender site? Procura esses três sinais.", "plano": "gancho", "mostra": ["personagem", "oculos", "padaria"], "gancho": true},
+    {"texto": "O Enzo é web designer e botou esse óculos pra caçar cliente.", "plano": "enzo", "mostra": ["personagem", "oculos"]},
+    {"texto": "Sinal um: no Google Maps, a padaria não tem site nenhum.", "plano": "sinal1", "mostra": ["padaria", "ficha", "personagem"]},
+    {"texto": "Sinal dois: a loja jura que tem site. Clica, e é só o Instagram.", "plano": "sinal2", "mostra": ["loja", "ficha", "insta"]},
+    {"texto": "Sinal três: a farmácia tem site. Mas a página nem abre.", "plano": "sinal3", "mostra": ["farmacia", "erro", "personagem"]},
+    {"texto": "Só que, loja por loja, o Enzo levou o dia inteiro.", "plano": "cansou", "mostra": ["personagem", "relogio"], "jogo": "falha"},
+    {"texto": "Aí ele tira o óculos, investe numa ferramenta e digita mappoa.com no computador. Vem a lista dos escritórios de Campinas, já separada: sem site e site com problema.", "plano": "lista", "mostra": ["personagem", "navegador", "tela"], "jogo": "corrige"},
+    {"texto": "Esse é o *Mappoa*, um sistema que acha na cidade inteira quem precisa de site.", "plano": "mappoa", "mostra": ["tela", "robo", "personagem"]},
+    {"texto": "Antes, o Enzo caçava sinal loja por loja. Agora, a cidade inteira acende de uma vez.", "plano": "antes_agora", "mostra": ["personagem", "pinos"], "jogo": "avanca"},
+    {"texto": "Segue pra ver mais. No computador, digita mappoa.com e testa você também.", "plano": "segue", "mostra": ["personagem", "navegador", "monitor"]}
+  ],
+  "cauda": {"segundos": 1.6, "plano": "cartao"},
+  "trilha": {"arquivo": "trilha", "ganho": 0.22}
+}
