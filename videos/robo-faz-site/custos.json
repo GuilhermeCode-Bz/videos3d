@@ -13,5 +13,25 @@
       }
     ],
     "sobraram": 29096
+  },
+  "ia": {
+    "conversas": [
+      {
+        "id": "9ef2fbeb-91a1-54a5-a4e0-d154320ff911",
+        "programa": "Claude Code",
+        "modelo": "claude-opus-5-5",
+        "entrada": 452876,
+        "cache": 17525822,
+        "saida": 110210,
+        "total": 18088908,
+        "de": "2026-11-19T14:57:14.046Z",
+        "ate": "2026-11-19T16:14:37.133Z",
+        "medido": "2026-11-19T16:14:42.974Z"
+      }
+    ],
+    "entrada": 452876,
+    "cache": 17525822,
+    "saida": 110210,
+    "total": 18088908
   }
 }
