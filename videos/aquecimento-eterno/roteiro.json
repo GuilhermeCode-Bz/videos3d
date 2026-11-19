@@ -1,0 +1,119 @@
+{
+  "titulo": "O aquecimento eterno",
+  "capa": "Ainda *aquecendo*?",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {
+    "abaixa": true
+  },
+  "personagem": {
+    "tipo": "menino",
+    "roupa": "camiseta",
+    "cores": {
+      "camiseta": "#2f6fd6",
+      "bermuda": "#2f6f5e",
+      "tenis": "#f4f1ea",
+      "cabelo": "#7a4a22",
+      "pele": "#e6b48a"
+    }
+  },
+  "voz": {
+    "motor": "elevenlabs",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "velocidade": 1.1,
+    "acelerar": "auto"
+  },
+  "alvoPpm": 190,
+  "frases": [
+    {
+      "texto": "Ele tá se alongando pra ir atrás de cliente. Faz seis meses.",
+      "plano": "gancho",
+      "mostra": [
+        "personagem",
+        "teia",
+        "faixa"
+      ],
+      "gancho": true
+    },
+    {
+      "texto": "O Pedro é web designer e, antes de largar, quer mais um curso, mais um portfólio.",
+      "plano": "curso",
+      "mostra": [
+        "personagem",
+        "certificado",
+        "teia"
+      ]
+    },
+    {
+      "texto": "Um mês, três, seis. A teia subiu no tênis.",
+      "plano": "meses",
+      "mostra": [
+        "personagem",
+        "teia"
+      ],
+      "jogo": "falha"
+    },
+    {
+      "texto": "Só que a escola de música da esquina tá sem site. E ela não espera ninguém.",
+      "plano": "escola",
+      "mostra": [
+        "dona",
+        "placa"
+      ]
+    },
+    {
+      "texto": "Quem chegou lá foi outro web designer, que largou sem estar pronto. E fechou.",
+      "plano": "rival",
+      "mostra": [
+        "rival",
+        "dona"
+      ]
+    },
+    {
+      "texto": "Aí o Pedro arrebenta a teia e decide investir. No computador, digita mappoa.com, e vem a lista das escolas de música de Chapecó sem site.",
+      "plano": "virada",
+      "mostra": [
+        "navegador",
+        "tela",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Esse é o *Mappoa*, um sistema que mostra quem precisa de você agora.",
+      "plano": "mappoa",
+      "mostra": [
+        "tela",
+        "robo",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Antes, o Pedro se aquecia na largada. Agora, ele larga na frente e chega primeiro.",
+      "plano": "antes_agora",
+      "mostra": [
+        "personagem",
+        "dona"
+      ],
+      "jogo": "avanca"
+    },
+    {
+      "texto": "Segue pra ver mais. No computador, digita mappoa.com e testa você também.",
+      "plano": "segue",
+      "mostra": [
+        "personagem",
+        "navegador",
+        "monitor"
+      ]
+    }
+  ],
+  "cauda": {
+    "segundos": 1.6,
+    "plano": "cartao"
+  },
+  "trilha": {
+    "arquivo": "trilha",
+    "ganho": 0.22
+  }
+}
