@@ -25,7 +25,7 @@
   // Estúdio: as duas placas lado a lado e o Caio no meio, de frente
   const PLACA_A = [-1.2, 2.35, -0.6], PLACA_B = [1.2, 2.35, -0.6], CAIO_E = [0, 0, 0.7];
   // Clínica (consultorio): a fisioterapeuta perto da maca; o rival entra pela frente
-  const FISIO = [-1.3, 0, -1.3], RIV_A = [3.6, 0, 4.2], RIV_B = [0.1, 0, -0.75];
+  const FISIO = [-1.3, 0, -1.3], RIV_A = [4.8, 0, 1.6], RIV_B = [0.1, 0, -0.75];
 
   const LUGAR = {
     gancho: 'praca', retoca: 'quarto', duas: 'estudio', clinica: 'clinica', virada: 'praca', lista: 'quarto',
@@ -377,7 +377,7 @@
       // ENTRA AGORA: a placa A em "fazer", a placa B em "achar" (crescendo); o diploma em "curso"
       placaA.m.scale.setScalar(pop(tc - tFz + 0.1)); placaB.m.scale.setScalar(pop(tc - tAc + 0.1));
       // PERSONAGEM: aponta a placa A, depois a B coçando a cabeça · em "curso": mostra o diploma · em "primeira": ombros
-      menino.colocar(CAIO_E, tc < tAc ? PLACA_A : tc < tCu ? PLACA_B : [0, 1.5, 8]);
+      menino.colocar(CAIO_E, tc < tAc ? [-1.1, 1.6, 3.2] : tc < tCu ? [1.1, 1.6, 3.2] : [0, 1.5, 8]);
       if (tc < tAc) menino.apontar(0.7);
       else if (tc < tCu) menino.reagir('duvida', tc - tAc);
       else if (tc < tPm) menino.reagir('mostrando', tc - tCu);
@@ -395,9 +395,9 @@
       K.som('certo', tFz + 0.1, 0.5); K.som('whoosh', tAc, 0.45); K.som('bip', tAc + 0.2, 0.3); K.som('tampa', tCu, 0.4); K.som('errado', tPm, 0.6);
       // CÂMERA: (1) até "achar": a placa A com ele · (2) rajada: a placa B · (3) em "curso": perto, o diploma e o rosto
       const c2 = tAc - 0.05, c3 = tCu - 0.1;
-      if (tc < c2) K.mirar([-0.5, 1.8, K.lerp(6.2, 5.6, pc(tc, B.inicio, c2))], [-0.7, 1.9, -0.2]);
-      else if (tc < c3) K.mirar([K.lerp(0.9, 1.2, pc(tc, c2, c3)), 1.8, 5.4], [0.8, 1.9, -0.2]);
-      else K.mirar([0.5, 1.45, K.lerp(3.6, 3.2, pc(tc, c3, B.ate))], [0.05, 1.35, 0.7]);
+      if (tc < c2) K.mirar([-0.45, 1.9, K.lerp(7.2, 6.7, pc(tc, B.inicio, c2))], [-0.5, 1.75, 0]);
+      else if (tc < c3) K.mirar([K.lerp(0.5, 0.7, pc(tc, c2, c3)), 1.9, 6.7], [0.55, 1.75, 0]);
+      else K.mirar([0.35, 1.5, K.lerp(4.5, 4.1, pc(tc, c3, B.ate))], [0.1, 1.3, 0.7]);
     },
     clinica(B, tc) {
       // NA TELA: a clínica de fisioterapia; a fisioterapeuta perto da maca com o balão "Alguém faz meu site?"; o rival de moletom vermelho entra, aperto de mão e o contrato FECHADO · MOSTRA: fisio, rival, contrato
@@ -427,15 +427,15 @@
         carimbo.visible = tc > tFe; carimbo.scale.setScalar(tc > tFe ? K.lerp(1.8, 1, K.suave(pc(tc, tFe, tFe + 0.15))) : 0.001);
       }
       // EFEITOS VISUAIS: "Sem site" em "sem" · "Outro web designer" em "Outro"
-      if (tc < tOu) fx.et.semSite.em({ tela: [540, 400] }, tc - tSe); else fx.et.outro.em({ tela: [540, 400] }, tc - tOu);
+      if (tc < tOu) fx.et.semSite.em({ tela: [540, 1560] }, tc - tSe); else fx.et.outro.em({ tela: [540, 1560] }, tc - tOu);
       // SONS: o balão · o errado do sem site · passos do rival · toc-toc em "bateu" · o carimbo · o congela é do jogo
       K.som('bip', tCl, 0.3); K.som('errado', tSe, 0.45); K.som('whoosh', tOu, 0.45);
       for (let k = 0; k < 3; k++) K.som('passo', tOu + 0.15 + k * 0.22, 0.3);
       K.som('madeira', tBa, 0.6); K.som('madeira', tBa + 0.18, 0.6); K.som('baque', tFe, 0.6);
       // CÂMERA: (1) chegando na fisio com a maca · (2) o rosto dela em "sem" · (3) o rival entrando · (4) o aperto de mão e o contrato
-      if (tc < tSe) { const k = K.suave(pc(tc, B.inicio, tSe)); K.mirar([0.9, 1.7, K.lerp(5.6, 4.9, k)], [-1.6, 1.4, -1.6]); }
+      if (tc < tSe) { const k = K.suave(pc(tc, B.inicio, tSe)); K.mirar([0.6, 1.65, K.lerp(4.4, 3.9, k)], [-1.4, 1.45, -1.4]); }
       else if (tc < tOu) K.mirar([-0.1, 1.65, K.lerp(2.3, 2.0, pc(tc, tSe, tOu))], [-1.3, 1.5, -1.3]);
-      else if (tc < tBa) { const r = rival.g.position; K.mirar([r.x + 1.6, 1.7, r.z + 3.4], [r.x - 0.6, 1.2, r.z - 0.6]); }
+      else if (tc < tBa) { const k = K.suave(pc(tc, tOu, tBa)); K.mirar([K.lerp(1.6, 1.3, k), 1.7, 5.6], [K.lerp(0.9, -0.2, k), 1.2, -0.6]); }
       else { const k = K.suave(pc(tc, tBa, B.ate)); K.mirar([K.lerp(1.9, 1.6, k), 1.7, 3.5], [-0.55, 1.4, -1.0]); }
     },
     virada(B, tc) {
@@ -445,7 +445,7 @@
       // OBJETOS SE MEXENDO: o pincel na mão até "larga"; depois gira e cai deitado no chão
       if (tc < tLa) caioPintando(tc);
       else {
-        menino.colocar(CAIO_P, tc < tMa ? [0.6, 1.9, -0.6] : [2.2, 1.45, 6]);
+        menino.colocar(CAIO_P, tc < tMa ? [3.4, 1.2, 3.4] : [2.2, 1.45, 6]);
         menino.humor(tc > tMa ? 'feliz' : 'normal');
         ve(pincel);
         const k = K.clamp((tc - tLa) / 0.45), de = menino.mao(1);
@@ -453,16 +453,15 @@
         pincel.position.set(K.lerp(de[0], CAIO_P[0] - 0.2, k), K.lerp(de[1], 0.2, k * k), K.lerp(de[2], CAIO_P[2] + 0.55, k));
         pincel.rotation.set(-PI / 2 * (1 - k) + 0.02, 0.8 + k * 0.9, 0);
         if (tc < tMa) menino.reagir('pensando', tc - tLa);
-        else if (tc < tIn) menino.reagir('mostrando', tc - tMa);
-        else menino.reagir('vitoria', tc - tIn);
+        else if (tc < tIn) menino.reagir('segurando', tc - tMa);
+        else menino.reagir('segurando', tc - tIn);
       }
       // ENTRA AGORA: o mapa de papel em "mapa", na frente do peito
       if (tc > tMa) {
         ve(mapaG);
         const a = menino.mao(0), b = menino.mao(1);
-        mapaG.position.set((a[0] + b[0]) / 2, (a[1] + b[1]) / 2 + 0.25, (a[2] + b[2]) / 2 + 0.2);
+        mapaG.position.set((a[0] + b[0]) / 2, Math.min(1.05, (a[1] + b[1]) / 2), (a[2] + b[2]) / 2 + 0.3);
         mapaG.scale.setScalar(pop(tc - tMa));
-        if (tc > tIn) mapaG.position.y += 0.35;
       }
       // EFEITOS VISUAIS: o poof do mapa · "Investir" em "investir" · o ✓ em "profissão"
       fx.poof.em(mais(CAIO_P, [0.4, 1.4, 0.5]), tc - tMa, { escala: 0.3 });
@@ -473,7 +472,7 @@
       // CÂMERA: (1) até "mapa": baixo, a mão e o pincel caindo · (2) rajada em "mapa": de frente, médio · (3) em "investir": de baixo pra cima, com o site atrás
       if (tc < tMa - 0.05) K.mirar([3.4, 1.0, K.lerp(3.1, 2.8, pc(tc, B.inicio, tMa))], [1.75, 0.8, 0.6]);
       else if (tc < tIn) K.mirar([2.3, 1.6, K.lerp(4.4, 4.0, pc(tc, tMa, tIn))], [1.7, 1.45, 0.4]);
-      else K.mirar([2.4, 0.55, K.lerp(4.0, 3.6, pc(tc, tIn, B.ate))], [1.5, 2.0, 0.0]);
+      else K.mirar([2.6, 1.25, K.lerp(4.5, 4.1, pc(tc, tIn, B.ate))], [1.65, 1.6, 0.2]);
     },
     lista(B, tc) {
       // NA TELA: a barra com mappoa.com acima do computador; a lista das clínicas de fisioterapia de Pelotas sobe do computador · MOSTRA: navegador, tela, personagem
@@ -539,14 +538,14 @@
         dona.colocar(FISIO, tc < tAc ? [1.0, 1.4, 3] : cabecaDe(menino, -1.3));
         if (tc > tPe) dona.reagir('vitoria', tc - tPe); else dona.humor(tc > tAc ? 'feliz' : 'normal');
         ve(telaM);
-        const m = menino.mao(1); telaM.g.position.set(m[0] - 0.25, m[1] + 0.5, m[2] - 0.05); telaM.g.rotation.set(0, -0.9, 0); telaM.g.scale.setScalar(0.42 * pop(tc - tA - 0.1));
+        const m = menino.mao(1); void m; telaM.g.position.set(0.8, 2.1, -0.05); telaM.g.rotation.set(0, -0.3, 0); telaM.g.scale.setScalar(0.34 * pop(tc - tA - 0.1));
         telaM.mostrar('analiseFisio', { ate: 2, score: 1 });
         if (tc > tPe) fx.simb.em(mais(FISIO, [0.5, 2.3, 0.5]), tc - tPe, { tipo: '✓', tam: 0.7 });
         fx.et.achou.em({ tela: [540, 400] }, tc - tPe);
         K.som('passo', tA + 0.2, 0.3); K.som('passo', tA + 0.45, 0.3); K.som('ding', tAc, 0.45); K.som('certo', tPe, 0.6);
         // CÂMERA: (2) chegando · médio · frente-direita · olho
         const k3 = K.suave(pc(tc, tA, B.ate));
-        K.mirar([K.lerp(2.4, 1.9, k3), 1.7, K.lerp(4.4, 3.8, k3)], [-0.45, 1.35, -0.8]);
+        K.mirar([K.lerp(1.6, 1.2, k3), 1.75, K.lerp(5.6, 5.1, k3)], [-0.4, 1.3, -0.7]);
       }
     },
     segue(B, tc) {
@@ -582,7 +581,7 @@
       menino.reagir('duvida', 1); menino.humor('triste');
       pincelNa(menino.mao(1), mais(menino.mao(1), [0.15, 1.15, 0.1]), 0.9);
       fenoRolando(1, 0, -0.6, 0, 2.9);
-      K.mirar([1.4, 2.0, 9.4], [0.7, 2.55, -0.2]);
+      K.mirar([1.3, 1.95, 8.3], [0.75, 2.35, -0.2]);
     }
   };
 
