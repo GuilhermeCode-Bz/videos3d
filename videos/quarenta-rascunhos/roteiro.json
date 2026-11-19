@@ -1,0 +1,93 @@
+{
+  "titulo": "Ele escreveu a mensagem quarenta vezes e não mandou nenhuma",
+  "capa": "Quarenta *rascunhos*?",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {
+    "abaixa": true
+  },
+  "personagem": {
+    "tipo": "menino",
+    "roupa": "camiseta",
+    "cores": {
+      "camiseta": "#2f6fd6",
+      "bermuda": "#2f6f5e",
+      "tenis": "#f4f1ea",
+      "cabelo": "#7a4a22",
+      "pele": "#e6b48a"
+    }
+  },
+  "voz": {
+    "motor": "elevenlabs",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "velocidade": 1.1,
+    "acelerar": "auto"
+  },
+  "alvoPpm": 180,
+  "frases": [
+    {
+      "texto": "Ele escreveu a mensagem quarenta vezes. E não mandou nenhuma.",
+      "plano": "gancho",
+      "mostra": ["personagem", "papel", "celular"],
+      "gancho": true
+    },
+    {
+      "texto": "O Nico é web designer e trava no Enviar: e se acharem ele amador?",
+      "plano": "trava",
+      "mostra": ["personagem", "celular"]
+    },
+    {
+      "texto": "Apaga, reescreve, amassa. Uma semana depois, tá no rascunho quarenta e um.",
+      "plano": "rascunhos",
+      "mostra": ["personagem", "papel"],
+      "jogo": "falha"
+    },
+    {
+      "texto": "E o estúdio de fotografia da esquina continua sem site e sem cliente.",
+      "plano": "estudio",
+      "mostra": ["dona", "estudio"]
+    },
+    {
+      "texto": "Outro web designer manda uma mensagem torta, cheia de erro. E fecha.",
+      "plano": "rival",
+      "mostra": ["rival", "dona"]
+    },
+    {
+      "texto": "Então o Nico sai do papel e decide investir.",
+      "plano": "sai",
+      "mostra": ["personagem", "papel"],
+      "jogo": "corrige"
+    },
+    {
+      "texto": "Digita mappoa.com no computador e vem a lista dos estúdios de fotografia de Jundiaí sem site.",
+      "plano": "lista",
+      "mostra": ["navegador", "tela", "personagem"]
+    },
+    {
+      "texto": "Esse é o *Mappoa*, um sistema que mostra quem tem mais chance de te contratar.",
+      "plano": "mappoa",
+      "mostra": ["tela", "robo", "personagem"]
+    },
+    {
+      "texto": "Antes, quarenta rascunhos pra ninguém. Agora, ele manda pra quem precisa. Aperta Enviar até com a testa.",
+      "plano": "antes_agora",
+      "mostra": ["personagem", "celular"],
+      "jogo": "avanca"
+    },
+    {
+      "texto": "Segue pra ver mais. No computador, digita mappoa.com e testa você também.",
+      "plano": "segue",
+      "mostra": ["personagem", "navegador", "monitor"]
+    }
+  ],
+  "cauda": {
+    "segundos": 1.6,
+    "plano": "cartao"
+  },
+  "trilha": {
+    "arquivo": "trilha",
+    "ganho": 0.22
+  }
+}
