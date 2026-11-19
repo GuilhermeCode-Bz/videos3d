@@ -444,7 +444,9 @@ function arquivoCena() {
 
 const NOME_TEXTO = { rotulo: 'rótulo', etiqueta: 'etiqueta', marca: '✓/✗', contador: 'contador', seguir: 'cartão de seguir',
   'capa-titulo': 'pergunta da capa', cta: 'chamada', medida: 'medida', 'medida-txt': 'medida', termometro: 'termômetro', circulo: 'círculo' };
-const LEGENDA = [100, 1165, 980, 1315]; // onde a legenda palavra por palavra aparece
+// Onde a legenda palavra por palavra aparece (no visual "motion" do canal, canal/pecas/zz-visual-motion.js, ela fica
+// um pouco mais baixa, a ~67% da altura, como na referência 3D motion)
+const LEGENDA = roteiro.visual === 'motion' ? [100, 1235, 980, 1340] : [100, 1165, 980, 1315];
 const distancia = (a, b) => Math.hypot(a[0] - b[0], a[1] - b[1], a[2] - b[2]);
 const angulo = (a, b) => (Math.acos(Math.min(1, a[0] * b[0] + a[1] * b[1] + a[2] * b[2])) * 180) / Math.PI;
 const diferenca = (a, b) => a.reduce((s, v, k) => s + Math.abs(v - b[k]), 0) / a.length; // 0 a 255 por ponto
@@ -673,6 +675,8 @@ function avisoDaOpiniao() {
   for (const extra of motorExtra()) await page.addScriptTag({ path: extra });
   await page.addScriptTag({ path: arquivoCena() });
   await page.evaluate(() => Promise.all([document.fonts.load('900 80px Montserrat'), document.fonts.load('800 80px Montserrat')]));
+  // Imagens que as peças do canal carregam (window.ESPERAR: as telas do Mappoa, por exemplo) prontas antes do 1º quadro
+  await page.evaluate(() => Promise.all(window.ESPERAR || []));
   await page.evaluate((tl) => {
     K.init();
     K.preparar(tl);

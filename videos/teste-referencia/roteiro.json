@@ -1,0 +1,16 @@
+{
+  "titulo": "Teste do visual da referência",
+  "cor": "#1067f8",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "visual": "motion",
+  "fps": 30,
+  "efeitos": { "abaixa": true },
+  "voz": { "motor": "teste" },
+  "frases": [
+    { "texto": "Imagina mandar cinquenta mensagens por dia e nenhuma empresa responder.", "plano": "gancho", "clima": "isolamento", "mostra": ["personagem", "celular"] },
+    { "texto": "Enquanto isso, o seu colega da mesa ao lado fecha cliente toda semana.", "plano": "colega", "clima": "normal", "mostra": ["colega"] },
+    { "texto": "O segredo dele? Ele abre o Mappoa e vê quem precisa do serviço dele na cidade.", "plano": "segredo", "clima": "normal", "mostra": ["colega", "mappoa"] },
+    { "texto": "E você continua sozinho, procurando no escuro.", "plano": "noite", "clima": "noite", "mostra": ["janela"] }
+  ]
+}

@@ -14,6 +14,12 @@ O que o roteiro não mostra, mas segura a pessoa no vídeo. O `cena.js` de cada 
 
 ## Na tela
 
+> **Canal com "visual": "motion"** (o padrão deste canal, em `canal/identidade.md`): a legenda é branca, de 1 ou 2
+> palavras, sem palavra amarela e mais baixa (~67% da altura); etiquetas e rótulos viram adesivos de papel com fita; cada
+> frase pode ter um `"clima"` de cor; a fusão entre planos e o push-in lento são automáticos; o boneco é desenho 2D. A tela
+> do produto entra num celular, monitor ou notebook com a tela real do Mappoa, e a câmera mergulha nela (o objeto entra,
+> a câmera atravessa e a tela vira o quadro). O resto desta seção vale do mesmo jeito.
+
 - **Legenda uma palavra por vez**, branca com contorno preto, no meio da tela. O termo-chave (`*palavra*` no roteiro)
   fica amarelo
 - **Rótulo amarelo grande** no "Esse é o X", colado na peça. A peça fica amarela translúcida por um instante

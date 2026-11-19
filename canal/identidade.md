@@ -27,6 +27,14 @@ Cenários prontos (o lugar inteiro, com céu, luz e o que se mexe; fotos e qual 
 
 Redondo e caprichado: sombreamento liso, quinas arredondadas e cenário vivo.
 
+**Visual do canal: motion (19/11/2026, aprovado).** O jeito da referência 3D motion (VIDEOS CHAT/ANALISE REFERENCIA): boneco
+2D de desenho chapado (cabeça de feijão, corpo em gota, braço e perna de traço preto, contorno de tinta) dentro de um mundo
+3D pintado com traço preto em toda quina; cor por clima da cena (`"clima"` na frase: normal, isolamento, ameaca, noite,
+verdade, virada), com o vermelho só no que é ameaça; câmera sempre andando, com fusão curta entre os planos; legenda
+branca de 1 ou 2 palavras, mais baixa; placa impressa nos objetos. Cenários da referência: `escritorio_azul`,
+`sala_verde` e `predio_noite`. As telas de celular, monitor e notebook mostram as **telas reais do Mappoa**
+(`K.celularMappoa`, `K.monitorMappoa`, `K.notebookMappoa`). Tudo em `canal/pecas/zz-*.js`; liga com `"visual": "motion"`.
+
 - `"estilo": "redondo"`: sombreamento liso, quinas arredondadas, cenário vivo (flores, arbustos, borboletas, pássaros,
   pólen, vento), sombra macia, personagem com olho de verdade
 - `"fps": 60`: movimento mais fluido (o render leva o dobro do tempo)
@@ -72,6 +80,7 @@ cartão mostra a inicial do canal na cor do canal.
 "cor": "#2fb5a6",
 "arroba": "@mappoa_leads",
 "estilo": "redondo",
+"visual": "motion",
 "fps": 60,
 "efeitos": {"abaixa": true},
 "personagem": {"tipo": "menino", "roupa": "camiseta", "cores": {"camiseta": "#2f6fd6", "bermuda": "#2f6f5e", "tenis": "#f4f1ea", "cabelo": "#7a4a22", "pele": "#e6b48a"}},

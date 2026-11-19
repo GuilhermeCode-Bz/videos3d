@@ -1,0 +1,157 @@
+{
+  "titulo": "Perdi um cliente pro sobrinho de 14 anos (storytime)",
+  "capa": "Perdi pro *sobrinho*?",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {
+    "abaixa": true
+  },
+  "personagem": {
+    "tipo": "menino",
+    "roupa": "camiseta",
+    "cores": {
+      "camiseta": "#2f6fd6",
+      "bermuda": "#2f6f5e",
+      "tenis": "#f4f1ea",
+      "cabelo": "#7a4a22",
+      "pele": "#e6b48a"
+    }
+  },
+  "voz": {
+    "motor": "elevenlabs",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "velocidade": 1.1,
+    "acelerar": "auto"
+  },
+  "alvoPpm": 190,
+  "frases": [
+    {
+      "texto": "Eu já perdi um cliente pra um sobrinho de catorze anos.",
+      "plano": "gancho",
+      "mostra": [
+        "personagem",
+        "sobrinho",
+        "contrato"
+      ],
+      "gancho": true
+    },
+    {
+      "texto": "Era uma escola de inglês. Mandei um orçamento caprichado, com tudo explicado.",
+      "plano": "orcamento",
+      "mostra": [
+        "personagem",
+        "orcamento",
+        "monitor"
+      ]
+    },
+    {
+      "texto": "O dono respondeu: meu sobrinho faz de graça. E fechou com ele.",
+      "plano": "resposta",
+      "mostra": [
+        "personagem",
+        "celular",
+        "lixo"
+      ],
+      "jogo": "falha"
+    },
+    {
+      "texto": "Fiquei três meses sem cliente. Toda empresa que eu achava já tinha um sobrinho.",
+      "plano": "sobrinhos",
+      "mostra": [
+        "personagem",
+        "sobrinhos",
+        "calendario"
+      ]
+    },
+    {
+      "texto": "Até que eu entendi: eu não precisava de qualquer empresa. Precisava de quem estava com problema.",
+      "plano": "virada",
+      "mostra": [
+        "personagem",
+        "alertas"
+      ]
+    },
+    {
+      "texto": "Então decidi investir numa ferramenta que acha as empresas que precisam do meu serviço.",
+      "plano": "investe",
+      "mostra": [
+        "personagem",
+        "monitor"
+      ],
+      "jogo": "corrige"
+    },
+    {
+      "texto": "No computador, entrei no mappoa.com e pesquisei: escolas de inglês em Florianópolis.",
+      "plano": "busca",
+      "mostra": [
+        "navegador",
+        "busca",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Veio uma lista com noventa escolas, e trinta e duas com o site fora do ar ou sem site.",
+      "plano": "lista",
+      "mostra": [
+        "lista",
+        "robo",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Esse é o *Mappoa*, um sistema que acha quem precisa do seu serviço.",
+      "plano": "mappoa",
+      "mostra": [
+        "tela",
+        "robo",
+        "personagem"
+      ]
+    },
+    {
+      "texto": "Criei minha campanha e enviei a mensagem personalizada, já pronta.",
+      "plano": "campanha",
+      "mostra": [
+        "tela",
+        "personagem",
+        "monitor"
+      ]
+    },
+    {
+      "texto": "Mandei pra trinta. Quase todas disseram não. Mas uma respondeu na hora.",
+      "plano": "venda",
+      "mostra": [
+        "personagem",
+        "celular"
+      ]
+    },
+    {
+      "texto": "Era a mesma escola de inglês. O sobrinho tinha sumido, e o site, caído.",
+      "plano": "reencontro",
+      "mostra": [
+        "personagem",
+        "dono",
+        "site"
+      ],
+      "jogo": "avanca"
+    },
+    {
+      "texto": "Comenta a sua cidade que eu te mando quantas empresas aí não têm site. No computador, digita mappoa.com e acha as escolas sem site perto de você.",
+      "plano": "segue",
+      "mostra": [
+        "personagem",
+        "navegador",
+        "monitor"
+      ]
+    }
+  ],
+  "cauda": {
+    "segundos": 1.6,
+    "plano": "cartao"
+  },
+  "trilha": {
+    "arquivo": "trilha",
+    "ganho": 0.22
+  }
+}
