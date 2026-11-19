@@ -1,0 +1,37 @@
+{
+  "comoLer": "Quanto este vídeo gastou (npm run custos). \"elevenlabs\": os créditos gastos pra narrar (o render anota a cada vez que narra; frase já narrada não gasta de novo). \"ia\": os tokens da IA, por conversa: entrada (o que ela leu de novo), cache (o que ela releu da memória da conversa, bem mais barato) e saída (o que ela escreveu, com o raciocínio).",
+  "elevenlabs": {
+    "creditos": 712,
+    "caracteres": 712,
+    "vezes": [
+      {
+        "quando": "2026-11-19T15:13:53.387Z",
+        "caracteres": 712,
+        "creditos": 712,
+        "modelo": "eleven_multilingual_v2",
+        "sobraram": 30782
+      }
+    ],
+    "sobraram": 30782
+  },
+  "ia": {
+    "conversas": [
+      {
+        "id": "159155ad-fda3-5184-adac-41191574cea2",
+        "programa": "Claude Code",
+        "modelo": "claude-opus-5-5",
+        "entrada": 366287,
+        "cache": 10060138,
+        "saida": 72485,
+        "total": 10498910,
+        "de": "2026-11-19T14:57:11.391Z",
+        "ate": "2026-11-19T15:41:19.283Z",
+        "medido": "2026-11-19T15:41:23.577Z"
+      }
+    ],
+    "entrada": 366287,
+    "cache": 10060138,
+    "saida": 72485,
+    "total": 10498910
+  }
+}

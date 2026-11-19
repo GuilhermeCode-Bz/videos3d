@@ -1,0 +1,25 @@
+{
+  "titulo": "Um robô faz site em dez segundos. E você continua sem cliente",
+  "capa": "Medo da *IA*?",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {"abaixa": true},
+  "personagem": {"tipo": "menino", "roupa": "camiseta", "cores": {"camiseta": "#2f6fd6", "bermuda": "#2f6f5e", "tenis": "#f4f1ea", "cabelo": "#7a4a22", "pele": "#e6b48a"}},
+  "voz": {"motor": "elevenlabs", "id": "TX3LPaxmHKxFdv7VOQHJ", "velocidade": 1.1, "acelerar": "auto"},
+  "alvoPpm": 190,
+  "frases": [
+    {"texto": "Um robô faz site em dez segundos. E você continua sem cliente.", "plano": "gancho", "mostra": ["robo_ia", "sites", "personagem"], "gancho": true},
+    {"texto": "O Ravi é web designer e passa o dia de braço cruzado, com medo da IA.", "plano": "medo", "mostra": ["personagem", "monitor", "robozinho"]},
+    {"texto": "Baixou o preço, refez o portfólio. Trinta dias depois, nenhuma mensagem.", "plano": "tempo", "mostra": ["personagem", "celular"]},
+    {"texto": "Só que a marmoraria da esquina não tem site. E robô nenhum vai bater lá.", "plano": "marmoraria", "mostra": ["marmoraria", "dono", "marmore"]},
+    {"texto": "Quem bateu lá foi outro web designer. E fechou.", "plano": "rival", "mostra": ["rival", "dono", "marmoraria"], "jogo": "falha"},
+    {"texto": "Aí o Ravi descruza os braços, investe numa ferramenta e digita mappoa.com no computador. Vem a lista das marmorarias de Feira de Santana sem site.", "plano": "lista", "mostra": ["personagem", "navegador", "tela"], "jogo": "corrige"},
+    {"texto": "Esse é o *Mappoa*, um sistema que mostra quem precisa do seu trabalho.", "plano": "mappoa", "mostra": ["tela", "robo", "personagem"]},
+    {"texto": "Antes, o Ravi tinha medo do robô. Agora, o robô faz o site e o Ravi traz o cliente.", "plano": "antes_agora", "mostra": ["personagem", "robo_ia", "dono"], "jogo": "avanca"},
+    {"texto": "Segue pra ver mais. No computador, digita mappoa.com e testa você também.", "plano": "segue", "mostra": ["personagem", "navegador", "monitor"]}
+  ],
+  "cauda": {"segundos": 1.6, "plano": "cartao"},
+  "trilha": {"arquivo": "trilha", "ganho": 0.22}
+}
