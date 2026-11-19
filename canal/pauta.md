@@ -186,5 +186,7 @@
 | A mesma segunda-feira (loop de tempo) | nuvem-mesma-segunda | ✅ | ✅ | ⬜ | |
 | Eu sou uma pizzaria (a empresa conta) | nuvem-pizzaria-falando | ✅ | ✅ | ⬜ | |
 | Corrida pelo cliente (locutor esportivo) | nuvem-corrida-do-cliente | ✅ | ✅ | ⬜ | |
-Os outros 7 do lote (documentário, receita, plantão, era uma vez, aluguel, futuro e fase 1) eram só roteiro e foram
-apagados em 19/11/2026, a pedido do dono, pra dar lugar a vídeos novos no molde de 45 s.
+| Habitat natural (documentário) | nuvem-documentario | ✅ | ✅ | ⬜ | |
+
+Os outros 6 do lote (receita, plantão, era uma vez, aluguel, futuro e fase 1) eram só roteiro e foram apagados em
+19/11/2026, a pedido do dono, pra dar lugar a vídeos novos no molde de 45 s.

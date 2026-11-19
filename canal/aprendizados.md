@@ -14,6 +14,8 @@
 
 - Vídeo feito na nuvem (Claude Code na web) fica em `videos/nuvem-<tema>/`, pra não misturar com os do computador e continuar aparecendo no painel. O `video.mp4` não sobe pro GitHub (é pesado demais): mandar o arquivo direto pra pessoa baixar (você pediu, 18/11/2026)
 
+- O render completo demora demais (~35 min na nuvem): conferir TUDO antes dele. Depois do --revisar APROVADO, tirar prévias (--previa) de cada frase nos momentos de corte de câmera e abrir as imagens; só renderizar quando nenhuma cena tiver câmera dentro da parede (quadro de uma cor só), personagem cortado na borda ou efeito tapando ele. Se estiver tudo bom, segue direto pro render sem perguntar. Se algo sair ruim no vídeo pronto, anotar a causa em "Lições técnicas" pra não repetir (você pediu, 18/11/2026)
+
 ## Roteiro e narração
 
 - O personagem principal é SEMPRE o do canal (o menino de camiseta azul de `canal/identidade.md`), mesmo quando o vídeo muda o formato, o texto ou quem narra: o que muda é a história, não ele (você pediu, 18/11/2026)
@@ -81,6 +83,8 @@
 - Na nuvem (Claude Code na web), a ElevenLabs do plano grátis NÃO funciona: a chave conecta (`NODE_USE_ENV_PROXY=1` na frente do comando e `ELEVENLABS_API_KEY=proxy-injected` no `.env`), mas na hora de gravar ela responde "Unusual activity... Free Tier access has been disabled" (o servidor da nuvem parece VPN). E a voz de teste (espeak-ng) não pôde ser instalada aqui. Narração na nuvem só com plano pago; senão, roteiro e cena.js na nuvem e o render no computador (18/11/2026)
 
 - Na nuvem sem a voz de teste (espeak-ng não instala), dá pra revisar as cenas com uma "voz muda": um script espeak-ng no PATH (na pasta de rascunho) que só gera silêncio com o tempo da frase (~170 palavras/min, pelo ffmpeg do ffmpeg-static); as prévias e a folha saem iguais, só a hora de cada palavra é aproximada (nuvem-documentario, 18/11/2026)
+
+- No home_office, K.filmar "subindo" com lado "frente" e obstaculos: false no plano investe (alvo no monitor e no personagem) atravessou a parede e deu ~1 s de quadro todo bege, e a folha não pega porque o quadro da folha é de outro momento. Usar K.mirar fixo, ex.: de [0,6, 1,45, 3,8] pra [0,4, 1,65, 3,3] olhando [0,1, 1,2, -0,8] (monitor e personagem juntos). O K.poof com escala 0,7 no meio do corpo tapa o personagem: escala 0,35 e do lado dele. E o K.heroi na floresta mostra quase só céu: K.mirar baixo (y ~1) olhando o peito (nuvem-documentario, 18/11/2026)
 
 > Pra IA: erros da cena ou do motor que já deram trabalho neste canal, e como resolver.
 
