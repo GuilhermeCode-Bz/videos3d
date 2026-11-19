@@ -1,0 +1,26 @@
+{
+  "titulo": "Mês passado ele tinha três clientes",
+  "capa": "Sobe e *desce*?",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {"abaixa": true},
+  "personagem": {"tipo": "menino", "roupa": "camiseta", "cores": {"camiseta": "#2f6fd6", "bermuda": "#2f6f5e", "tenis": "#f4f1ea", "cabelo": "#7a4a22", "pele": "#e6b48a"}},
+  "voz": {"motor": "elevenlabs", "id": "TX3LPaxmHKxFdv7VOQHJ", "velocidade": 1.1, "acelerar": "auto"},
+  "alvoPpm": 185,
+  "frases": [
+    {"texto": "Mês passado ele tinha três clientes. Olha ele agora.", "plano": "gancho", "mostra": ["carrinho", "trilho", "personagem"], "gancho": true},
+    {"texto": "O Caíque é web designer e, quando tem cliente, esquece de procurar o próximo.", "plano": "trabalha", "mostra": ["personagem", "monitor", "lembrete"]},
+    {"texto": "Entregou os três sites e o carrinho despencou. Passou um mês sem nenhum pedido.", "plano": "despenca", "mostra": ["carrinho", "personagem", "calendario"], "jogo": "falha"},
+    {"texto": "Só que a oficina de moto da esquina não tem site. Nem o telefone aparece.", "plano": "oficina", "mostra": ["mecanico", "moto", "celular"]},
+    {"texto": "O colega dele procura cliente toda semana. Ele chegou primeiro e fechou.", "plano": "rival", "mostra": ["rival", "mecanico", "contrato"]},
+    {"texto": "Aí o Caíque puxa o freio, decide investir e digita mappoa.com no computador.", "plano": "freio", "mostra": ["personagem", "navegador", "monitor"], "jogo": "corrige"},
+    {"texto": "E vem a lista das oficinas de moto de Caxias do Sul sem site.", "plano": "lista", "mostra": ["tela", "personagem", "navegador"]},
+    {"texto": "Esse é o *Mappoa*, um sistema que acha quem precisa do seu serviço.", "plano": "mappoa", "mostra": ["tela", "robo", "personagem"]},
+    {"texto": "Antes, o Caíque vivia no sobe e desce. Agora, o carrinho dele só sobe.", "plano": "antes_agora", "mostra": ["personagem", "carrinho", "subida"], "jogo": "avanca"},
+    {"texto": "Segue pra ver mais. No computador, digita mappoa.com e testa você também.", "plano": "segue", "mostra": ["personagem", "navegador", "monitor"]}
+  ],
+  "cauda": {"segundos": 1.6, "plano": "cartao"},
+  "trilha": {"arquivo": "trilha", "ganho": 0.22}
+}
