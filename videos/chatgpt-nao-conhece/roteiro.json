@@ -1,0 +1,26 @@
+{
+  "titulo": "A loja que o ChatGPT não conhece",
+  "capa": "Invisível pra *IA*?",
+  "cor": "#2fb5a6",
+  "arroba": "@mappoa_leads",
+  "estilo": "redondo",
+  "fps": 60,
+  "efeitos": {"abaixa": true},
+  "personagem": {"tipo": "menino", "roupa": "camiseta", "cores": {"camiseta": "#2f6fd6", "bermuda": "#2f6f5e", "tenis": "#f4f1ea", "cabelo": "#7a4a22", "pele": "#e6b48a"}},
+  "voz": {"motor": "elevenlabs", "id": "TX3LPaxmHKxFdv7VOQHJ", "velocidade": 1.1, "acelerar": "auto"},
+  "alvoPpm": 190,
+  "frases": [
+    {"texto": "Perguntaram pro ChatGPT onde tem chaveiro. Essa loja nem existe pra ele.", "plano": "gancho", "mostra": ["robo_ia", "quiosque", "chaveiro"], "gancho": true},
+    {"texto": "O Caio é web designer e passa o dia oferecendo site pra quem já tem.", "plano": "oferece", "mostra": ["personagem", "monitor"]},
+    {"texto": "Trinta dias nisso. Nenhuma resposta, e o celular parado na mesa.", "plano": "espera", "mostra": ["personagem", "celular"]},
+    {"texto": "Só que o chaveiro da esquina não tem site. Pro ChatGPT, ele tá apagado.", "plano": "apagado", "mostra": ["quiosque", "chaveiro", "chat"], "jogo": "falha"},
+    {"texto": "Outro web designer acendeu a luz dele primeiro. E fechou.", "plano": "rival", "mostra": ["rival", "quiosque", "contrato"], "jogo": "corrige"},
+    {"texto": "Aí o Caio acende a lanterna, decide investir e digita mappoa.com no computador.", "plano": "lanterna", "mostra": ["personagem", "lanterna", "navegador"]},
+    {"texto": "Vem a lista dos chaveiros de Caruaru sem site, todos apagados pra IA.", "plano": "lista", "mostra": ["tela", "personagem", "monitor"]},
+    {"texto": "Esse é o *Mappoa*, um sistema que acha quem precisa do seu serviço.", "plano": "mappoa", "mostra": ["tela", "robo", "personagem"]},
+    {"texto": "Antes, o Caio passava reto que nem o robô. Agora, ele acha quem a IA não vê.", "plano": "antes_agora", "mostra": ["personagem", "quiosque2", "dona"], "jogo": "avanca"},
+    {"texto": "Segue pra ver mais. No computador, digita mappoa.com e testa você também.", "plano": "segue", "mostra": ["personagem", "navegador", "monitor"]}
+  ],
+  "cauda": {"segundos": 1.6, "plano": "cartao"},
+  "trilha": {"arquivo": "trilha", "ganho": 0.22}
+}
