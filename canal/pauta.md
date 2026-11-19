@@ -190,3 +190,17 @@
 
 Os outros 6 do lote (receita, plantão, era uma vez, aluguel, futuro e fase 1) eram só roteiro e foram apagados em
 19/11/2026, a pedido do dono, pra dar lugar a vídeos novos no molde de 45 s.
+
+### Ideias novas (19/11/2026): molde de 45 s, metáforas que o canal ainda não usou
+
+> Pedido do dono: "me dá ideia pros próximos vídeos". Mesma receita dos campeões (`canal/formato-campeao.md`): dor do
+> próprio web designer, gancho em 3ª pessoa com até 13 palavras e fim em aberto, metáfora absurda no 1º quadro, uma
+> história com começo, meio e fim e um punchline no final. Em ordem de aposta.
+
+| Tema | Gancho (metáfora + curiosidade aberta) | Roteiro | Vídeo | Postado | Resultado |
+|---|---|---|---|---|---|
+| 1. A lâmpada do gênio (`lampada-do-genio`) | "Ele achou a lâmpada do gênio. E pediu um cliente." (1º quadro: a fumaça azul explodindo da lâmpada no quarto e o gênio gigante batendo a cabeça no teto. Os 3 desejos são a história: o 1º traz o primo pedindo site de graça, o 2º traz uma loja que já tem site; no 3º o gênio diz "isso eu não faço" e aponta o computador: mappoa.com, as barbearias sem site de Maceió. Punchline: o próximo cliente que pede site é o próprio gênio) | ⬜ | ⬜ | ⬜ | |
+| 2. O sino que só toca com o vento (`sino-do-vento`) | "Ele pendurou um sino pra quando chegar cliente. Só o vento tocou." (vibe da barba. 1º quadro: o escritório vazio, o sino balançando sozinho e as folhas secas entrando; ele corre pra porta toda vez. Dia 1, Dia 10, Dia 30; o rival passa na rua indo atrás. Virada: ele arranca o sino e vai atrás; as lavanderias sem site de Ribeirão Preto. Punchline: o sino toca de novo, mas agora é ele entrando na loja do cliente) | ⬜ | ⬜ | ⬜ | |
+| 3. A senha 847 (`senha-847`) | "Ele pegou senha pra conseguir cliente. A dele é a 847." (1º quadro: o painel vermelho "SENHA 012" e uma sala de espera lotada de web designers, ele de barba com o papelzinho. Dor: disputar o mesmo pedido em grupo e plataforma, esperando a vez. Virada: sai da fila; lá fora as empresas sem site nem sabem que existe fila; os pet shops de Teresina. Punchline: chamam a 847 e a cadeira tá vazia, ele já tá fechando) | ⬜ | ⬜ | ⬜ | |
+| 4. O mapa do tesouro (`mapa-do-tesouro`) | "Ele tem um mapa do tesouro. E cava no lugar errado." (1º quadro: o quintal cheio de buracos, ele suado de pá e chapéu de pirata. Dor: procurar cliente onde todo mundo procura (Instagram, grupo, plataforma). Virada: ele vira o mapa e o X tá na rua dele; as óticas sem site de Juiz de Fora. Punchline: o rival ainda cavando no quintal) | ⬜ | ⬜ | ⬜ | |
+| 5. A fila na porta (`fila-na-porta`) | "Tem uma fila de clientes na porta dele. E a cortina tá fechada." (o miolo do megafone com outra imagem: a fila de donos de loja com plaquinha "PRECISO DE SITE" dobrando o quarteirão, e ele lá dentro de cortina fechada mandando proposta pra outro estado. Virada: abre a cortina; as docerias sem site de Uberaba. Postar longe do megafone e do cliente-gritou-na-esquina, que têm o mesmo miolo) | ⬜ | ⬜ | ⬜ | |
