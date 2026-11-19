@@ -16,6 +16,7 @@
 - Personagem olhando o objeto grande da cena (o site gigante, o monitor) fica de perfil ou de costas pra câmera do lado; no corte em que ele reage (larga o pincel), virar ele pra câmera antes. Mapa ou painel segurado na frente do peito com câmera de baixo pra cima tapa o rosto: câmera na altura do peito (y ~1,2) e a peça na altura da cintura (y ≤ 1,05) (duas-profissoes, 19/11/2026)
 - No `consultorio`, câmera seguindo quem entra (K.mirar preso na posição dele, a ~3 m atrás) deixa ele enorme e colado; quem entra vem pelo lado (x ~4,8) com a câmera fixa na frente (~[1,4, 1,7, 5,6]). A etiqueta em y 400 bate no balão de fala de quem está no alto do quadro: nessa frase, etiqueta embaixo (y ~1560) (duas-profissoes, 19/11/2026)
 - Capa com o objeto gigante: K.mirar a ~8 m (tam do quadro bom pro site de 2,8 x 4,4 e o personagem inteiro); a ~7 m o nome do site e os pés cortam (duas-profissoes, 19/11/2026)
+- Defeito que ficou no vídeo: no corte "Outro web designer" da clínica (~17 s), a câmera fixa já olha o lugar por onde o rival vai entrar, então por ~0,5 s a fisioterapeuta fica cortada na borda e a sala quase vazia. Quem entra pelo lado tem que já estar no quadro no 1º instante do corte (começar o irPara mais perto, x ~3) ou a câmera começa na pessoa que já está lá e vira junto (duas-profissoes, 19/11/2026)
 
 ## Pauta
 

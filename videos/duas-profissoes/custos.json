@@ -19,19 +19,19 @@
       {
         "id": "159155ad-fda3-5184-adac-41191574cea2",
         "programa": "Claude Code",
-        "modelo": "claude-fable-5-2",
-        "entrada": 336183,
-        "cache": 5244810,
-        "saida": 58957,
-        "total": 5639950,
+        "modelo": "claude-opus-5-5",
+        "entrada": 366287,
+        "cache": 10060138,
+        "saida": 72485,
+        "total": 10498910,
         "de": "2026-11-19T14:57:11.391Z",
-        "ate": "2026-11-19T15:14:28.968Z",
-        "medido": "2026-11-19T15:14:30.497Z"
+        "ate": "2026-11-19T15:41:19.283Z",
+        "medido": "2026-11-19T15:41:23.577Z"
       }
     ],
-    "entrada": 336183,
-    "cache": 5244810,
-    "saida": 58957,
-    "total": 5639950
+    "entrada": 366287,
+    "cache": 10060138,
+    "saida": 72485,
+    "total": 10498910
   }
 }
