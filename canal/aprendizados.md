@@ -90,6 +90,11 @@
 
 > Pra IA: erros da cena ou do motor que já deram trabalho neste canal, e como resolver.
 
+- Na rua_predios, as placas das lojas da esquerda ficam em x -5,88, y 3,25 e z: clínica 38,5, pizzaria 32, academia 26,5, salão 21,5, padaria 15,5, farmácia 9, loja 2,5, café -4,5, mercado -11 (a porta fica ~2,5 m antes). No vídeo em pé, três lojas seguidas cabem num quadro só com a câmera na calçada da direita, ~10 m antes da primeira, olhando na diagonal (~33°) pro meio delas. Placa ou número que sai mais de ~0,6 m da fachada aparece em cima da loja vizinha (paralaxe) (tres-sinais, 20/11/2026)
+- A revisão marca "colado na câmera" quando o personagem fica ATRÁS da câmera num corte, mesmo sem aparecer (e quando ele passa de 85% da altura da tela): em cada corte do gancho, pôr o personagem dentro do quadro (ex.: na frente da loja que a câmera mostra) ou longe. O quadro aberto com o personagem de frente pra câmera e as lojas atrás dele serve de gancho e de capa (tres-sinais, 20/11/2026)
+- Óculos no boneco 2D do visual motion: `menino.cartao.o.oculos = true` liga o aro desenhado. Brilho nas lentes: um plano aditivo na cabeça (+0,1 m) puxado 0,32 m pra câmera, virado pra ela, e escondido quando a câmera está atrás dele (senão os olhos vermelhos aparecem na nuca). Feixe saindo do olho: cilindro aberto transparente aditivo do olho até o alvo (tres-sinais, 20/11/2026)
+- A lista real do Mappoa num celular gigante (`K.celularMappoa('lista', { tam: 6,6 a 7,4 })`) aparece inteira, mas o texto fica miúdo no vídeo: pôr etiquetas grandes com o que a narração diz ("Sem site", "Site com problema"). No `K.entrar` dele, `destaque: false`, senão o brilho deixa o celular todo amarelo (tres-sinais, 20/11/2026)
+
 - No home_office, com a cadeira giratória no SEAT girada pro monitor (PI), o personagem sentado virado pra câmera fica atrás do encosto (só aparecem as pernas). No fim do cena(), se ele está no SEAT, girar a cadeira junto: cad.rotation.y = menino.g.rotation.y (nuvem-mesma-segunda, 18/11/2026)
 - Na rua_predios, câmera de frente pra quem corre com outro personagem do vídeo ATRÁS dela (a dona esperando na chegada) reprova "colado na câmera": só pôr esse personagem quando a câmera olha pra ele. As árvores escondidas continuam barrando o K.seguir: na corrida, K.mirar fixo no meio do calçadão (x 0,25) (nuvem-corrida-do-cliente, 18/11/2026)
 
