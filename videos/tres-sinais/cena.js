@@ -30,6 +30,10 @@
   const EG = () => [0.9, 0, ZL - 4.6];             // o Enzo no gancho e na frase 2, no meio do calçadão
   const ALVO_G = () => [-5.2, 2.4, ZF + 1];         // pra onde ele olha no gancho (as três lojas)
   const NA_LOJA = (z) => [-1.9, 0, z - 3.0];        // o Enzo de frente pra uma loja, do calçadão
+  // o quadro aberto do gancho e da capa: o Enzo de frente pra câmera e as três lojas acesas atrás dele
+  const CAPA_CAM = () => [2.9, 1.75, ZL - 6.6];
+  const CAPA_E = () => [0.4, 0, ZL - 3.55];
+  const CAPA_ALVO = () => [-5.9, 2.2, ZL + 6.9];
 
   const LUGAR = { gancho: 'rua', enzo: 'rua', sinal1: 'rua', sinal2: 'rua', sinal3: 'rua', cansou: 'rua', lista: 'quarto', mappoa: 'mundo_mappoa', antes_agora: 'rua', segue: 'quarto', cartao: 'quarto', capa: 'rua' };
 
@@ -189,7 +193,7 @@
       const mold = folha(4.4, 3.3, 512, moldura, { depthWrite: false }); mold.rotation.y = PI / 2;
       guarda(mold, nome, [FX + 0.35, 1.75, z]);
       const num = folha(0.95, 0.95, 256, numero(n)); guarda(num, nome, [FX + 0.6, 4.55, z]); encarar.push(num);
-      const fi = folha(2.3, 1.4, 760, fichas[k]); guarda(fi, 'ficha', [FX + 2.6, 3.35, z + 0.2]); encarar.push(fi);
+      const fi = folha(1.9, 1.16, 760, fichas[k]); guarda(fi, 'ficha', [FX + 2.6, 3.35, z + 0.2]); encarar.push(fi);
       SN[k] = { z, mold, num, fi, n };
     });
     insta = folha(1.35, 1.95, 520, perfilInsta); guarda(insta, 'insta', [FX + 2.9, 2.2, ZL + 0.9]); encarar.push(insta);
@@ -240,7 +244,7 @@
     const e = (t, c) => K.etiqueta(t, c);
     fx.et = {
       tres: e('3 sinais', 'laranja'), web: e('Web designer', 'azul'), semSite: e('Sem site', 'vermelho'), soInsta: e('Só Instagram', 'laranja'),
-      naoAbre: e('Site não abre', 'vermelho'), dia: e('O dia inteiro', 'vermelho'), investir: e('Investir', 'azul'), campinas: e('Campinas', 'azul'),
+      naoAbre: e('Site não abre', 'vermelho'), problema: e('Site com problema', 'laranja'), dia: e('O dia inteiro', 'vermelho'), investir: e('Investir', 'azul'), campinas: e('Campinas', 'azul'),
       precisa: e('Quem precisa de site', 'verde'), antes: e('Loja por loja', 'vermelho'), cidade: e('A cidade inteira', 'verde')
     };
     fx.rot = K.rotulo('Mappoa');
@@ -253,13 +257,15 @@
   // o óculos de raio-X no Enzo (k de 0 a 1: o brilho); alvos = pra onde vão os feixes (chamado no fim do quadro)
   let oculosK = 0, oculosAlvos = [];
   function oculos(k, alvos = []) { oculosK = k; oculosAlvos = alvos; }
-  const OLHO_DY = 0.02;
+  const OLHO_DY = 0.1;
   function poeOculos() {
     if (menino.cartao) menino.cartao.o.oculos = oculosK > 0.01;
     if (oculosK <= 0.01 || !menino.g.visible) return;
     const c = V(...cabecaDe(menino, OLHO_DY));
+    const frente = V(0, 0, 1).applyQuaternion(menino.g.getWorldQuaternion(new THREE.Quaternion())).setY(0).normalize();
+    const deFrente = frente.dot(K.camera.position.clone().sub(c).setY(0).normalize()) > -0.15;
     const praCam = K.camera.position.clone().sub(c).setY(0).normalize();
-    lente.visible = true; lente.position.copy(c).addScaledVector(praCam, 0.32); lente.scale.setScalar(0.4 + 0.6 * oculosK);
+    lente.visible = deFrente; lente.position.copy(c).addScaledVector(praCam, 0.32); lente.scale.setScalar(0.4 + 0.6 * oculosK);
     lente.lookAt(K.camera.position);
     const dir = V(1, 0, 0).applyQuaternion(K.camera.quaternion);
     oculosAlvos.slice(0, 2).forEach((a, i) => {
@@ -286,9 +292,12 @@
       // ENTRA AGORA: tudo já aceso no 1º quadro · OBJETOS SE MEXENDO: as molduras piscando, os números pulando
       acende('pad', tc - B.inicio + 0.4); acende('loj', tc - B.inicio + 0.2); acende('far', tc - B.inicio + 0.3);
       // PERSONAGEM: de óculos, olhando as lojas · em "três": aponta
-      menino.colocar(EG(), ALVO_G()); menino.parado(); menino.humor('surpreso');
+      const c3a = B.inicio + 2.4;
+      if (tc < B.inicio + 0.8) { menino.colocar(EG(), ALVO_G()); menino.parado(); menino.humor('surpreso'); oculos(1, [lojaC('pad'), lojaC('far')]); }
+      else if (tc < B.inicio + 1.6) { menino.colocar([-2.3, 0, ZP - 2.6], lojaC('pad', 1.6)); menino.parado(); menino.humor('surpreso'); oculos(1, [lojaC('pad', 2.0), lojaC('pad', 2.6)]); }
+      else if (tc < c3a) { menino.colocar([-2.6, 0, ZL - 1.0], lojaC('loj', 1.6)); menino.parado(); menino.humor('surpreso'); oculos(1, [lojaC('loj', 2.0), lojaC('far', 2.2)]); }
+      else { menino.colocar(CAPA_E(), CAPA_CAM()); menino.parado(); menino.humor('surpreso'); oculos(1, []); }
       if (tc > tTr) menino.apontar(0.5);
-      oculos(1, [lojaC('pad'), lojaC('far')]);
       // SONS: estrondo + zumbido no 1º quadro · whoosh em cada corte · zap em cada loja
       K.som('estrondo', B.inicio + 0.03, 0.35); K.som('zumbido', B.inicio, 0.45);
       // CÂMERA: 4 cortes de ~0,85 s: (1) o rosto com o óculos; (2) a padaria; (3) a loja e a farmácia; (4) aberto, topo livre
@@ -298,8 +307,8 @@
       const E = EG();
       if (tc < c1) { const k = K.suave(pc(tc, B.inicio, c1)); K.mirar([E[0] + 2.5, 1.75, E[2] + K.lerp(2.3, 2.0, k)], [E[0], 1.25, E[2]]); }
       else if (tc < c2) { const k = K.suave(pc(tc, c1, c2)); K.mirar([0.5, K.lerp(2.1, 2.4, k), ZP - K.lerp(5.4, 4.8, k)], [FX + 0.3, 2.2, ZP + 0.8]); }
-      else if (tc < c3) { const k = K.suave(pc(tc, c2, c3)); K.mirar([2.6, 2.1, ZL - K.lerp(6.4, 5.8, k)], [FX + 0.3, 2.4, ZL + 2.6]); }
-      else { const k = K.suave(pc(tc, c3, B.ate)); K.mirar([4.1, 2.2, ZL - K.lerp(10.5, 11.0, k)], [-5.0, 2.6, ZL + 4.1]); }
+      else if (tc < c3) { const k = K.suave(pc(tc, c2, c3)); K.mirar([-1.2, 2.2, ZL - K.lerp(5.2, 4.6, k)], [FX + 0.3, 2.4, ZL + 4.0]); }
+      else { const k = K.suave(pc(tc, c3, B.ate)); K.mirar(mais(CAPA_CAM(), [1.2 + 0.25 * k, 0.1, -1.85 - 0.4 * k]), CAPA_ALVO()); }
       // EFEITOS VISUAIS: "3 sinais" em "sinais"
       fx.et.tres.em({ tela: [540, 600] }, tc - tSi);
     },
@@ -334,8 +343,8 @@
       ficha('pad', tc - tMa + 0.05);
       // CÂMERA: (1) por cima do ombro, a padaria · (2) em "site": perto da ficha
       const cv = Math.max(B.inicio + 1.0, tSi - 0.35);
-      if (tc < cv) { const k = K.suave(pc(tc, B.inicio, cv)); K.mirar([0.7, 2.0, ZP - K.lerp(7.6, 7.0, k)], [-3.9, 2.4, ZP]); }
-      else { const k = K.suave(pc(tc, cv, B.ate)); K.mirar([0.4, 3.0, ZP - K.lerp(3.6, 3.3, k)], [FX + 2.4, 3.1, ZP + 0.2]); }
+      if (tc < cv) { const k = K.suave(pc(tc, B.inicio, cv)); K.mirar([0.7, 2.0, ZP - K.lerp(7.6, 7.0, k)], [-3.9, 2.4, ZP + 1.0]); }
+      else { const k = K.suave(pc(tc, cv, B.ate)); K.mirar([0.6, 3.0, ZP - K.lerp(4.2, 3.8, k)], [FX + 2.6, 3.1, ZP + 0.2]); }
       // EFEITOS VISUAIS: "Sem site" e ✗ em "site"
       fx.et.semSite.em({ tela: [540, 400] }, tc - tSi);
       if (tc > tSi) fx.simb.em([FX + 2.6, 4.35, ZP + 0.8], tc - tSi, { tipo: '✗', tam: 0.55 });
@@ -351,11 +360,11 @@
       menino.colocar(L, lojaC('loj', 1.6));
       if (tc < tIn) { menino.reagir('duvida', tc - B.inicio); } else { menino.reagir('surpreso', tc - tIn); }
       oculos(1, [lojaC('loj', 2.0), lojaC('loj', 2.6)]);
-      ficha('loj', tc - B.inicio - 0.1, tc > tCl ? 0.8 : 1);
+      if (tc < tCl) ficha('loj', tc - B.inicio - 0.1);
       if (tc > tCl) { ve(insta); insta.scale.setScalar(pop(tc - tCl)); }
       // CÂMERA: (1) chegando na loja, de lado · (2) em "Clica": perto, o perfil abrindo
       const cv = Math.max(B.inicio + 1.0, tCl - 0.1);
-      if (tc < cv) { const k = K.suave(pc(tc, B.inicio, cv)); K.mirar([1.2, 2.3, ZL - K.lerp(7.0, 6.3, k)], [-3.4, 2.7, ZL + 0.2]); }
+      if (tc < cv) { const k = K.suave(pc(tc, B.inicio, cv)); K.mirar([1.2, 2.3, ZL - K.lerp(7.0, 6.3, k)], [-3.4, 2.7, ZL + 1.0]); }
       else { const k = K.suave(pc(tc, cv, B.ate)); K.mirar([0.6, 2.5, ZL + K.lerp(-2.6, -2.3, k)], [FX + 2.9, 2.35, ZL + 0.9]); }
       // EFEITOS VISUAIS: "Só Instagram" em "Instagram"
       fx.et.soInsta.em({ tela: [540, 400] }, tc - tIn);
@@ -369,14 +378,14 @@
       const L = NA_LOJA(ZF);
       // PERSONAGEM: confiante · em "abre": surpreso
       menino.colocar(L, lojaC('far', 1.6));
-      if (tc < tMa) { menino.parado(); menino.humor('normal'); } else menino.reagir('susto', tc - tMa);
+      if (tc < tMa) { menino.reagir('pensando', tc - B.inicio); menino.humor('feliz'); } else menino.reagir('susto', tc - tMa);
       oculos(1, [lojaC('far', 2.0), lojaC('far', 2.6)]);
       if (tc < tMa) ficha('far', tc - tTe + 0.15);
       else { ve(erro); erro.scale.setScalar(pop(tc - tMa)); if (tc > tAb) erro.userData.treme = Math.sin(tc * 60) * 0.06; }
       // CÂMERA: (1) da rua, a farmácia · (2) em "Mas": perto, a página
       const cv = Math.max(B.inicio + 1.0, tMa - 0.1);
-      if (tc < cv) { const k = K.suave(pc(tc, B.inicio, cv)); K.mirar([1.0, 2.1, ZF - K.lerp(7.4, 6.8, k)], [-3.6, 2.5, ZF + 0.2]); }
-      else { const k = K.suave(pc(tc, cv, B.ate)); K.mirar([0.7, 2.4, ZF + K.lerp(-2.9, -2.6, k)], [FX + 2.8, 2.25, ZF + 0.5]); }
+      if (tc < cv) { const k = K.suave(pc(tc, B.inicio, cv)); K.mirar([1.0, 2.1, ZF - K.lerp(7.4, 6.8, k)], [-3.6, 2.5, ZF + 1.0]); }
+      else { const k = K.suave(pc(tc, cv, B.ate)); K.mirar([1.3, 2.4, ZF + K.lerp(-3.9, -3.5, k)], [FX + 2.8, 2.25, ZF + 0.5]); }
       // EFEITOS VISUAIS: "Site não abre" em "abre"
       fx.et.naoAbre.em({ tela: [540, 400] }, tc - tAb);
       // SONS: zap · pop da ficha · errado e racha em "abre"
@@ -448,7 +457,8 @@
         // CÂMERA: (3) chegando, perto, no endereço e no monitor · (4) afastando, médio, de frente: a lista
         if (tc < tL) K.filmar([navG, MONITOR, cabecaDe(menino, 0.2)], 'chegando', pc(tc, tDi, tL), { plano: 'perto', lado: -24, altura: 'olho', tam: 1.4 });
         else K.filmar([navG, telaC, mais(TELA_Q, [-0.65, -1.2, 0]), menino], 'afastando', pc(tc, tL, B.ate), { plano: 'medio', lado: 'frente', altura: 'olho' });
-        fx.et.campinas.em(mais(TELA_Q, [0.6, 1.45, 0.25]), tc - tCa);
+        if (tc < tSe) fx.et.campinas.em(mais(TELA_Q, [0.6, 1.45, 0.25]), tc - tCa);
+        else { fx.et.semSite.em({ tela: [540, 330] }, tc - tSe - 0.1); fx.et.problema.em({ tela: [540, 430] }, tc - tPr); }
         K.som('whoosh', tL, 0.3);
       }
       K.som('whoosh', c1, 0.3); K.som('whoosh', tDi, 0.3);
@@ -456,7 +466,7 @@
     mappoa(B, tc) {
       // NA TELA: no palco, a lista real gigante rolando; o robô acenando; o Enzo chamando · MOSTRA: tela, robo, personagem
       const tM = quando('Mappoa', B, 0.1), tS = quando('sistema', B, 0.3), tCi = quando('cidade', B, 0.55), tPr = quando('precisa', B, 0.8), tFi = quando('site', B, 0.95);
-      ve(telaM, robo); K.entrar(telaM.g, 'cai', tc - tS, { altura: 3 });
+      ve(telaM, robo); K.entrar(telaM.g, 'cai', tc - tS, { altura: 3, destaque: false });
       telaM.mostrar('lista', { rolar: K.suave(pc(tc, tCi, B.ate)) * 0.9 });
       K.som('ding', tPr, 0.4); K.som('certo', tFi, 0.5); K.som('brilho', tM, 0.6); K.som('baque', tS + 0.3, 0.35);
       robo.g.position.set(-2.2, 0, 0.75); robo.g.rotation.y = 0.55; robo.em(tc, { acena: tc < tPr ? 1 : 0, mapa: false });
@@ -493,11 +503,10 @@
         // OBJETOS SE MEXENDO: os pinos acendem um atrás do outro, do mais perto pro mais longe, dos dois lados
         const t0 = tCi - 0.15;
         let nSom = 0;
-        pinos.forEach((p, i) => {
-          if (p.z < ZL - 9) return;
-          const d = tc - (t0 + i * 0.07);
-          if (d > 0) { ve(p.g); p.g.scale.setScalar(1.15 * pop(d)); p.g.rotation.y = tc * 2; }
-          if (nSom < 10 && i % 2 === 0) { K.som('bip', t0 + i * 0.07, 0.22); nSom++; }
+        pinos.filter((p) => p.z > ZL - 9).forEach((p, i) => {
+          const d = tc - (t0 + i * 0.06);
+          if (d > 0) { ve(p.g); p.g.scale.setScalar(1.7 * pop(d)); p.g.rotation.y = tc * 2; }
+          if (nSom < 10 && i % 2 === 0) { K.som('bip', t0 + i * 0.06, 0.22); nSom++; }
         });
         // CÂMERA: (2) de baixo pra cima, atrás do Enzo, a rua inteira com os pinos
         { const k = K.suave(pc(tc, tAg, B.ate)); K.mirar([K.lerp(1.3, 1.0, k), K.lerp(0.9, 1.2, k), ZL - K.lerp(13.6, 14.4, k)], [0.0, 4.2, ZL + 14]); }
@@ -534,9 +543,9 @@
     capa() {
       // a capa vende a resposta: o Enzo de óculos de raio-X e as três lojas acesas com 1, 2 e 3
       acende('pad', 1.2); acende('loj', 1.0); acende('far', 1.1);
-      menino.colocar(EG(), ALVO_G()); menino.parado(); menino.humor('surpreso'); menino.apontar(0.5);
-      oculos(1, [lojaC('pad'), lojaC('far')]);
-      K.mirar([4.1, 2.2, ZL - 10.8], [-5.0, 2.6, ZL + 4.1]);
+      menino.colocar(CAPA_E(), CAPA_CAM()); menino.parado(); menino.humor('surpreso'); menino.apontar(0.5);
+      oculos(1, []);
+      K.mirar(CAPA_CAM(), CAPA_ALVO());
     }
   };
 
